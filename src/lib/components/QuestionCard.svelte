@@ -14,7 +14,7 @@
 
     const answers = [
         { value: 1 as const, label: "Stimme zu", symbol: "👍" },
-        { value: 0 as const, label: "Neutral", symbol: "○" },
+        { value: 0 as const, label: "Neutral", symbol: "⭕" },
         { value: -1 as const, label: "Lehne ab", symbol: "👎" },
     ];
 

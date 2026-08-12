@@ -3,8 +3,16 @@
     import { questions, type Wertung } from "$lib/types";
 
     let current = $state(0);
+    let score: Number[] = $state([]);
 
-    let onanswer = (value: Wertung) => (current += 1);
+    let onanswer = (value: Wertung) => {
+        score[current] = value;
+        current += 1;
+
+        console.log(score);
+    };
 </script>
 
-<QuestionCard question={questions[current]} index={current} total={questions.length} {onanswer}></QuestionCard>
+{#if current != questions.length}
+    <QuestionCard question={questions[current]} index={current} total={questions.length} {onanswer}></QuestionCard>
+{/if}
