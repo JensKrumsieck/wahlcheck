@@ -5,9 +5,10 @@
         index: number;
         total: number;
         answer?: Wertung;
+        onanswer: (value: Wertung) => void;
     }
 
-    let { question, index, total, answer }: Props = $props();
+    let { question, index, total, answer, onanswer }: Props = $props();
 
     const progress = $derived(((index + 1) / total) * 100);
 
@@ -16,6 +17,11 @@
         { value: 0 as const, label: "Neutral", symbol: "○" },
         { value: -1 as const, label: "Lehne ab", symbol: "👎" },
     ];
+
+    function selectAnswer(value: Wertung) {
+        answer = value;
+        onanswer(value);
+    }
 </script>
 
 <article class="container container-md mx-auto rounded-lg shadow-xl p-5 border border-zinc-300">
@@ -24,9 +30,18 @@
         <div class="my-2">
             Frage {index + 1} von {total}
         </div>
-        <progress value={progress} max={total}></progress>
+        <progress value={progress} max={100}></progress>
     </header>
-    <section class="prose max-w-none my-5">
+    <section class="prose max-w-none my-5 h-100 flex flex-col justify-between">
         <h1>{question.these}</h1>
+
+        <div class="mt-auto flex gap-4" role="radiogroup" aria-label="Deine Position">
+            {#each answers as option}
+                <button type="button" class:active={answer === option.value} class="answer" role="radio" aria-checked={answer === option.value} onclick={() => selectAnswer(option.value)}>
+                    <span class="symbol">{option.symbol}</span>
+                    <span>{option.label}</span>
+                </button>
+            {/each}
+        </div>
     </section>
 </article>
