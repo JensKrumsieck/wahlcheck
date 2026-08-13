@@ -62,6 +62,12 @@ export function colorFor(partyName: string): string {
     return PARTY_COLORS[partyName] ?? FALLBACK_COLOR;
 }
 
+export function answerLabel(wertung: number) {
+    if (wertung === 1) return "👍 Zustimmung";
+    if (wertung === -1) return "👎 Ablehnung";
+    return "⭕ Neutral";
+  }
+
 const antwortModules = import.meta.glob<PartyAnswer[]>('../../data/antworten/*.json', {
     eager: true,
     import: 'default'
