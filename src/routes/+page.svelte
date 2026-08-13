@@ -16,7 +16,7 @@
 
     <p class="mt-6 text-lg text-ink-muted text-balance">
       Am 13.09.2026 ist Kommunalwahl in der <em>City of Lions</em>. Für den Rat der Stadt treten SPD, CDU, DIE GRÜNEN, BIBS, FDP, AfD, Die Linke, Volt, Die PARTEI, FREIE WÄHLER, FWBS und 2 Einzelbewerber an. Mittels KI wurden
-      {total} vordefinierte Thesen auf Basis der öffentlich verfügbaren Wahlprogramme beantwortet — beantworte sie selbst und vergleiche dein Ergebnis.
+      {total} vordefinierte Thesen auf Basis der öffentlich verfügbaren Wahlprogramme beantwortet - beantworte sie selbst und vergleiche dein Ergebnis.
     </p>
 
     <div class="mt-8 flex flex-wrap justify-center gap-2">

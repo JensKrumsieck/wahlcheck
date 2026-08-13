@@ -5,35 +5,35 @@
     "partei": "CDU",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Schnelle Erreichbarkeit für Auto, ÖPNV, Rad, Fußgänger und Logistik - ohne die Innenstadt abzuschneiden.",
-    "seite": 7,
-    "kommentar": "Eindeutige Ablehnung einer Einschränkung des Autoverkehrs: Das Programm kündigt 500 kostenfreie Parkplätze auf dem Wallring, Wegfall der Parkgebühren an Samstagen, Frei-Parken für E-Autos und eine 'Brötchentaste' an (S. 7) und formuliert im Mobilitätskapitel: 'Jeder Mensch soll selbst entscheiden, wie er sich fortbewegen möchte. Bevormundung lehnen wir ab' (S. 8). Rad- und Busverkehr sollen ausgebaut werden, aber ausdrücklich 'ohne Kunden, Handel und Handwerk zu verdrängen' (S. 8).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Die Innenstadt soll innerhalb des Wilhelminischen Rings weitgehend autofrei werden.",
-    "kategorie": "Verkehr & Mobilität",
-    "partei": "CDU",
-    "wertung": -1,
-    "sicherheit": "hoch",
-    "zitat": "Schnelle Erreichbarkeit für Auto, ÖPNV, Rad, Fußgänger und Logistik - ohne die Innenstadt abzuschneiden. 500 kostenfreie Parkplätze in der Innenstadt auf dem Wallring.",
-    "seite": 7,
-    "kommentar": "Der 'Wilhelminische Ring' wird im Programm nicht genannt; die Ablehnung einer autofreien Innenstadt ergibt sich aber direkt aus den Maßnahmen zur Erreichbarkeit und zum Parken (500 kostenfreie Parkplätze, Frei-Parken für E-Autos innerhalb der Okerumflut, Brötchentaste, Aussetzen der Parkgebühren samstags, S. 7) sowie aus der Ablehnung von 'Bevormundung' in der Verkehrspolitik (S. 8). Zitat fasst zwei aufeinanderfolgende Spiegelstriche zusammen.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Neue Radschnellwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
-    "kategorie": "Verkehr & Mobilität",
-    "partei": "CDU",
-    "wertung": -1,
-    "sicherheit": "hoch",
-    "zitat": "Sichere Radwege ohne Schlaglöcher und Hindernisse – ohne Kunden, Handel und Handwerk zu verdrängen. Also keine Velorouten als Fahrradautobahnen, sondern bestehende Radwege ausbauen und sanieren.",
+    "zitat": "Verkehrspolitik darf Braunschweig nicht spalten. Jeder Mensch soll selbst entscheiden, wie er sich fortbewegen möchte. Bevormundung lehnen wir ab... Schnelle Erreichbarkeit für Auto, ÖPNV, Rad, Fußgänger und Logistik ohne die Innenstadt abzuschneiden.",
     "seite": 8,
-    "kommentar": "Zusätzlich unter den '10 konkreten Punkten': 'Stopp der Planungen zu den Velorouten. Stattdessen Sanierung der bestehenden Radwege mit 50 Mio. Euro' (S. 2). Parkplätze sollen nur dort entfernt werden, wo sie die Sicht behindern (S. 8).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "In Braunschweig soll flächendeckend Tempo 30 gelten.",
+    "kategorie": "Verkehr & Mobilität",
+    "partei": "CDU",
+    "wertung": -1,
+    "sicherheit": "mittel",
+    "zitat": "Tempo 30 vor Einrichtungen mit besonderen Sorgfaltspflichten wie Schulen, Kitas oder Seniorenheimen.",
+    "seite": 8,
+    "kommentar": "CDU befürwortet Tempo 30 nur punktuell vor sensiblen Einrichtungen, nicht flächendeckend.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
+    "kategorie": "Verkehr & Mobilität",
+    "partei": "CDU",
+    "wertung": -1,
+    "sicherheit": "hoch",
+    "zitat": "Stopp der Planungen zu den Velorouten. Stattdessen Sanierung der bestehenden Radwege mit 50 Mio. Euro... keine Velorouten als Fahrradautobahnen, sondern bestehende Radwege ausbauen und sanieren.",
+    "seite": 2,
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
@@ -41,11 +41,11 @@
     "partei": "CDU",
     "wertung": 0,
     "sicherheit": "hoch",
-    "zitat": "Busse und Stadtbahnen mit verlässlichem Takt – attraktiv für alle, perspektivisch alle 7 Minuten auf den Strecken mit der höchsten Nachfrage.",
-    "seite": 8,
-    "kommentar": "Keine Aussage im Programm zu Fahrpreisen oder einem kostenlosen ÖPNV. Das ÖPNV-Kapitel äußert sich ausschließlich zu Taktdichte, Erreichbarkeit und Sicherheit; das angeführte Zitat belegt nur diesen Kontext, keine Positionierung zur These.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage im Programm zu kostenlosem Nahverkehr; erwähnt wird nur ein verlässlicherer Takt.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Wer ohne Fahrschein erwischt wird, soll nicht mehr angezeigt werden.",
@@ -55,9 +55,9 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Das Thema Beförderungserschleichung bzw. deren Strafbarkeit wird nicht behandelt; der ÖPNV-bezogene Sicherheitspunkt betrifft einen eigenen Sicherheitsdienst der Braunschweiger Verkehrs GmbH an Haltestellen und in Fahrzeugen (S. 10), nicht die Fahrscheinkontrolle.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage im Programm.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Braunschweig soll spätestens 2030 klimaneutral sein.",
@@ -67,21 +67,21 @@
     "sicherheit": "hoch",
     "zitat": "Deshalb soll Braunschweig nicht 2030, sondern bis 2040 treibhausgasneutral werden. Bleiben wir realistisch.",
     "seite": 9,
-    "kommentar": "Ausdrückliche Ablehnung des Zieljahres 2030 zugunsten von 2040.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Klimaschutzmaßnahmen dürfen keine zusätzlichen Kosten oder Verbote für Bürger:innen und Unternehmen bedeuten.",
     "kategorie": "Klima & Umwelt",
     "partei": "CDU",
     "wertung": 1,
-    "sicherheit": "mittel",
+    "sicherheit": "hoch",
     "zitat": "Wir machen Klimaschutz so, dass er im Alltag funktioniert und bezahlbar bleibt: mehr Tempo, keine Verbote.",
     "seite": 9,
-    "kommentar": "Die Ablehnung von Verboten ist wörtlich belegt; zur Kostenfrage heißt es lediglich, Klimaschutz müsse 'bezahlbar' bzw. die Anpassung 'pragmatisch, sichtbar und bezahlbar' sein (S. 7, S. 9). Ein kategorischer Ausschluss zusätzlicher Kosten wird nicht formuliert, daher nur mittlere Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen.",
@@ -91,9 +91,9 @@
     "sicherheit": "mittel",
     "zitat": "Als Stadt haben wir unzählige ungenutzte Dachflächen, die wir für Sonnenstrom erschließen müssen.",
     "seite": 9,
-    "kommentar": "Zustimmung ist für städtische Dachflächen eindeutig belegt; Photovoltaik über Parkplätzen (Solar-Carports) wird im Programm nicht erwähnt. Die These wird damit nur teilweise abgedeckt, daher mittlere Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Programm nennt nur Dachflächen explizit, Solaranlagen auf Parkplätzen werden nicht erwähnt.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden.",
@@ -103,21 +103,21 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Im Energiekapitel werden ausschließlich Photovoltaik auf Dachflächen, Stromspeicher, Wärmeplanung, Fernwärme und Abwärmenutzung genannt (S. 9); Windkraft kommt nicht vor.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage im Programm zu Windkraft.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
-    "these": "Bei Neubauprojekten soll weiterhin ein Sozialwohnungsanteil von mindestens 30 % vorgeschrieben werden.",
+    "these": "Bei Neubauprojekten soll ein Sozialwohnungsanteil von mindestens 50 % vorgeschrieben werden.",
     "kategorie": "Wohnen & Bauen",
     "partei": "CDU",
     "wertung": 0,
-    "sicherheit": "mittel",
+    "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Eine Sozialwohnungsquote wird weder bestätigt noch abgelehnt. Das Wohnkapitel (S. 5–6) setzt auf mehr Neubau ('Bauen, bauen, bauen'), Nachverdichtung, modulare Bauweise, Erbpacht, Genossenschaften, einen Familienrabatt für Baugrundstücke und frühe Eigentumsbildung.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage zu einer verpflichtenden Sozialwohnungsquote.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
@@ -127,9 +127,9 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Private Wohnungskonzerne oder eine Vergesellschaftung werden nicht thematisiert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage im Programm zu Vergesellschaftung von Wohnungskonzernen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen.",
@@ -137,23 +137,23 @@
     "partei": "CDU",
     "wertung": 0,
     "sicherheit": "niedrig",
-    "zitat": "Wir führen einen Familienrabatt für Baugrundstücke ein. Für das erste Kind gibt es 60,00 Euro pro Quadratmeter Abschlag beim Kaufpreis, bei jedem weiteren Kind kommen weitere 20,00 Euro Abschlag dazu.",
-    "seite": 6,
-    "kommentar": "Zum aktiven Ankauf von Bauland durch die Stadt (kommunale Bodenvorratspolitik) findet sich keine Aussage. Indirekt sprechen der Familienrabatt beim Grundstückskaufpreis und die Ankündigung, 'Genossenschaften sowie Erbpacht stärker' einzubinden (S. 5), gegen eine reine Höchstpreisvergabe; die These wird jedoch nicht ausdrücklich behandelt, daher wertung 0 bei niedriger Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Wir prüfen, die beiden Tochtergesellschaften der Stadt Braunschweig \"Struktur Förderung Braunschweig\" und \"Nibelungen Wohnbau\" zu verschmelzen zu einer Braunschweiger Baugesellschaft.",
+    "seite": 5,
+    "kommentar": "Keine explizite Aussage zum Vergabeprinzip (Höchstpreis vs. andere Kriterien) bei städtischem Bauland.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
-    "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden statt auf der grünen Wiese.",
+    "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden.",
     "kategorie": "Wohnen & Bauen",
     "partei": "CDU",
     "wertung": 0,
     "sicherheit": "niedrig",
-    "zitat": "Nachverdichtung erleichtern: Aufstockung, Hinterlandbebauung und Umnutzung, wo es passt, und die gegebenen Möglichkeiten des Landes nutzen - ohne Quartiere zu zerstören.",
-    "seite": 6,
-    "kommentar": "Das Programm nennt beide Wege nebeneinander, ohne eine Rangfolge festzulegen: Innenentwicklung (Nachverdichtung, Umbau leerstehender Innenstadt-Büros) steht neben der Ausweisung neuer Flächen (neue Gewerbegebiete, interkommunale Wohngebiete, Wohnen am Mittellandkanal, S. 4–6). Ein Vorrang versiegelter Flächen wird nicht formuliert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Nachverdichtung erleichtern: Aufstockung, Hinterlandbebauung und Umnutzung, wo es passt... Wir prüfen die Ausweisung von interkommunalen Wohngebieten mit Ein- und Mehrfamilienhäusern.",
+    "seite": 5,
+    "kommentar": "Programm nennt sowohl Nachverdichtung auf bestehenden Flächen als auch neue Wohngebiete (z.B. Mittellandkanal, interkommunale Wohngebiete) - keine eindeutige Priorisierung.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
@@ -163,9 +163,33 @@
     "sicherheit": "hoch",
     "zitat": "Wir bauen die Videoüberwachung flächendeckend aus.",
     "seite": 9,
-    "kommentar": "Zusätzlich für die Innenstadt: 'Die Videoüberwachung bauen wir deutlich aus, zum Schutz aller' (S. 7).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Der Zentrale Ordnungsdienst soll mehr Personal und mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+    "kategorie": "Sicherheit & Ordnung",
+    "partei": "CDU",
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "Wir schaffen beim ZOD 50 neue Stellen... Sie erhalten die Befugnisse zum Einsatz des unmittelbaren Zwangs nach dem Polizeigesetz, jedoch keine Waffen.",
+    "seite": 9,
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben.",
+    "kategorie": "Sicherheit & Ordnung",
+    "partei": "CDU",
+    "wertung": 1,
+    "sicherheit": "niedrig",
+    "zitat": "Konsequentes Vorgehen gegen Gewalt-, Drogen- und Eigentumskriminalität in Zusammenarbeit mit der Polizei.",
+    "seite": 10,
+    "kommentar": "Programm betont durchgängig konsequentes Vorgehen bei Kriminalität; ein expliziter Vergleich mit Präventionsangeboten fehlt jedoch.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden.",
@@ -175,21 +199,33 @@
     "sicherheit": "hoch",
     "zitat": "Waffenverbotszonen werden konsequent vor und hinter dem Schloss sowie am Bohlweg und den Rathaus-Kolonaden eingerichtet. Kontrollen erfolgen anlasslos durch Polizei und Stadt.",
     "seite": 10,
-    "kommentar": "Auch als Punkt 1 der '100 Tage'-Liste aufgeführt (S. 2); Verstöße gegen die Vorschriften der Waffenverbotszonen sollen mit deutlich höheren Bußgeldern belegt werden.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Das Städtische Klinikum darf nicht privatisiert werden.",
     "kategorie": "Gesundheit & Soziales",
     "partei": "CDU",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "Unser Städtisches Klinikum wird Chefsache des Oberbürgermeisters. Der Aufsichtsrat wird durch erfahrene Klinik-Kenner professionalisiert und das Zentralklinik-Konzept konsequent umgesetzt.",
-    "seite": 13,
-    "kommentar": "Eine Privatisierung wird im Programm nicht angesprochen – weder befürwortet noch ausgeschlossen. Die Maßnahmen (Chefsache des OB, professionalisierter Aufsichtsrat, Defizitreduzierung um 50 %, Zentralklinik-Konzept) setzen die städtische Trägerschaft implizit voraus; da dies nur indirekt ableitbar ist, wertung 0 bei niedriger Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "sicherheit": "hoch",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage zu Privatisierung; Fokus liegt auf Chefsache-Status, Aufsichtsrat-Professionalisierung und Zentralklinik-Konzept.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Das Städtische Klinikum soll trotz roter Zahlen nicht durch Sparmaßnahmen bei Personal oder Leistungen saniert werden.",
+    "kategorie": "Gesundheit & Soziales",
+    "partei": "CDU",
+    "wertung": -1,
+    "sicherheit": "mittel",
+    "zitat": "Wir suchen aktiv nach Einsparmöglichkeiten und Ertragssteigerungspotential, um den städtischen Haushalt zu entlasten... Das Defizit reduzieren wir deutlich um 50%.",
+    "seite": 12,
+    "kommentar": "CDU verfolgt ausdrücklich einen Sanierungskurs mit Einsparungen, ohne Personal/Leistungen explizit auszunehmen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden.",
@@ -199,9 +235,33 @@
     "sicherheit": "hoch",
     "zitat": "Die Finanzierung für das Frauenhaus und die Beratungsstrukturen gegen häusliche Gewalt nachhaltig sichern und langfristig ausbauen.",
     "seite": 10,
-    "kommentar": "Zugesagt werden Sicherung und langfristiger Ausbau von Finanzierung und Beratungsstrukturen; eine konkrete Zahl zusätzlicher Frauenhausplätze wird nicht genannt.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
+    "kategorie": "Gesundheit & Soziales",
+    "partei": "CDU",
+    "wertung": 0,
+    "sicherheit": "hoch",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage im Programm zu queeren Gesundheits- oder Beratungsangeboten.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind.",
+    "kategorie": "Migration & Integration",
+    "partei": "CDU",
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "Darüber hinaus wollen wir den Zuzug nach Braunschweig deutlich senken, da unsere Integrationskapazitäten erschöpft sind.",
+    "seite": 11,
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Braunschweig soll Mitglied im Bündnis 'Sicherer Hafen' bleiben.",
@@ -209,11 +269,11 @@
     "partei": "CDU",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Die Mitgliedschaft im Netzwerk „Sicherer Hafen“ werden wir sofort beenden.",
-    "seite": 12,
-    "kommentar": "Ausdrückliche Ablehnung; begründet mit dem Ziel, 'jegliche falschen Anreize für die Migration von Menschen ohne Bleibeperspektive' zu vermeiden.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Die Mitgliedschaft im Netzwerk \"Sicherer Hafen\" werden wir sofort beenden.",
+    "seite": 11,
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Für Asylbewerber:innen soll eine kommunale Arbeitspflicht eingeführt werden.",
@@ -221,35 +281,35 @@
     "partei": "CDU",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Die Arbeitspflicht für Asylbewerber werden wir einführen. Geflüchtete sollen sich für das Land, das sie aufnimmt und schützt, einbringen.",
-    "seite": 12,
+    "zitat": "Die Arbeitspflicht für Asylbewerber werden wir einführen.",
+    "seite": 11,
     "kommentar": null,
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Grundsteuer oder Gewerbesteuer sollen erhöht werden, um den Haushalt zu sanieren.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "CDU",
-    "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "Kommunale Restrukturierung – wir lassen die Dezernate, Fachbereiche und Referate der Verwaltung Einsparpotentiale erarbeiten und bis Mitte 2027 vorlegen.",
-    "seite": 13,
-    "kommentar": "Steuerhebesätze werden im Programm nicht erwähnt. Die Haushaltssanierung wird ausschließlich über Ausgabenseite und Erträge städtischer Gesellschaften beschrieben (Restrukturierung, Einstellungsstopp, Stopp der Rathaus-Sanierung, Halbierung der Defizite städtischer Gesellschaften, S. 13); eine Ablehnung von Steuererhöhungen wird jedoch nicht ausgesprochen, daher wertung 0 bei niedriger Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "wertung": -1,
+    "sicherheit": "mittel",
+    "zitat": "Kommunale Restrukturierung – wir lassen die Dezernate, Fachbereiche und Referate der Verwaltung Einsparpotentiale erarbeiten... Einstellungsstopp in der allgemeinen Verwaltung...",
+    "seite": 12,
+    "kommentar": "Keine explizite Aussage gegen Steuererhöhungen, aber der gesamte Sanierungsansatz basiert auf Einsparungen statt auf Mehreinnahmen durch Steuererhöhungen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "CDU",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "Wir prüfen, die beiden Tochtergesellschaften der Stadt Braunschweig „Struktur Förderung Braunschweig“ und „Nibelungen Wohnbau“ zu verschmelzen zu einer Braunschweiger Baugesellschaft.",
-    "seite": 6,
-    "kommentar": "Zur Rekommunalisierung (Rückkauf privatisierter Anteile, z. B. bei BS|Energy) findet sich keine Aussage. Das Programm behandelt städtische Gesellschaften nur unter den Aspekten Zusammenlegung zweier bestehender Töchter (S. 6) sowie Halbierung ihrer Defizite bis 2034 (S. 13).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "sicherheit": "hoch",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage zu Rekommunalisierung; erwähnt wird nur eine Fusion bestehender städtischer Wohnungsgesellschaften.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Stadt soll aktiv im Ausland um Fachkräfte werben.",
@@ -258,10 +318,10 @@
     "wertung": 1,
     "sicherheit": "hoch",
     "zitat": "Das Welcome Center der Region Ems-Achse als Vorbild nehmen und gezielt mit anderen Kommunen der Region Braunschweig im Ausland Arbeits- und Fachkräfte anwerben, wo wir einen echten Mangel haben, z.B. im Pflege-Bereich.",
-    "seite": 6,
-    "kommentar": "Ergänzend genannt: digitale Sprachkurse für Bewerber bereits im Heimatland und die Senkung von Integrationshürden für benötigte Fachkräfte (S. 6).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "seite": 7,
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden.",
@@ -270,22 +330,22 @@
     "wertung": -1,
     "sicherheit": "mittel",
     "zitat": "Wir werden diese Projekte trotz angespannter Haushaltslage weiter unterstützen, weil Kultur ein wichtiger Kitt unseres Miteinanders ist.",
-    "seite": 12,
-    "kommentar": "Das Programm lehnt neue Schulden klar ab, will die Konsolidierung aber ausdrücklich nicht über Kürzungen bei freiwilligen Leistungen erreichen: Kultur- und Sportförderung sollen fortgesetzt werden (S. 12), 'ohne bei Schulen oder Kindergärten zu kürzen' (S. 13); ein Wegfall freiwilliger Leistungen wird als drohende Folge einer Zwangsverwaltung beschrieben, die verhindert werden soll (S. 12–13). Eingespart werden soll in Verwaltung und bei Einzelprojekten (Rathaus-Sanierung, Pocketparks, Hagenmarkt). Da die These eine Abwägungsfrage stellt, die so nicht direkt beantwortet wird: mittlere Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "seite": 11,
+    "kommentar": "CDU will freiwillige Leistungen wie Kultur trotz Sparkurs erhalten und setzt stattdessen bei Verwaltung/Strukturen an; explizite Aussage zu neuen Schulden fehlt.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Braunschweig soll langfristig zur Gemeinschaftsschule mit neun gemeinsamen Lernjahren übergehen.",
     "kategorie": "Bildung & Kinder",
     "partei": "CDU",
     "wertung": -1,
-    "sicherheit": "niedrig",
+    "sicherheit": "mittel",
     "zitat": "Wir freuen uns in Braunschweig über jede Schulform, die unseren Jüngsten die beste Bildung verschafft, seien es Gymnasien, Integrierte Gesamtschulen oder Haupt-, Real-, Grund-, Förder- oder Berufsschulen.",
     "seite": 13,
-    "kommentar": "Eine Gemeinschaftsschule bzw. neun gemeinsame Lernjahre werden nicht ausdrücklich erwähnt. Das Bekenntnis zur bestehenden Schulformvielfalt einschließlich Gymnasien spricht gegen einen Übergang zu einer einheitlichen Schulform; die Wertung ist nur indirekt ableitbar, daher niedrige Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "CDU befürwortet den Erhalt des gegliederten Schulsystems, keine explizite Aussage zu einer einheitlichen Gemeinschaftsschule.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "An allen Schulen und Kitas soll es kostenloses Mittagessen geben.",
@@ -295,9 +355,9 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Zur Schul- und Kitaverpflegung oder deren Kosten äußert sich das Bildungskapitel (S. 13–14) nicht; genannt werden Ganztagsanspruch, Betreuungskräfte-Pool, Schulsozialarbeit, Schwimmkurse und Spielplätze.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage im Programm zu kostenlosem Mittagessen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Das Mittagessen an Schulen und Kitas soll den Vorgaben der Deutschen Gesellschaft für Ernährung (DGE) folgen",
@@ -307,9 +367,9 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Weder die Schul- und Kitaverpflegung noch DGE-Qualitätsstandards werden erwähnt.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage im Programm zu Ernährungsstandards beim Mittagessen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
@@ -317,11 +377,11 @@
     "partei": "CDU",
     "wertung": -1,
     "sicherheit": "niedrig",
-    "zitat": "Kommunale Schulsozialarbeit ist eine wichtige Ergänzung zur bestehenden Landesförderung. Wir wollen diese erhalten. Hierfür bilden wir einen Pool an Sozialarbeitern und binden sie bedarfsgerecht in die Schulen ein.",
-    "seite": 14,
-    "kommentar": "Die kommunale Schulsozialarbeit soll erhalten bleiben, organisatorisch aber über einen bedarfsgerecht eingesetzten Pool statt über feste Stellen je Schule. Eine feste Stelle an jeder Schule wird damit nicht zugesagt; eine ausdrückliche Ablehnung fehlt jedoch, daher niedrige Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Hierfür bilden wir einen Pool an Sozialarbeitern und binden sie bedarfsgerecht in die Schulen ein.",
+    "seite": 13,
+    "kommentar": "CDU setzt auf ein bedarfsgerechtes Pool-Modell statt einer garantierten festen Stelle je Schule.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Das 'Haus der Musik' soll wie geplant im leer stehenden Karstadtgebäude in der Poststraße realisiert werden.",
@@ -331,21 +391,9 @@
     "sicherheit": "mittel",
     "zitat": "Umsetzung des beschlossenen Hauses der Musik als neue Heimat für die Musikschule unter steter Kontrolle des Zeit- und Kostenrahmens.",
     "seite": 7,
-    "kommentar": "Zustimmung zur Umsetzung des bereits beschlossenen Projekts; der konkrete Standort (ehemaliges Karstadtgebäude, Poststraße) wird im Programm nicht benannt, daher mittlere Sicherheit. Das Haus der Musik wird zudem als kultureller 'Leuchtturm' genannt (S. 12).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Statt dem 'Haus der Musik', soll nur die städtische Musikschule in ein geeignetes Gebäude",
-    "kategorie": "Kultur & Gesellschaft",
-    "partei": "CDU",
-    "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Umsetzung des beschlossenen Hauses der Musik als neue Heimat für die Musikschule unter steter Kontrolle des Zeit- und Kostenrahmens.",
-    "seite": 7,
-    "kommentar": "Das Programm hält am beschlossenen Haus der Musik fest und lehnt damit eine Alternativlösung implizit ab; eine reine Musikschul-Unterbringung als Ersatz wird nicht erwogen. Bemerkenswert ist, dass die CDU das Haus der Musik selbst als 'neue Heimat für die Musikschule' beschreibt, die Abgrenzung zur These also nicht trennscharf ist – daher mittlere Sicherheit.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Der konkrete Standort Karstadtgebäude/Poststraße wird im Programm nicht namentlich genannt, die Umsetzung des beschlossenen Projekts wird jedoch befürwortet.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen.",
@@ -355,45 +403,21 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Antidiskriminierungs- oder Vielfaltsarbeit an Schulen wird nicht thematisiert; das Bildungskapitel (S. 13–14) behandelt Schulformen, Ganztag, Betreuung, Schulsozialarbeit und Programmierschule.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage im Programm zu diesem Thema.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
     "kategorie": "Kultur & Gesellschaft",
     "partei": "CDU",
     "wertung": 0,
-    "sicherheit": "mittel",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Keine Aussage im Programm. Familien werden mehrfach adressiert (Familienrabatt für Baugrundstücke, verlässliche Kinderbetreuung, Baum für jedes neugeborene Kind), ein bestimmtes Familienbild wird jedoch weder definiert noch zum Leitbild erklärt.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Straßennamen und Denkmäler mit kolonialem Bezug sollen umbenannt bzw. neu eingeordnet werden.",
-    "kategorie": "Kultur & Gesellschaft",
-    "partei": "CDU",
-    "wertung": 0,
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm. Erinnerungskultur, koloniale Bezüge, Straßennamen oder Denkmäler werden nicht erwähnt.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Die Hundesteuer soll bei Tierheim-Adoptionen abgeschafft werden.",
-    "kategorie": "Kultur & Gesellschaft",
-    "partei": "CDU",
-    "wertung": 0,
-    "sicherheit": "hoch",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Keine Aussage im Programm. Hundesteuer, Tierheim und Tierschutz kommen nicht vor.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine explizite Aussage zu einem bestimmten Familienbild als Leitbild; das Programm ist an Familien allgemein orientiert (z.B. Familienrabatt für Baugrundstücke).",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
@@ -401,22 +425,34 @@
     "partei": "CDU",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "KI-gestützte Vorprüfung von Anträgen dort, wo sie entlastet und beschleunigt - mit klaren Regeln und Datenschutz.",
+    "zitat": "KI-gestützte Vorprüfung von Anträgen dort, wo sie entlastet und beschleunigt mit klaren Regeln und Datenschutz.",
     "seite": 5,
-    "kommentar": "Ergänzend soll KI bei Förderanträgen helfen: 'Wir schaffen einen einfachen digitalen Service, der zeigt, welche Förderung passt und beim Antrag hilft. KI spielt hier eine große Rolle' (S. 9).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben.",
     "kategorie": "Digitalisierung & Verwaltung",
     "partei": "CDU",
     "wertung": 0,
-    "sicherheit": "mittel",
-    "zitat": "One-Stop-Business-Desk oder auch „zentrale Anlaufstelle“ richtig umsetzen: Bürger und Unternehmen verdienen eine unkomplizierte Anlaufstelle für alle bürokratischen Schritte an einem Ort.",
-    "seite": 5,
-    "kommentar": "Keine ausdrückliche Aussage zur Beibehaltung analoger Zugangswege. Das Digitalisierungskapitel (S. 5) zielt auf schnellere, digitale Verfahren; eine Garantie analoger Nutzbarkeit wird ebenso wenig formuliert wie deren Abschaffung. Das Zitat belegt lediglich, dass eine persönliche zentrale Anlaufstelle vorgesehen ist.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "sicherheit": "hoch",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage im Programm zu einem analogen Zugangsanspruch neben digitalen Angeboten.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird.",
+    "kategorie": "Digitalisierung & Verwaltung",
+    "partei": "CDU",
+    "wertung": 0,
+    "sicherheit": "hoch",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage im Programm zu einem Bürgerhaushalt.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   }
 ]

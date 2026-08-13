@@ -5,35 +5,35 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Die verschiedenen Fußgängerzonen in Innenstadt und Magniviertel werden verbunden. Schritte hin zum autofreien Bohlweg werden unternommen. […] Der ÖPNV wird weiter ausgebaut und attraktiver gemacht: Umsetzung von Stadt.Bahn.Plus, Vorrang von Bussen an Ampeln, separate Busspuren",
+    "zitat": "Schritte hin zum autofreien Bohlweg werden unternommen.",
     "seite": 13,
-    "kommentar": "Ergänzend die Vision auf S. 12: 'In der Innenstadt sind ÖPNV und Fahrradinfrastruktur so ausgebaut, dass sie für den Großteil der Einwohner*innen die komfortabelste und günstigste Option sind'; Parkplätze sollen primär Anwohner*innen vorbehalten sein.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Zusätzlich werden Busvorrang an Ampeln, separate Busspuren und Radweg-Ausbau gefordert; Parkplätze sollen primär Anwohner*innen vorbehalten sein.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
-    "these": "Die Innenstadt soll innerhalb des Wilhelminischen Rings weitgehend autofrei werden.",
+    "these": "In Braunschweig soll flächendeckend Tempo 30 gelten.",
     "kategorie": "Verkehr & Mobilität",
     "partei": "Linke",
     "wertung": 0,
     "sicherheit": "mittel",
     "zitat": "Tempo 30 in der Innenstadt wird ausgeweitet. Unsere Vision ist dieses Tempolimit überall innerhalb des wilhelminischen Rings.",
     "seite": 13,
-    "kommentar": "Keine Aussage zu einer weitgehenden Autofreiheit innerhalb des Wilhelminischen Rings. Der Ring wird nur im Zusammenhang mit Tempo 30 genannt; Autofreiheit wird lediglich punktuell für den Bohlweg angestrebt ('Schritte hin zum autofreien Bohlweg'), zudem sollen Park-and-Ride-Angebote den Autobesuch von außerhalb komfortabel halten.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Die Linke fordert Tempo 30 nur innerhalb des wilhelminischen Rings (Innenstadt), nicht ausdrücklich flächendeckend für ganz Braunschweig.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
-    "these": "Neue Radschnellwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
+    "these": "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
     "kategorie": "Verkehr & Mobilität",
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "mittel",
     "zitat": "Lücken im Radwegenetz werden geschlossen, Velorouten ohne Kompromisse gebaut.",
     "seite": 13,
-    "kommentar": "Der Begriff 'Radschnellweg' fällt nicht; die Wertung stützt sich auf den kompromisslosen Ausbau von Velorouten sowie die Vision auf S. 12: 'Parkplätze stehen primär Anwohner*innen und Personen, die auf besonders kurze Fußwege angewiesen sind, zur Verfügung.' Ein ausdrücklicher Vorrang gegenüber Parkplätzen wird nicht formuliert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Kein expliziter Vergleich mit Parkplätzen, aber 'ohne Kompromisse' sowie die Vision, dass Parkplätze nur noch Anwohner*innen vorbehalten bleiben, deuten auf Priorität für Radinfrastruktur.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
@@ -41,11 +41,11 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Die Preise für die ÖPNV-Nutzung müssen sinken. Wir setzen uns ein für kostenlose Tickets für Menschen im Leistungsbezug sowie Schüler*innen und Auszubildende. Mittelfristig muss der ÖPNV für alle kostenfrei sein.",
+    "zitat": "Mittelfristig muss der ÖPNV für alle kostenfrei sein.",
     "seite": 13,
-    "kommentar": null,
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Wer ohne Fahrschein erwischt wird, soll nicht mehr angezeigt werden.",
@@ -53,11 +53,11 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Die BSVG schließt sich Städten wie Köln und Potsdam an und stellt keine Strafanzeigen mehr wegen „Erschleichens von Leistungen“. Niemand soll ins Gefängnis müssen, weil er oder sie kein Geld für einen Fahrschein hat.",
+    "zitat": "Die BSVG schließt sich Städten wie Köln und Potsdam an und stellt keine Strafanzeigen mehr wegen \"Erschleichens von Leistungen\".",
     "seite": 13,
-    "kommentar": "Auf S. 12 wird zudem auf einen entsprechenden, im Rat abgelehnten Antrag der Linken verwiesen.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Braunschweig soll spätestens 2030 klimaneutral sein.",
@@ -65,23 +65,23 @@
     "partei": "Linke",
     "wertung": -1,
     "sicherheit": "mittel",
-    "zitat": "Ein weiteres Ziel im Klimaschutzkonzept ist die Klimaneutralität bis „möglichst“ 2030. Dieses Ziel ist nicht mehr zu erreichen.",
+    "zitat": "Ein weiteres Ziel im Klimaschutzkonzept ist die Klimaneutralität bis \"möglichst\" 2030. Dieses Ziel ist nicht mehr zu erreichen.",
     "seite": 18,
-    "kommentar": "Ambivalent: Die Partei hat dem Integrierten Klimaschutzkonzept 2.0 zugestimmt und will es weiter verfolgen (S. 46/47), hält das Ziel 2030 aber für nicht mehr erreichbar und setzt in der eigenen Vision auf eine 'vollständig klimaneutrale Energieversorgung bis 2035' (S. 19). Die Ablehnung bezieht sich auf die Erreichbarkeit der Jahreszahl, nicht auf das Ziel Klimaneutralität als solches.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Die Linke hält das städtische 2030-Ziel für nicht mehr erreichbar und formuliert stattdessen die Vision einer klimaneutralen Energieversorgung bis 2035.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Klimaschutzmaßnahmen dürfen keine zusätzlichen Kosten oder Verbote für Bürger:innen und Unternehmen bedeuten.",
     "kategorie": "Klima & Umwelt",
     "partei": "Linke",
     "wertung": -1,
-    "sicherheit": "niedrig",
-    "zitat": "Maßnahmen zur Förderung von emissionsarmem bzw. –freiem Verkehr werden geprüft, z.B. Parkgebühren nach Fahrzeuggröße, Bevorzugung von emissionsfreier Lieferung bei öffentlichen Aufträgen",
-    "seite": 14,
-    "kommentar": "Nur indirekt ableitbar: Die These wird nicht direkt behandelt. Das Programm fordert eine sozial gerechte Ausgestaltung des Klimaschutzes ('dass die Stadt ihr Klimaschutzkonzept weiter verfolgt, dabei aber niemanden zurücklässt', S. 46) und benennt soziale Folgen wie Mietsteigerungen, befürwortet aber ausdrücklich Maßnahmen mit Kostenfolgen (z. B. Parkgebühren nach Fahrzeuggröße). Ein Ausschluss von Kosten oder Verboten wird nicht formuliert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "sicherheit": "mittel",
+    "zitat": "Wir setzen uns weiter dafür ein, den Baumbestand zu schützen, unter anderem durch eine Baumschutzsatzung.",
+    "seite": 47,
+    "kommentar": "Keine explizite Aussage zur These, aber die Linke befürwortet regulatorische Maßnahmen wie eine Baumschutzsatzung; sie fordert lediglich, soziale Folgekosten (z.B. Mietsteigerungen durch Sanierungen) sozial abzufedern statt Klimaschutz ganz ohne Kosten/Verbote umzusetzen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen.",
@@ -91,33 +91,33 @@
     "sicherheit": "hoch",
     "zitat": "Beim Ausbau der erneuerbaren Energien haben bereits versiegelte Flächen oder Flächen zur Mehrfach-Nutzung Vorrang - z.B. PV Parkplatzüberdachung, öffentliche Gebäude.",
     "seite": 19,
-    "kommentar": "Zusätzlich sollen Balkonkraftwerke und Mieter*innenstrommodelle finanziell gefördert werden (S. 20). Eine ausdrückliche Formulierung 'möglichst alle geeigneten Dächer' fehlt, der Vorrang für versiegelte Flächen und öffentliche Gebäude ist aber eindeutig.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden.",
     "kategorie": "Klima & Umwelt",
     "partei": "Linke",
     "wertung": 0,
-    "sicherheit": "mittel",
+    "sicherheit": "niedrig",
     "zitat": "Die alten Windkraftanlagen in der Nähe von Geitelde werden in den nächsten Jahren modernisiert.",
     "seite": 19,
-    "kommentar": "Windkraft wird nur beschreibend erwähnt. Die Maßnahmenliste zur Energiewende nennt Wärmepumpen, Wärmespeicher, PV auf versiegelten Flächen und Batteriegroßspeicher, aber keine Forderung zum beschleunigten Windkraftausbau. Eine allgemeine Unterstützung des Ausbaus erneuerbarer Energien ist erkennbar, jedoch ohne konkrete Aussage zur Windkraft.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Nur Modernisierung bestehender Anlagen wird erwähnt, kein expliziter Ruf nach beschleunigtem Ausbau neuer Windkraft.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
-    "these": "Bei Neubauprojekten soll weiterhin ein Sozialwohnungsanteil von mindestens 30 % vorgeschrieben werden.",
+    "these": "Bei Neubauprojekten soll ein Sozialwohnungsanteil von mindestens 50 % vorgeschrieben werden.",
     "kategorie": "Wohnen & Bauen",
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
     "zitat": "Um den Bestand an sozialem Wohnraum zu erhöhen, wird die Quote für sozial gebundene Wohnungen bei Neubauprojekten auf mindestens 50 % erhöht.",
     "seite": 5,
-    "kommentar": "Zustimmung zur verbindlichen Quote, allerdings über die These hinausgehend: Die Linke bewertet die bestehende 30%-Quote als 'ersten richtigen Schritt' (S. 3) und will sie auf mindestens 50 % anheben, den Bindungstausch abschaffen und die Bindungsdauer auf 60 Jahre und mehr verlängern.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
@@ -127,9 +127,9 @@
     "sicherheit": "hoch",
     "zitat": "Die Wohnungsbestand der Konzerne LEG und Vonovia wird vergesellschaftet.",
     "seite": 5,
-    "kommentar": "Die Forderung ist unbedingt formuliert, nicht nur als 'Notfall'-Option. Zusätzlich sollen Wohnungen bei unbegründetem langanhaltendem Leerstand ggf. enteignet und in kommunale Hand überführt werden.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen.",
@@ -137,23 +137,23 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Mit einer aktiven Bauland- und Bodenpolitik wird die Schaffung von günstigem Wohnraum unterstützt. Dafür wird die GGB finanziell besser ausgestattet und das Vorkaufsrecht zum Erwerb von vorrätigen Flächen genutzt. Bauland wird vorrangig über kommunales Erbbaurecht vergeben.",
+    "zitat": "Dafür wird die GGB finanziell besser ausgestattet und das Vorkaufsrecht zum Erwerb von vorrätigen Flächen genutzt. Bauland wird vorrangig über kommunales Erbbaurecht vergeben.",
     "seite": 5,
-    "kommentar": "In der Vision (S. 4) zudem: 'Eine langfristig geplante, aktive Bodenvorratspolitik ermöglicht es, Baugrundstücke preiswert zur Verfügung zu stellen.'",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
-    "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden statt auf der grünen Wiese.",
+    "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden.",
     "kategorie": "Wohnen & Bauen",
     "partei": "Linke",
     "wertung": 0,
-    "sicherheit": "mittel",
-    "zitat": "Beim Ausbau der erneuerbaren Energien haben bereits versiegelte Flächen oder Flächen zur Mehrfach-Nutzung Vorrang",
-    "seite": 19,
-    "kommentar": "Keine Aussage zum Wohnungs-/Gebäudeneubau. Die zitierte Vorrangregel für versiegelte Flächen bezieht sich ausdrücklich auf Anlagen zur Erzeugung erneuerbarer Energien. Im Bereich Bauen finden sich lediglich verwandte Aussagen (Entsiegelung von Schlossplatz und Bohlweg, Förderung der Sanierung von Bestandsgebäuden, Wiederverwendung von Baumaterial, Schutz von Kleingartenanlagen), aber kein Vorrang der Innenentwicklung gegenüber Bauen auf der grünen Wiese.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "sicherheit": "niedrig",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine explizite Aussage im Programm zu bevorzugten Bauflächen für Wohnungsneubau; nur für PV-Anlagen wird eine Priorität für bereits versiegelte Flächen genannt.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
@@ -161,23 +161,47 @@
     "partei": "Linke",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Die öffentliche Videoüberwachung wird nicht als leeres Sicherheitsversprechen ausgeweitet. Auch bei anderen Formen von dauerhafter Datenerhebung muss Datensparsamkeit Vorrang haben.",
+    "zitat": "Die öffentliche Videoüberwachung wird nicht als leeres Sicherheitsversprechen ausgeweitet.",
     "seite": 23,
-    "kommentar": "Auf S. 22 wird die von CDU, SPD und AfD beschlossene Ausweitung der Videoüberwachung in der Innenstadt kritisiert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Der Zentrale Ordnungsdienst soll mehr Personal und mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+    "kategorie": "Sicherheit & Ordnung",
+    "partei": "Linke",
+    "wertung": 0,
+    "sicherheit": "niedrig",
+    "zitat": "Mitarbeitende der Stadt, insbesondere des Zentralen Ordnungsdienstes, müssen daher verpflichtend antirassistisch geschult und aufgeklärt werden.",
+    "seite": 31,
+    "kommentar": "Keine Aussage zu mehr Personal oder Befugnissen; das Programm fordert stattdessen antirassistische Schulungen für den Ordnungsdienst.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben.",
+    "kategorie": "Sicherheit & Ordnung",
+    "partei": "Linke",
+    "wertung": -1,
+    "sicherheit": "niedrig",
+    "zitat": "Rassistische Handlungen sind oft keine Absicht, sondern entstammen Unwissenheit.",
+    "seite": 31,
+    "kommentar": "Keine direkte Aussage zur These; das Programm betont durchgängig soziale Ursachen, Aufklärung und Prävention statt eines harten Durchgreifens.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden.",
     "kategorie": "Sicherheit & Ordnung",
     "partei": "Linke",
     "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Debatten über die öffentliche Sicherheit sind oft getrieben von rassistischen Vorurteilen, Instrumente wie Waffenverbotszonen sind Einfallstore für rassistisches Profiling.",
+    "sicherheit": "hoch",
+    "zitat": "Instrumente wie Waffenverbotszonen sind Einfallstore für rassistisches Profiling.",
     "seite": 30,
-    "kommentar": "Die Ablehnung ergibt sich aus der klaren Kritik am Instrument; eine explizite Forderung nach Abschaffung oder Nicht-Einrichtung weiterer Zonen wird nicht in der Maßnahmenliste formuliert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Das Städtische Klinikum darf nicht privatisiert werden.",
@@ -187,9 +211,21 @@
     "sicherheit": "hoch",
     "zitat": "Das Städtische Klinikum bleibt in kommunaler Hand!",
     "seite": 43,
-    "kommentar": "Auf S. 42: 'Aber dass das Klinikum in kommunaler Hand bleibt, ist für uns unverhandelbar!'; generell lehnt die Partei 'jegliche Privatisierungen von Einrichtungen der Daseinsvorsorge' ab (S. 7).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Das Städtische Klinikum soll trotz roter Zahlen nicht durch Sparmaßnahmen bei Personal oder Leistungen saniert werden.",
+    "kategorie": "Gesundheit & Soziales",
+    "partei": "Linke",
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "Keine Sparmaßnahmen zulasten der Patient*innen und Beschäftigten des Klinikums.",
+    "seite": 43,
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden.",
@@ -199,9 +235,33 @@
     "sicherheit": "hoch",
     "zitat": "Angemessene finanzielle Ausstattung des Frauenhauses. Die Kapazitäten müssen dem Bedarf gemäß, mindestens entsprechend der Istanbul-Konvention, ausgebaut werden.",
     "seite": 37,
-    "kommentar": "Ebenfalls S. 37: dauerhaft abgesicherte kommunale Unterstützung der Frauenberatungsstelle e.V., pro familia, BISS und weiterer Beratungsstellen.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
+    "kategorie": "Gesundheit & Soziales",
+    "partei": "Linke",
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "Bürokratiearme Kostenübernahme von geschlechtsspezifischer Gesundheitsversorgung von trans*, inter*, nichtbinären und agender Menschen, die von der Gesundheits- und Krankenversicherung nicht abgedeckt wird, durch einen städtischen Fond.",
+    "seite": 27,
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind.",
+    "kategorie": "Migration & Integration",
+    "partei": "Linke",
+    "wertung": -1,
+    "sicherheit": "hoch",
+    "zitat": "Seit 2018 ist Braunschweig auf Initiative der Seebrücke e.V. \"sicherer Hafen\". Dies bedeutet, dass sich Braunschweig bereit erklärt, über das zugewiesene Kontingent Geflüchtete aufzunehmen.",
+    "seite": 29,
+    "kommentar": "Die Linke will die Aufnahmebereitschaft sogar reaktivieren statt den Zuzug zu begrenzen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Braunschweig soll Mitglied im Bündnis 'Sicherer Hafen' bleiben.",
@@ -211,9 +271,9 @@
     "sicherheit": "hoch",
     "zitat": "Reaktivierung der Arbeit Braunschweigs im Verbund Städte sicherer Häfen.",
     "seite": 30,
-    "kommentar": "Auf S. 29 wird kritisiert, dass seit Übernahme der Koordinierung des niedersächsischen Bündnisses 2020 'wenig bis gar nichts passiert' sei.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Für Asylbewerber:innen soll eine kommunale Arbeitspflicht eingeführt werden.",
@@ -223,21 +283,21 @@
     "sicherheit": "hoch",
     "zitat": "In Braunschweig werden Geflüchtete nicht zu Zwangsarbeit unter Mindestlohn verpflichtet.",
     "seite": 30,
-    "kommentar": null,
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Grundsteuer oder Gewerbesteuer sollen erhöht werden, um den Haushalt zu sanieren.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "Linke",
     "wertung": 1,
-    "sicherheit": "hoch",
+    "sicherheit": "mittel",
     "zitat": "Absenkung des Grundsteuer-Hebesatzes auf ein dem Stand vor 2024 entsprechendes Niveau. Stattdessen Anhebung des Hebesatzes der Gewerbesteuer von 450 % auf 470 %.",
     "seite": 9,
-    "kommentar": "Zustimmung gilt nur für die Gewerbesteuer; Grundsteuererhöhungen werden ausdrücklich abgelehnt und sollen zurückgenommen werden, da sie auf Mieten umgelegt werden können (S. 8). Zusätzlich wird eine Bettensteuer von 4 % gefordert.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Die Linke lehnt eine weitere Grundsteuererhöhung ab (sie will diese sogar senken), befürwortet aber eine Erhöhung der Gewerbesteuer sowie eine neue Bettensteuer.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden.",
@@ -245,23 +305,23 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Die städtischen Beteiligung bei BS Energy wird auf mindestens 51 % erweitert. […] Langfristig ist die vollständige Rekommunalisierung von BS Energy und aller Tochtergesellschaften angestrebt.",
-    "seite": 17,
-    "kommentar": "Ebenso S. 8: 'Keine weiteren Privatisierungen der öffentlichen Daseinsvorsorge, stattdessen Rekommunalisierung der privatisierten Bereiche'; Rekommunalisierungskonzepte u. a. für ALBA bis 2031.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Keine weiteren Privatisierungen der öffentlichen Daseinsvorsorge, stattdessen Rekommunalisierung der privatisierten Bereiche, damit die Stadt wieder die demokratische Kontrolle über die Einrichtungen und zusätzliche Einnahmen hat.",
+    "seite": 8,
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Die Stadt soll aktiv im Ausland um Fachkräfte werben.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "Linke",
     "wertung": 0,
-    "sicherheit": "mittel",
-    "zitat": "Während bestimmte Gruppen also bevorzugt Zugang erhalten, erleben viele andere, insbesondere Menschen mit Fluchtgeschichte, weiterhin massive Hürden im Kontakt mit der Behörde. Eine funktionierende Ausländerbehörde darf jedoch nicht nach ökonomischer Nützlichkeit unterscheiden.",
+    "sicherheit": "niedrig",
+    "zitat": "Im Mittelpunkt standen \"hochqualifizierte Fachkräfte\". Während bestimmte Gruppen also bevorzugt Zugang erhalten, erleben viele andere, insbesondere Menschen mit Fluchtgeschichte, weiterhin massive Hürden im Kontakt mit der Behörde.",
     "seite": 31,
-    "kommentar": "Keine Aussage zur aktiven Anwerbung von Fachkräften im Ausland. Das Programm kritisiert lediglich die Bevorzugung 'hochqualifizierter Fachkräfte' durch die Ausländerbehörde gegenüber anderen Migrant*innen; die geforderte aktive Bewerbung um Beschäftigte mit Migrationsgeschichte (S. 32) bezieht sich auf die Diversität der Stadtverwaltung, nicht auf Anwerbung im Ausland.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Keine Aussage zu aktiver Anwerbung im Ausland; das Programm kritisiert lediglich die Bevorzugung von Fachkräften gegenüber Geflüchteten bei der Ausländerbehörde.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden.",
@@ -271,9 +331,9 @@
     "sicherheit": "hoch",
     "zitat": "Kürzungen in den Bereichen Soziales, Kultur, Bildung und Breitensport werden wir uns konsequent entgegenstellen.",
     "seite": 7,
-    "kommentar": "Ergänzend S. 9: 'Einsetzen der finanziellen Mittel zielgerichtet im Sozialbereich, für Bildung, Kultur und Breitensport'; Einsparungen werden stattdessen beim Defizitausgleich des Flughafens und beim Budget der Wirtschaftsförderung verortet.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Braunschweig soll langfristig zur Gemeinschaftsschule mit neun gemeinsamen Lernjahren übergehen.",
@@ -281,11 +341,11 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Das dreigliedrige System der allgemeinbildenden Schulen wird sukzessive durch eine Schule abgelöst, in der alle Kinder gemeinsam 9 Jahre lang denselben Lernstoff erlernen können und die damit der Gemeinschaft gegenüber der Konkurrenz den Vorzug gibt.",
+    "zitat": "Das dreigliedrige System der allgemeinbildenden Schulen wird sukzessive durch eine Schule abgelöst, in der alle Kinder gemeinsam 9 Jahre lang denselben Lernstoff erlernen können.",
     "seite": 25,
-    "kommentar": "Formuliert als Vision; das Programm weist zugleich darauf hin, dass die Organisation des Schulsystems in Niedersachsen Landespolitik ist (S. 24).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "An allen Schulen und Kitas soll es kostenloses Mittagessen geben.",
@@ -293,11 +353,11 @@
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Für alle Kinder soll es ein kostenloses, öffentlich finanziertes Mittagessen an jeder Schule und in jedem Kindergarten geben.",
-    "seite": 10,
-    "kommentar": "Ebenso S. 23 (schrittweise Einführung: 'Zunächst in den Grundschulen, später in allen Schulen und Kitas') und S. 26.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Es gibt an allen Grund- und weiterführenden Schulen das Angebot eines kostenfreien Mittagessens.",
+    "seite": 26,
+    "kommentar": "An anderer Stelle wird ein stufenweises Vorgehen beschrieben: zunächst Grundschulen, später alle Schulen und Kitas.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Das Mittagessen an Schulen und Kitas soll den Vorgaben der Deutschen Gesellschaft für Ernährung (DGE) folgen",
@@ -305,23 +365,23 @@
     "partei": "Linke",
     "wertung": 0,
     "sicherheit": "hoch",
-    "zitat": "Städtische Einrichtungen wie zum Beispiel Kantinen und Küchen in Krankenhäusern beziehen verstärkt Lebensmittel aus regionalem und biologischem Anbau.",
-    "seite": 47,
-    "kommentar": "Keine Aussage zu DGE-Qualitätsstandards. Das Programm äußert sich zur Verpflegung nur über die Kostenfreiheit des Schul- und Kita-Mittagessens, regionale/biologische Lebensmittel in städtischen Küchen sowie 'nährstoffreiche Mahlzeiten' in geplanten öffentlichen Kantinen (S. 18).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage im Programm zu DGE-Standards beim Mittagessen.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
     "kategorie": "Bildung & Kinder",
     "partei": "Linke",
     "wertung": 1,
-    "sicherheit": "niedrig",
+    "sicherheit": "mittel",
     "zitat": "Schulteams werden durch kommunale Schulsozialpädagog*innen und im Rahmen der Eingliederungshilfe mit weiterem Fachpersonal ergänzt.",
     "seite": 26,
-    "kommentar": "Nur indirekt ableitbar: Der Ausbau von Schulsozialarbeit wird gefordert (auch in der Vision S. 25: 'Mehr Personal wie multiprofessionelle Teams, Klassenassistenzen, Dolmetschende, Schulsozialarbeit'), eine Mindestausstattung von einer festen Stelle je Schule wird jedoch nicht ausdrücklich festgelegt.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Ausbau von Schulsozialarbeit wird gefordert, eine konkrete Mindestvorgabe von einer festen Stelle pro Schule wird jedoch nicht explizit genannt.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Das 'Haus der Musik' soll wie geplant im leer stehenden Karstadtgebäude in der Poststraße realisiert werden.",
@@ -329,23 +389,11 @@
     "partei": "Linke",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Aber wir haben im Rat der Stadt gegen das Haus der Musik gestimmt, denn wir sind gegen das Stiftungsmodell, gegen die erwähnte Anmietung und dagegen, dass die Stadt a) New Yorker für 15 Mio. Euro ein nutzloses Kaufhausgebäude abkauft, b) das finanzielle Risiko für den geplanten Konzertsaal trägt.",
+    "zitat": "Wir haben im Rat der Stadt gegen das Haus der Musik gestimmt, denn wir sind gegen das Stiftungsmodell, gegen die erwähnte Anmietung und dagegen, dass die Stadt a) New Yorker für 15 Mio. Euro ein nutzloses Kaufhausgebäude abkauft, b) das finanzielle Risiko für den geplanten Konzertsaal trägt.",
     "seite": 7,
-    "kommentar": "Ebenso S. 40: 'Der geplante Konzertsaal im Haus der Musik wird gestrichen.'",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Statt dem 'Haus der Musik', soll nur die städtische Musikschule in ein geeignetes Gebäude",
-    "kategorie": "Kultur & Gesellschaft",
-    "partei": "Linke",
-    "wertung": 1,
-    "sicherheit": "hoch",
-    "zitat": "Der geplante Konzertsaal im Haus der Musik wird gestrichen. Die Musikschule erhält neue Räumlichkeiten und den geplanten „dritten Ort“.",
-    "seite": 40,
-    "kommentar": "Auf S. 7 zudem: 'Die Linke sieht die Notwendigkeit moderner, zentraler Räumlichkeiten für die Städtische Musikschule.' Abgelehnt werden das Stiftungsmodell, die Anmietung und der Ankauf des Kaufhausgebäudes; das Programm legt sich nicht auf ein konkretes Ersatzgebäude fest.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "Der geplante Konzertsaal im Haus der Musik soll laut Programm gestrichen werden.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen.",
@@ -355,68 +403,56 @@
     "sicherheit": "hoch",
     "zitat": "Schulen, die sich gegen Rassismus und für Vielfalt engagieren, erhalten finanzielle Unterstützung.",
     "seite": 25,
-    "kommentar": "Ergänzend S. 51: 'Schulen und Vereine erhalten finanzielle Unterstützung, um Fortbildungen zur Sensibilisierung, zur Reaktion auf rechtes Gedankengut und zu Gewaltfreiheit durchführen zu können.'",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
     "kategorie": "Kultur & Gesellschaft",
     "partei": "Linke",
     "wertung": -1,
-    "sicherheit": "niedrig",
-    "zitat": "Dennoch können wir mit der Kommunalpolitik die Stadt so gestalten, dass alle, die hier wohnen, die bestmöglichen Bedingungen für ein gutes Leben und Zusammenleben haben - unabhängig von Einkommen, Herkunft, Geschlecht, Alter, familiärer Situation, Bildungsstand, Hautfarbe oder sexueller Orientierung.",
-    "seite": 2,
-    "kommentar": "Nur indirekt ableitbar: Ein Familienleitbild wird im Programm nicht thematisiert. Die Wertung stützt sich auf die durchgängige Ausrichtung an Vielfalt unabhängig von familiärer Situation und sexueller Orientierung sowie auf das Kapitel 'Queere Emanzipation' (S. 26 f.).",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Straßennamen und Denkmäler mit kolonialem Bezug sollen umbenannt bzw. neu eingeordnet werden.",
-    "kategorie": "Kultur & Gesellschaft",
-    "partei": "Linke",
-    "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Das schändliche Kolonialdenkmal kommt ins Städtische Museum. Straßen, die wie die Lüderitzstraße die Namen von Kolonialisten tragen, werden umbenannt.",
-    "seite": 50,
-    "kommentar": "Zusätzlich soll ein gesamtstädtisches Aufarbeitungs- und Erinnerungskonzept zu Geschichte und Folgen des Kolonialismus entwickelt werden.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
-  },
-  {
-    "these": "Die Hundesteuer soll bei Tierheim-Adoptionen abgeschafft werden.",
-    "kategorie": "Kultur & Gesellschaft",
-    "partei": "Linke",
-    "wertung": 1,
-    "sicherheit": "mittel",
-    "zitat": "Personen, die einen Hund aus dem Tierheim aufnehmen, sind drei Jahre lang von der Hundesteuer befreit.",
-    "seite": 42,
-    "kommentar": "Gefordert wird eine auf drei Jahre befristete Befreiung, keine dauerhafte Abschaffung der Hundesteuer für Tierheim-Adoptionen.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Braunschweig ist eine sichere und lebenswerte Stadt für queere Menschen, in der ihre Autonomie und ihre Lebensqualität keine Randthemen, sondern Kernpunkte sozialer Kommunalpolitik sind.",
+    "seite": 26,
+    "kommentar": "Das Programm setzt sich durchgängig für queere Emanzipation und die Gleichstellung aller Geschlechtsidentitäten ein, was einem traditionellen Familienbild als Leitbild widerspricht.",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
-    "kategorie": "Digitalisierung & Verwaltung",
+    "kategorie": "Digitalisierung & Verwaltung / Beteiligung",
     "partei": "Linke",
     "wertung": -1,
     "sicherheit": "mittel",
-    "zitat": "KI-Systeme werden nicht genutzt, um die Menschen in Braunschweig zu überwachen oder Entscheidungen über ihr Leben zu treffen. Dies gilt für alle, insbesondere auch für Geflüchtete.",
+    "zitat": "KI-Systeme werden nicht genutzt, um die Menschen in Braunschweig zu überwachen oder Entscheidungen über ihr Leben zu treffen.",
     "seite": 23,
-    "kommentar": "Die Aussage bezieht sich auf Überwachung und Entscheidungen über Menschen; eine bloße Vorprüfung von Anträgen wird nicht ausdrücklich benannt, fällt aber erkennbar in den abgelehnten Anwendungsbereich.",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   },
   {
     "these": "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben.",
-    "kategorie": "Digitalisierung & Verwaltung",
+    "kategorie": "Digitalisierung & Verwaltung / Beteiligung",
     "partei": "Linke",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Kein Digitalzwang: alle städtischen Dienste müssen auch auf analogem Weg nutzbar sein.",
-    "seite": 23,
-    "kommentar": "Ergänzend S. 35: 'Analoge Zugänge zu Behörden und zum Bürgerbeteiligungsportal ‚mitreden‘ werden geschaffen.'",
-    "modell": "claude-opus-5",
-    "eingelesen": "2026-08-12"
+    "zitat": "Analoge Zugänge zu Behörden und zum Bürgerbeteiligungsportal 'mitreden' werden geschaffen.",
+    "seite": 35,
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
+  },
+  {
+    "these": "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird.",
+    "kategorie": "Digitalisierung & Verwaltung / Beteiligung",
+    "partei": "Linke",
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "Mehr Bürgerbeteiligung an der städtischen Haushaltspolitik durch Wiedereinführung eines Bürgerhaushaltes.",
+    "seite": 9,
+    "kommentar": "",
+    "modell": "Claude Sonnet 5",
+    "eingelesen": "2026-08-13"
   }
 ]

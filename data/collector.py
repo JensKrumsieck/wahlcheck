@@ -99,7 +99,7 @@ partei_pdfs = sorted((working_dir / "programme").rglob("*.pdf"))
 
 print(
     f"Bewerte {len(fragen_liste)} Thesen für {len(partei_pdfs)} Parteien "
-    f"(Modell: {model}, Effort: {effort})\n"
+    f"(Modell: {model.value}, Effort: {effort.value})\n"
 )
 
 gesamtstart = time.perf_counter()

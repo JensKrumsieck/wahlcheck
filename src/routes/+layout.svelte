@@ -20,10 +20,17 @@
   {@render children()}
 </main>
 <footer class="text-center py-2 container container-md mx-auto">
-  <div class="mt-5 text-green-200 text-sm">
-    Ein Projekt von <a class="underline font-medium" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
+  <div>
+    <small class="text-ink"><span class="font-bold">KI kann Fehler machen!</span> Überprüfe die Aussagen anhand der Parteiprogramme.</small>
+    <small class="text-ink">Hinweis: Für das BSW stand nur ein Niedersachsen-weites Programm zur Verfügung. Die BIBS hat zum aktuellen Zeitpunkt kein aktuelles & öffentliches Wahlprogramm.</small>
   </div>
-  <div>    
-    <small class="text-ink-muted">Der Ersteller dieser Seite steht selbst als Kandidat auf Listen bei der Kommunalwahl. Dies hat ausdrücklich keinen Einfluss auf die Neutraltität dieser Seite.</small>
+  <div>
+    <small class="text-ink-muted"
+      >Der Ersteller dieser Seite steht selbst als Kandidat auf Listen bei der Kommunalwahl. Dies hat ausdrücklich keinen Einfluss auf die Neutraltität dieser Seite. Alle Aussagen basieren auf KI-generierten Antworten auf Basis der vorliegenden
+      Kommunalwahlprogramme. Fehler gefunden? <a class="underline hover:text-ink-faint" target="_blank" href="https://github.com/JensKrumsieck/wahlcheck">Kannst du gerne bei GitHub melden!</a></small
+    >
+  </div>
+  <div class="my-5 text-ink-faint text-xs">
+    Ein Projekt von <a class="underline font-medium" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
   </div>
 </footer>
