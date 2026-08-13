@@ -49,7 +49,7 @@ const DISPLAY_NAMES: Record<string, string> = {
 export const PARTY_COLORS: Record<string, string> = {
     AfD: '#009ee0',
     BSW: '#7a4171',
-    CDU: '#000000',
+    CDU: '#666666',
     'Die Linke': '#bf1d97',
     FDP: '#efb118',
     GRÜNE: '#3ca951',
