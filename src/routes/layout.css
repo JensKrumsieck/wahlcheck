@@ -1,2 +1,49 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@import '@fontsource-variable/bricolage-grotesque';
+@import '@fontsource-variable/plus-jakarta-sans';
+
+@theme {
+  --font-display: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* Einzige "laute" Chrome-Farbe der Seite. Bewusst Teal/Cyan: keine der 8
+     Parteifarben (siehe Result.svelte `scheme`) liegt in diesem Farbraum. */
+  --color-accent: #0d9e97;
+  --color-accent-strong: #0b8a84;
+  --color-accent-ink: #ffffff;
+  --color-accent-soft: #e3f5f3;
+
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f6f5;
+  --color-ink: #14201e;
+  --color-ink-muted: #57645f;
+  --color-ink-faint: #8a958f;
+  --color-border: #dde3e0;
+}
+
+/* @theme legt nur die Utility-Klassen (bg-accent, text-ink, ...) an; die
+   eigentlichen Werte bleiben Custom Properties, die hier fürs Dark-Theme
+   überschrieben werden, damit die generierten Utilities automatisch mitziehen. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: #2dbdb3;
+    --color-accent-strong: #45cbc1;
+    --color-accent-ink: #06201d;
+    --color-accent-soft: #12302c;
+
+    --color-surface: #14201e;
+    --color-surface-2: #1b2725;
+    --color-ink: #eef2f0;
+    --color-ink-muted: #a8b3af;
+    --color-ink-faint: #77837e;
+    --color-border: #2b3835;
+  }
+}
+
+body {
+  background: var(--color-surface-2);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

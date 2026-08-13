@@ -18,13 +18,15 @@
 
 <div class="py-5">
   {#if current < questions.length}
-    <QuestionCard
-      question={questions[current]}
-      index={current}
-      total={questions.length}
-      {onanswer}
-      {onback}
-    ></QuestionCard>
+    {#key questions[current].id}
+      <QuestionCard
+        question={questions[current]}
+        index={current}
+        total={questions.length}
+        {onanswer}
+        {onback}
+      ></QuestionCard>
+    {/key}
   {:else}
     <Result {score} {questions} />
   {/if}

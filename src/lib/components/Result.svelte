@@ -1,5 +1,13 @@
 <script lang="ts">
-  import { computeScore, answerFor, scoreMatch, type Question, type UserAnswers, parties } from "$lib/types";
+  import {
+    computeScore,
+    answerFor,
+    scoreMatch,
+    colorFor,
+    type Question,
+    type UserAnswers,
+    parties,
+  } from "$lib/types";
   import { AxisX, AxisY, BarX, Plot, Text } from "svelteplot";
 
   interface Props {
@@ -17,62 +25,113 @@
       label: `${Math.round((i.totalScore / i.maxScore) * 100)}%`,
     })),
   );
+  let hero = $derived([...values].sort((a, b) => b.value - a.value)[0]);
 
-  const scheme = {
-    AfD: "#009ee0",
-    BSW: "#7a4171",
-    CDU: "#000000",
-    "Die Linke": "#bf1d97",
-    FDP: "#efb118",
-    GRÜNE: "#3ca951",
-    SPD: "#d23a33",
-    Volt: "#582c83",
-  };
-</script>
+  function answerLabel(wertung: number) {
+    if (wertung === 1) return "👍 Zustimmung";
+    if (wertung === -1) return "👎 Ablehnung";
+    return "⭕ Neutral";
+  }
 
-<Plot y={{ type: "band" }} x={{ percent: true }} color={{ scheme }} marginRight={40}>
-  <AxisX title="" />
-  <AxisY title="" />
-  <BarX data={values} y="name" x="value" fill="name" sort={{ channel: "x", order: "descending" }} />
-  <Text data={values} y="name" x="value" text="label" dx={6} textAnchor="start" />
-</Plot>
-
-<ul>
-  {#each questions as question}
-    {@const sortedParties = [...parties].sort((a, b) => {
+  function sortedPartiesFor(question: Question) {
+    return [...parties].sort((a, b) => {
       const answerA = answerFor(a, question);
       const answerB = answerFor(b, question);
       const scoreA = answerA ? scoreMatch(score[question.id], answerA.wertung) : -1;
       const scoreB = answerB ? scoreMatch(score[question.id], answerB.wertung) : -1;
       return scoreB - scoreA;
-    })}
-    <li class="prose max-w-none mx-5 my-6 px-2 border rounded-md shadow-lg border-slate-200">
-      <small>{question.id}</small>
-      <h3>{question.these}</h3>
-      <ul>
-        <li>Deine Antwort: {score[question.id] === 1 ? "👍 Zustimmung" : score[question.id] === -1 ? "👎 Ablehnung" : "⭕ Neutral"}</li>
-        {#each sortedParties as party}
-          {@const answer = answerFor(party, question)}
-          <li>
-            <strong>{party.name}:</strong>
-            {#if answer}
-              {answer.wertung === 1 ? "👍 Zustimmung" : answer.wertung === -1 ? "👎 Ablehnung" : "⭕ Neutral"} (Sicherheit {answer.sicherheit})
-              {#if answer.zitat}
-                <blockquote>
-                  „{answer.zitat}“{#if answer.seite}
-                    (S. {answer.seite}){/if}
-                </blockquote>
+    });
+  }
+</script>
+
+<div class="container container-md mx-auto px-4">
+  {#if hero}
+    {@const heroColor = colorFor(hero.name)}
+    <div
+      class="mb-8 rounded-2xl border-2 p-8 text-center shadow-xl"
+      style="border-color: {heroColor}; background: color-mix(in srgb, {heroColor} 8%, var(--color-surface));"
+    >
+      <p class="text-sm font-medium text-ink-muted">Deine größte Übereinstimmung</p>
+      <p class="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">
+        {hero.name}
+      </p>
+      <p class="mt-1 font-display text-6xl font-bold text-ink sm:text-7xl">
+        {hero.label}
+      </p>
+    </div>
+  {/if}
+
+  <div class="chart rounded-2xl border border-border bg-surface p-4 shadow-lg sm:p-6">
+    <Plot y={{ type: "band" }} x={{ percent: true }} color={{ scheme: Object.fromEntries(parties.map(p => [p.name, colorFor(p.name)])) }} marginRight={40}>
+      <AxisX title="" />
+      <AxisY title="" />
+      <BarX data={values} y="name" x="value" fill="name" sort={{ channel: "x", order: "descending" }} />
+      <Text data={values} y="name" x="value" text="label" dx={6} textAnchor="start" />
+    </Plot>
+  </div>
+
+  <h2 class="mt-12 mb-4 font-display text-2xl font-semibold text-ink">
+    Antworten im Detail
+  </h2>
+  <div class="flex flex-col gap-3 pb-16">
+    {#each questions as question}
+      {@const sorted = sortedPartiesFor(question)}
+      <details
+        class="group rounded-xl border border-border bg-surface p-4 open:shadow-lg sm:p-5"
+      >
+        <summary class="flex cursor-pointer list-none flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <div class="flex items-center gap-3">
+            <span class="text-ink-faint transition group-open:rotate-90">▸</span>
+            <span class="font-medium text-ink">{question.these}</span>
+          </div>
+          <div class="flex shrink-0 items-center gap-3 pl-6 sm:pl-0">
+            <span class="text-sm text-ink-muted">Du: {answerLabel(score[question.id])}</span>
+            <span class="flex gap-1">
+              {#each sorted as party}
+                <span
+                  class="h-2.5 w-2.5 rounded-full"
+                  style="background-color: {colorFor(party.name)}"
+                  title={party.name}
+                ></span>
+              {/each}
+            </span>
+          </div>
+        </summary>
+
+        <ul class="mt-4 flex flex-col gap-3 border-t border-border pt-4">
+          {#each sorted as party}
+            {@const answer = answerFor(party, question)}
+            <li
+              class="rounded-lg border-l-4 bg-surface-2 px-3 py-2"
+              style="border-color: {colorFor(party.name)}"
+            >
+              <p class="font-semibold text-ink">{party.name}</p>
+              {#if answer}
+                <p class="text-sm text-ink-muted">
+                  {answerLabel(answer.wertung)} · Sicherheit: {answer.sicherheit}
+                </p>
+                {#if answer.zitat}
+                  <blockquote class="mt-1 text-sm text-ink-muted italic">
+                    „{answer.zitat}“{#if answer.seite}&nbsp;(S. {answer.seite}){/if}
+                  </blockquote>
+                {/if}
+                {#if answer.kommentar}
+                  <p class="mt-1 text-xs text-ink-faint">{answer.kommentar}</p>
+                {/if}
+              {:else}
+                <p class="text-sm text-ink-faint">keine Antwort vorhanden</p>
               {/if}
-              {#if answer.kommentar}
-                <p>Kommentar:</p>
-                <small>{answer.kommentar}</small>
-              {/if}
-            {:else}
-              keine Antwort vorhanden
-            {/if}
-          </li>
-        {/each}
-      </ul>
-    </li>
-  {/each}
-</ul>
+            </li>
+          {/each}
+        </ul>
+      </details>
+    {/each}
+  </div>
+</div>
+
+<style>
+  .chart :global(text) {
+    fill: var(--color-ink-muted);
+    font-family: var(--font-sans);
+  }
+</style>

@@ -1,5 +1,12 @@
 <script lang="ts">
   import type { Question, Wertung } from "$lib/types";
+  import { fly } from "svelte/transition";
+
+  const reducedMotion =
+    typeof window !== "undefined" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const transitionDuration = reducedMotion ? 0 : 220;
+
   interface Props {
     question: Question;
     index: number;
@@ -26,47 +33,61 @@
 </script>
 
 <article
-  class="container container-md mx-auto rounded-lg shadow-xl p-5 border border-zinc-300"
+  in:fly={{ x: 24, duration: transitionDuration }}
+  class="container container-md mx-auto rounded-2xl border border-border bg-surface p-6 shadow-xl shadow-ink/5 sm:p-8"
 >
   <header>
-    <div>
-      <span class="rounded-full px-2 py-1 bg-pink-600 text-white"
-        >{question.kategorie}</span
+    <div class="flex items-center justify-between gap-3">
+      <span
+        class="inline-block rounded-full bg-accent-soft px-3 py-1 text-sm font-medium text-accent-strong"
       >
-    </div>
-    <div class="flex justify-between">
-      <div class="w-full">
-        <div class="my-2 w-full">
-          Frage {index + 1} von {total}
-        </div>
-        <progress value={progress} max={100}></progress>
-      </div>
+        {question.kategorie}
+      </span>
       {#if index > 0}
         <button
-          class="bg-red-50 w-full py-4 hover:bg-red-200 font-bold"
-          onclick={onback}>👈 Zurück</button
+          class="text-sm font-medium text-ink-muted transition hover:text-ink"
+          onclick={onback}
         >
+          ← Zurück
+        </button>
       {/if}
     </div>
-  </header>
-  <section class="prose max-w-none my-5 h-100 flex flex-col justify-between">
-    <h1>{question.these}</h1>
 
-    <div
-      class="mt-auto flex justify-between"
-      role="radiogroup"
-      aria-label="Deine Position"
+    <div class="mt-4">
+      <div class="mb-2 flex justify-between text-sm text-ink-muted">
+        <span>Frage {index + 1} von {total}</span>
+        <span>{Math.round(progress)}%</span>
+      </div>
+      <div class="h-1.5 w-full overflow-hidden rounded-full bg-surface-2">
+        <div
+          class="h-full rounded-full bg-accent transition-[width] duration-300 ease-out"
+          style="width: {progress}%"
+        ></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="my-6 flex min-h-72 flex-col justify-between gap-8">
+    <h1
+      class="font-display text-2xl font-semibold text-balance text-ink sm:text-3xl"
     >
+      {question.these}
+    </h1>
+
+    <div class="grid grid-cols-1 gap-3 sm:grid-cols-3" role="radiogroup" aria-label="Deine Position">
       {#each answers as option}
+        {@const selected = answer === option.value}
         <button
           type="button"
-          class:active={answer === option.value}
-          class="bg-red-50 w-full py-4 hover:bg-red-200 font-bold"
+          class="flex flex-col items-center gap-1 rounded-xl border-2 py-4 font-semibold transition
+            {selected
+            ? 'border-accent bg-accent text-accent-ink shadow-lg shadow-accent/25'
+            : 'border-border bg-surface-2 text-ink hover:border-accent/40 hover:bg-accent-soft'}"
           role="radio"
-          aria-checked={answer === option.value}
+          aria-checked={selected}
           onclick={() => selectAnswer(question.id, option.value)}
         >
-          <span class="symbol">{option.symbol}</span>
+          <span class="text-2xl">{option.symbol}</span>
           <span>{option.label}</span>
         </button>
       {/each}

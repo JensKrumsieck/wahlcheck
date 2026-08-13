@@ -7,11 +7,16 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<header class="bg-red-950 text-white text-xl py-2 px-1">
-  <div class="container container-md mx-auto">Braunschweig Wahlcheck</div>
+<header
+  class="sticky top-0 z-10 border-b border-border bg-surface/90 backdrop-blur"
+>
+  <div class="container container-md mx-auto px-4 py-3">
+    <span class="font-display text-xl font-semibold tracking-tight text-ink">
+      Braunschweig <span class="text-accent">Wahlcheck</span>
+    </span>
+  </div>
 </header>
 <main>
   {@render children()}
 </main>
-<footer>
-</footer>
+<footer></footer>

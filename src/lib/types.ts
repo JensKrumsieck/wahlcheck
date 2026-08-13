@@ -46,6 +46,22 @@ const DISPLAY_NAMES: Record<string, string> = {
     Volt: 'Volt',
 };
 
+export const PARTY_COLORS: Record<string, string> = {
+    AfD: '#009ee0',
+    BSW: '#7a4171',
+    CDU: '#000000',
+    'Die Linke': '#bf1d97',
+    FDP: '#efb118',
+    GRÜNE: '#3ca951',
+    SPD: '#d23a33',
+    Volt: '#582c83',
+};
+const FALLBACK_COLOR = '#6b7280';
+
+export function colorFor(partyName: string): string {
+    return PARTY_COLORS[partyName] ?? FALLBACK_COLOR;
+}
+
 const antwortModules = import.meta.glob<PartyAnswer[]>('../../data/antworten/*.json', {
     eager: true,
     import: 'default'
