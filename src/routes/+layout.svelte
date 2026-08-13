@@ -16,7 +16,14 @@
   });
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+  <link rel="icon" href={favicon} />
+  <title>Braunschweig Wahlcheck</title>
+  <meta
+    name="description"
+    content="Am 13.09.2026 ist Kommunalwahl in der City of Lions. Für den Rat der Stadt treten SPD, CDU, DIE GRÜNEN, BIBS, FDP, AfD, Die Linke, Volt, Die PARTEI, FREIE WÄHLER, FWBS und 2 Einzelbewerber an. Mittels KI wurden 40 vordefinierte Thesen auf Basis der öffentlich verfügbaren Wahlprogramme beantwortet - beantworte sie selbst und vergleiche dein Ergebnis."
+  />
+</svelte:head>
 
 <header class="sticky top-0 z-10 border-b border-border bg-surface/90 backdrop-blur">
   <div class="container container-md mx-auto px-4 py-3">
@@ -41,7 +48,16 @@
       Kommunalwahlprogramme. Fehler gefunden? <a class="underline hover:text-ink-faint" target="_blank" href="https://github.com/JensKrumsieck/wahlcheck">Kannst du gerne bei GitHub melden!</a></small
     >
   </div>
+  <div class="my-1">
+    <small class="text-ink-muted">Lust auf <a class="underline hover:text-ink-faint" target="_blank" href="https://wahl.jenskrumsieck.de">Wahlvorhersagen für die Stadt Braunschweig</a>?</small>
+  </div>
   <div class="my-5 text-ink-faint text-xs">
     Ein Projekt von <a class="underline font-medium" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
+  </div>
+  <div class="my-1">
+    <small class="text-ink-muted">
+      <a class="underline hover:text-ink-faint" target="_blank" href="https://jenskrumsieck.de/impressum">Impressum</a> |
+      <a class="underline hover:text-ink-faint" target="_blank" href="https://jenskrumsieck.de/privacy">Datenschutzerklärung</a>
+    </small>
   </div>
 </footer>
