@@ -12,22 +12,24 @@
         "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden."
     ],
     "Wohnen & Bauen": [
-        "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden. ",
-        "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
+        "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden.",
         "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen.",
+        "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
         "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden."
     ],
     "Sicherheit & Ordnung": [
         "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
-        "Der Zentrale Ordnungsdienst mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+        "Der Zentrale Ordnungsdienst soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
         "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben.",
-        "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden."
+        "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden.",
+        "Die Stadt soll den Katastrophen- und Bevölkerungsschutz ausbauen und dafür Feuerwehr, Hilfsorganisationen und Warnsysteme besser ausstatten."
     ],
     "Gesundheit & Soziales": [
         "Das Städtische Klinikum darf nicht privatisiert werden.",
-        "Das Städtische Klinikum soll trotz roter Zahlen nicht durch Sparmaßnahmen bei Personal oder Leistungen saniert werden.",
+        "Die medizinische Versorgung und die Arbeitsbedingungen am Städtischen Klinikum sollen trotz des finanziellen Defizits gesichert werden.",
         "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden.",
-        "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden."
+        "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
+        "Die Trans*-Beratungsstelle muss auch nach 2028 weiterfinanziert werden."
     ],
     "Migration & Integration": [
         "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind.",
@@ -37,21 +39,22 @@
     "Finanzen & Wirtschaft": [
         "Grundsteuer oder Gewerbesteuer sollen erhöht werden, um den Haushalt zu sanieren.",
         "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden.",
-        "Die Stadt Braunschweig soll gezielt im Ausland um Fachkräfte werben.",
+        "Braunschweig soll gezielt internationale Fachkräfte für die Stadt gewinnen.",
         "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden."
     ],
     "Bildung & Kinder": [
-        "Braunschweig soll primär auf den Ausbau Integrierter Gesamtschulen (IGS) setzen.",
+        "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen schaffen, um der hohen Nachfrage gerecht zu werden.",
         "An allen Schulen und Kitas soll es kostenloses Mittagessen geben.",
-        "Das Mittagessen an Schulen und Kitas soll den Vorgaben der Deutschen Gesellschaft für Ernährung (DGE) folgen",
         "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben."
     ],
-    "Kultur & Gesellschaft": [
-        "Das geplante 'Haus der Musik' soll wie beschlosen umgesetzt werden.",
+    "Kultur, Demokratie & Gesellschaft": [
+        "Das geplante 'Haus der Musik' soll wie beschlossen umgesetzt werden.",
         "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen.",
-        "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein."
+        "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
+        "Die Stadt soll einen kommunalen Aktionsplan gegen Rechtsextremismus verbindlich umsetzen und regelmäßig fortschreiben.",
+        "Die Stadt Braunschweig soll Werbung für die Bundeswehr auf städtischen Bussen und Bahnen verbieten."
     ],
-    "Digitalisierung & Verwaltung / Beteiligung": [
+    "Digitalisierung, Verwaltung & Beteiligung": [
         "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
         "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben.",
         "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird."

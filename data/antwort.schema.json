@@ -9,48 +9,55 @@
       "type": "string",
       "description": "Wortlaut der These, exakt wie in fragen.json unter der jeweiligen Kategorie gelistet."
     },
-    "kategorie": {
-      "type": "string",
-      "description": "Themenblock der These, entspricht einem Top-Level-Schlüssel in fragen.json.",
-      "enum": [
-        "Verkehr & Mobilität",
-        "Klima & Umwelt",
-        "Wohnen & Bauen",
-        "Sicherheit & Ordnung",
-        "Gesundheit & Soziales",
-        "Migration & Integration",
-        "Finanzen & Wirtschaft",
-        "Bildung & Kinder",
-        "Kultur & Gesellschaft",
-        "Digitalisierung & Verwaltung"
-      ]
-    },
     "partei": {
       "type": "string",
       "description": "Partei, deren Position zur These bewertet wird.",
-      "enum": ["AfD", "BSW", "CDU", "FDP", "GRÜNE", "Linke", "SPD", "Volt"]
+      "enum": [
+        "AfD",
+        "BSW",
+        "CDU",
+        "FDP",
+        "GRÜNE",
+        "Linke",
+        "SPD",
+        "Volt"
+      ]
     },
     "wertung": {
       "type": "integer",
       "description": "Positionierung der Partei zur These: 1 = Zustimmung, -1 = Ablehnung, 0 = keine Aussage im Programm / Enthaltung.",
-      "enum": [-1, 0, 1]
+      "enum": [
+        -1,
+        0,
+        1
+      ]
     },
     "sicherheit": {
       "type": "string",
       "description": "Konfidenz der Wertung, abhängig davon, wie eindeutig sich die Position aus dem Wahlprogramm ableiten lässt.",
-      "enum": ["hoch", "mittel", "niedrig"]
+      "enum": [
+        "hoch",
+        "mittel",
+        "niedrig"
+      ]
     },
     "zitat": {
       "type": "string",
       "description": "Wörtliches oder eng paraphrasiertes Zitat aus dem Wahlprogramm als Beleg für die Wertung. Leerstring zulässig, wenn wertung = 0 und keine einschlägige Textstelle existiert."
     },
     "seite": {
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 1,
       "description": "Seitenzahl im Quell-PDF (programme/<PARTEI>.pdf), auf der sich das Zitat befindet. null, wenn keine spezifische Seite zuordenbar ist."
     },
     "kommentar": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Optionale redaktionelle Anmerkung, z. B. bei manueller Nachprüfung der automatisch erzeugten Wertung."
     },
     "modell": {
@@ -66,7 +73,6 @@
   },
   "required": [
     "these",
-    "kategorie",
     "partei",
     "wertung",
     "sicherheit",
@@ -79,7 +85,6 @@
   "examples": [
     {
       "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
-      "kategorie": "Digitalisierung & Verwaltung",
       "partei": "SPD",
       "wertung": 0,
       "sicherheit": "hoch",
