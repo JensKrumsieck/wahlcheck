@@ -1,0 +1,998 @@
+{
+  "table_of_contents": [
+    {
+      "title": "100 Tage CDU \u2013 10 konkrete Punkte.",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.83164268897222,
+          56.35992431640625
+        ],
+        [
+          501.59555046023894,
+          56.35992431640625
+        ],
+        [
+          501.59555046023894,
+          87.5599365234375
+        ],
+        [
+          68.83164268897222,
+          87.5599365234375
+        ]
+      ]
+    },
+    {
+      "title": "Braunschweig heute und 2034",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.36161111404073,
+          56.35992431640625
+        ],
+        [
+          430.7174440475195,
+          56.35992431640625
+        ],
+        [
+          430.7174440475195,
+          87.5599365234375
+        ],
+        [
+          68.36161111404073,
+          87.5599365234375
+        ]
+      ]
+    },
+    {
+      "title": "Unser Plan. Der Braunschweig-Plan",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          82.05225480893998,
+          56.35992431640625
+        ],
+        [
+          513.4768015671738,
+          56.35992431640625
+        ],
+        [
+          513.4768015671738,
+          87.5599365234375
+        ],
+        [
+          82.05225480893998,
+          87.5599365234375
+        ]
+      ]
+    },
+    {
+      "title": "1. Sichere Arbeit in Braunschweig",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          68.05858588038524,
+          109.11798095703125
+        ],
+        [
+          339.9664577609046,
+          109.11798095703125
+        ],
+        [
+          339.9664577609046,
+          130.02197265625
+        ],
+        [
+          68.05858588038524,
+          130.02197265625
+        ]
+      ]
+    },
+    {
+      "title": "Voraussetzung f\u00fcr unseren Wohlstand.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          67.5604712152361,
+          147.5607902275486
+        ],
+        [
+          274.4960632324219,
+          147.5607902275486
+        ],
+        [
+          274.4960632324219,
+          163.06396484375
+        ],
+        [
+          67.5604712152361,
+          163.06396484375
+        ]
+      ]
+    },
+    {
+      "title": "Digitale Stadt \u2013 Verwaltung als Standortfaktor",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          67.72310386676932,
+          175.75974641224155
+        ],
+        [
+          415.6812818704985,
+          175.75974641224155
+        ],
+        [
+          415.6812818704985,
+          196.51568603515625
+        ],
+        [
+          67.72310386676932,
+          196.51568603515625
+        ]
+      ]
+    },
+    {
+      "title": "Bezahlbar wohnen \u2013 schneller bauen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          67.79257406816075,
+          602.5119790869531
+        ],
+        [
+          349.4613780062505,
+          602.5119790869531
+        ],
+        [
+          349.4613780062505,
+          623.7156677246094
+        ],
+        [
+          67.79257406816075,
+          623.7156677246094
+        ]
+      ]
+    },
+    {
+      "title": "Fachkr\u00e4fte gewinnen und halten",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          67.58681626403963,
+          427.2140820877741
+        ],
+        [
+          315.55900496859994,
+          427.2140820877741
+        ],
+        [
+          315.55900496859994,
+          448.5157165527344
+        ],
+        [
+          67.58681626403963,
+          448.5157165527344
+        ]
+      ]
+    },
+    {
+      "title": "Innenstadt: wirtschaftliches Herz und Erlebnisort",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          67.75080390180689,
+          56.07794189453125
+        ],
+        [
+          448.2771911621094,
+          56.07794189453125
+        ],
+        [
+          448.2771911621094,
+          76.515625
+        ],
+        [
+          67.75080390180689,
+          76.515625
+        ]
+      ]
+    },
+    {
+      "title": "Mobilit\u00e4t ohne Kulturkampf",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          67.36277472162126,
+          161.10080689780963
+        ],
+        [
+          281.8340036310537,
+          161.10080689780963
+        ],
+        [
+          281.8340036310537,
+          181.63568115234375
+        ],
+        [
+          67.36277472162126,
+          181.63568115234375
+        ]
+      ]
+    },
+    {
+      "title": "Klimaschutz ohne Konflikte \u2013 bezahlbar und machbar",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.93273796062326,
+          56.21454663162027
+        ],
+        [
+          478.4844021352773,
+          56.21454663162027
+        ],
+        [
+          478.4844021352773,
+          76.75567626953125
+        ],
+        [
+          67.93273796062326,
+          76.75567626953125
+        ]
+      ]
+    },
+    {
+      "title": "2. Sichere Stadtteile in Braunschweig",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.54313653902683,
+          479.18137941844526
+        ],
+        [
+          367.66029530868724,
+          479.18137941844526
+        ],
+        [
+          367.66029530868724,
+          501.0619812011719
+        ],
+        [
+          67.54313653902683,
+          501.0619812011719
+        ]
+      ]
+    },
+    {
+      "title": "Voraussetzung f\u00fcr unsere Freiheit.",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.36318064576733,
+          515.8512778142044
+        ],
+        [
+          252.22152844484268,
+          515.8512778142044
+        ],
+        [
+          252.22152844484268,
+          531.9439697265625
+        ],
+        [
+          67.36318064576733,
+          531.9439697265625
+        ]
+      ]
+    },
+    {
+      "title": "Sauberkeit \u2013 Respekt vor dem \u00f6ffentlichen Raum",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.81653803481863,
+          492.8786827624109
+        ],
+        [
+          439.99707584717413,
+          492.8786827624109
+        ],
+        [
+          439.99707584717413,
+          514.5156555175781
+        ],
+        [
+          66.81653803481863,
+          514.5156555175781
+        ]
+      ]
+    },
+    {
+      "title": "Sicherheit hei\u00dft immer auch Stabilit\u00e4t der sozialen \nLebensverh\u00e4ltnisse. Gesundheit und Leben im Alter.",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          67.36831472862877,
+          652.5243819959442
+        ],
+        [
+          465.74462890625,
+          652.5243819959442
+        ],
+        [
+          465.74462890625,
+          698.5956573486328
+        ],
+        [
+          67.36831472862877,
+          698.5956573486328
+        ]
+      ]
+    },
+    {
+      "title": "Sport / Ehrenamt / Kultur",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          67.3167680793205,
+          101.34055437748705
+        ],
+        [
+          263.25827437624224,
+          101.34055437748705
+        ],
+        [
+          263.25827437624224,
+          121.875732421875
+        ],
+        [
+          67.3167680793205,
+          121.875732421875
+        ]
+      ]
+    },
+    {
+      "title": "Integration und Migration",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          67.23879062258627,
+          278.08386877234875
+        ],
+        [
+          265.7243493221869,
+          278.08386877234875
+        ],
+        [
+          265.7243493221869,
+          299.47564697265625
+        ],
+        [
+          67.23879062258627,
+          299.47564697265625
+        ]
+      ]
+    },
+    {
+      "title": "3. Sicherer Kurs f\u00fcr die n\u00e4chsten Generationen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          67.39441965328957,
+          607.7126444190714
+        ],
+        [
+          445.5272949372491,
+          607.7126444190714
+        ],
+        [
+          445.5272949372491,
+          629.4619598388672
+        ],
+        [
+          67.39441965328957,
+          629.4619598388672
+        ]
+      ]
+    },
+    {
+      "title": "Voraussetzung f\u00fcr unsere Zukunft.",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          67.30786633431461,
+          643.3378700806642
+        ],
+        [
+          252.23146057128906,
+          643.3378700806642
+        ],
+        [
+          252.23146057128906,
+          660.1039581298828
+        ],
+        [
+          67.30786633431461,
+          660.1039581298828
+        ]
+      ]
+    },
+    {
+      "title": "Denn: Bildung ist kein Sparfaktor.",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          67.29857581688715,
+          566.4296290192982
+        ],
+        [
+          326.4679133801977,
+          566.4296290192982
+        ],
+        [
+          326.4679133801977,
+          587.9556732177734
+        ],
+        [
+          67.29857581688715,
+          587.9556732177734
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          67.74170205334873,
+          582.2077201917992
+        ],
+        [
+          137.3063579914852,
+          582.2077201917992
+        ],
+        [
+          137.3063579914852,
+          596.942648801863
+        ],
+        [
+          67.74170205334873,
+          596.942648801863
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          133
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          145
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          165
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          157
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          141
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          151
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          147
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CDU"
+}

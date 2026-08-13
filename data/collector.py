@@ -32,9 +32,9 @@ def bewerte_partei(partei_pdf: Path) -> None:
         [
             "claude",
             "--model",
-            "opus",
+            "sonnet",
             "--effort",
-            "xhigh",
+            "medium",
             "--permission-mode",
             "auto",
             "-p",

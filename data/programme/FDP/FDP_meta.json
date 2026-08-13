@@ -1,0 +1,836 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Gemeinsam\nBraunschweig\naufbl\u00fchen \nlassen.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          41.89438396617207,
+          40.6146240234375
+        ],
+        [
+          557.2609252929688,
+          40.6146240234375
+        ],
+        [
+          557.2609252929688,
+          365.9862365722656
+        ],
+        [
+          41.89438396617207,
+          365.9862365722656
+        ]
+      ]
+    },
+    {
+      "title": "Gemeinsam Braunschweig aufbl\u00fchen lassen!",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.29784942934435,
+          63.4840087890625
+        ],
+        [
+          525.7492492060818,
+          63.4840087890625
+        ],
+        [
+          525.7492492060818,
+          93.5560302734375
+        ],
+        [
+          69.29784942934435,
+          93.5560302734375
+        ]
+      ]
+    },
+    {
+      "title": "Kommunalwahlprogramm der FDP Braunschweig zur Kommunalwahl 2026",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.92413622185926,
+          91.5875106906636
+        ],
+        [
+          462.6484664801687,
+          91.5875106906636
+        ],
+        [
+          462.6484664801687,
+          108.48602294921875
+        ],
+        [
+          68.92413622185926,
+          108.48602294921875
+        ]
+      ]
+    },
+    {
+      "title": "Wirtschaft und Standortattraktivit\u00e4t st\u00e4rken:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.76987361187298,
+          505.146906023034
+        ],
+        [
+          303.18701171875,
+          505.146906023034
+        ],
+        [
+          303.18701171875,
+          522.4859924316406
+        ],
+        [
+          68.76987361187298,
+          522.4859924316406
+        ]
+      ]
+    },
+    {
+      "title": "Innovation, Gr\u00fcnderkultur und lebenswerte Stadt vereinen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.32049271321718,
+          522.7957796281931
+        ],
+        [
+          377.31866005385854,
+          522.7957796281931
+        ],
+        [
+          377.31866005385854,
+          540.4859924316406
+        ],
+        [
+          68.32049271321718,
+          540.4859924316406
+        ]
+      ]
+    },
+    {
+      "title": "Technologie- und Innovationsstandort Braunschweig st\u00e4rken:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.78121661899672,
+          646.808290476472
+        ],
+        [
+          396.6886971038895,
+          646.808290476472
+        ],
+        [
+          396.6886971038895,
+          664.4859924316406
+        ],
+        [
+          68.78121661899672,
+          664.4859924316406
+        ]
+      ]
+    },
+    {
+      "title": "Finanzen \u2013 nachhaltig, transparent und b\u00fcrgerfreundlich",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.11612690846326,
+          126.3290227548628
+        ],
+        [
+          368.8347539253139,
+          126.3290227548628
+        ],
+        [
+          368.8347539253139,
+          142.80694580078125
+        ],
+        [
+          69.11612690846326,
+          142.80694580078125
+        ]
+      ]
+    },
+    {
+      "title": "A\nAbbau unn\u00f6tiger Belastungen:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          68.99009031973198,
+          230.24087331471225
+        ],
+        [
+          232.93395688611855,
+          230.24087331471225
+        ],
+        [
+          232.93395688611855,
+          246.80694580078125
+        ],
+        [
+          68.99009031973198,
+          246.80694580078125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          68.38140420409235,
+          401.55740848313667
+        ],
+        [
+          295.22332583026264,
+          401.55740848313667
+        ],
+        [
+          295.22332583026264,
+          416.57153581192955
+        ],
+        [
+          68.38140420409235,
+          416.57153581192955
+        ]
+      ]
+    },
+    {
+      "title": "Mobilit\u00e4t neu denken \u2013 pragmatisch, digital und fair",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.14019077791075,
+          541.4731259435176
+        ],
+        [
+          366.15844457515846,
+          541.4731259435176
+        ],
+        [
+          366.15844457515846,
+          559.1139831542969
+        ],
+        [
+          69.14019077791075,
+          559.1139831542969
+        ]
+      ]
+    },
+    {
+      "title": "B\u00fcrgerfreundliche Kommunikation:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          307.20060372532765,
+          230.77716732959288
+        ],
+        [
+          496.46631581957456,
+          230.77716732959288
+        ],
+        [
+          496.46631581957456,
+          246.80694580078125
+        ],
+        [
+          307.20060372532765,
+          246.80694580078125
+        ]
+      ]
+    },
+    {
+      "title": "Umwelt & Stadtklima \u2013 lebenswerte Stadt f\u00fcr alle",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          68.75554620468947,
+          365.701950277055
+        ],
+        [
+          327.02895772246933,
+          365.701950277055
+        ],
+        [
+          327.02895772246933,
+          382.9960021972656
+        ],
+        [
+          68.75554620468947,
+          382.9960021972656
+        ]
+      ]
+    },
+    {
+      "title": "Soziales \u2013 f\u00fcr ein freundliches und unterst\u00fctzendes Miteinander",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.13054007426918,
+          66.87402513594046
+        ],
+        [
+          406.49751677621225,
+          66.87402513594046
+        ],
+        [
+          406.49751677621225,
+          82.99591064453125
+        ],
+        [
+          69.13054007426918,
+          82.99591064453125
+        ]
+      ]
+    },
+    {
+      "title": "Verwaltung und Digitalisierung \u2013 b\u00fcrgernah, efkzient und serviceorientiert",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.35762318916225,
+          66.83319901613284
+        ],
+        [
+          461.5300825681134,
+          66.83319901613284
+        ],
+        [
+          461.5300825681134,
+          82.99591064453125
+        ],
+        [
+          69.35762318916225,
+          82.99591064453125
+        ]
+      ]
+    },
+    {
+      "title": "Bildung \u2013 individuell, praxisnah und chancengleich",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          68.95403167763045,
+          66.6477053091129
+        ],
+        [
+          340.8290294195603,
+          66.6477053091129
+        ],
+        [
+          340.8290294195603,
+          82.99591064453125
+        ],
+        [
+          68.95403167763045,
+          82.99591064453125
+        ]
+      ]
+    },
+    {
+      "title": "Kultur und Sport st\u00e4rken \u2013 Ehrenamt, Teilhabe und Vielfalt konsequent f\u00f6rdern",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          68.92227240113228,
+          66.80089049369016
+        ],
+        [
+          483.7860687793953,
+          66.80089049369016
+        ],
+        [
+          483.7860687793953,
+          82.9359130859375
+        ],
+        [
+          68.92227240113228,
+          82.9359130859375
+        ]
+      ]
+    },
+    {
+      "title": "Ehrenamt \u2013 die tragende S\u00e4ule unseres Zusammenhalts",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          68.83817177875817,
+          573.8428789853837
+        ],
+        [
+          366.00270691686677,
+          573.8428789853837
+        ],
+        [
+          366.00270691686677,
+          590.9359893798828
+        ],
+        [
+          68.83817177875817,
+          590.9359893798828
+        ]
+      ]
+    },
+    {
+      "title": "Stadtentwicklung \u2013 lebenswerte, otene und vernetzte Stadt",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          68.75594641159404,
+          338.3011198510894
+        ],
+        [
+          383.6271786629703,
+          338.3011198510894
+        ],
+        [
+          383.6271786629703,
+          354.9959411621094
+        ],
+        [
+          68.75594641159404,
+          354.9959411621094
+        ]
+      ]
+    },
+    {
+      "title": "Zukunft \nvon hier.",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          362.340333491789,
+          492.63055419921875
+        ],
+        [
+          546.767822265625,
+          492.63055419921875
+        ],
+        [
+          546.767822265625,
+          592.0040740966797
+        ],
+        [
+          362.340333491789,
+          592.0040740966797
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          55
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/FDP"
+}

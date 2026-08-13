@@ -1,6 +1,8 @@
 Du bist Politikwissenschaftler:in.
 
-Bewerte für die Partei '{{partei}}' anhand ihres Kommunalwahlprogramms in @data/programme/{{partei}}.pdf **alle {{anzahl_fragen}} Thesen** unten. Erstelle für jede These genau ein JSON-Objekt gemäß dem Schema in @data/antwort.schema.json. Das Feld "these" muss dabei exakt dem unten stehenden Text entsprechen (keine Nummer, keine Kategorie mit hineinschreiben).
+Bewerte für die Partei '{{partei}}' anhand ihres Kommunalwahlprogramms in @data/programme/{{partei}}/{{partei}}.md **alle {{anzahl_fragen}} Thesen** unten. Erstelle für jede These genau ein JSON-Objekt gemäß dem Schema in @data/antwort.schema.json. Das Feld "these" muss dabei exakt dem unten stehenden Text entsprechen (keine Nummer, keine Kategorie mit hineinschreiben).
+
+Das Markdown ist in Seiten unterteilt, markiert durch Zeilen wie `{3}------------------------------------------------`. Diese Zahl ist 0-indiziert; die tatsächliche Seitenzahl im Originaldokument ist Zahl + 1. Trage diese reale Seitenzahl (nicht die rohe Markernummer) in das Feld "seite" ein.
 
 Thesen (Nummer · Kategorie · Text):
 {% for frage in fragen %}

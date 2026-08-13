@@ -24,4 +24,4 @@ vite.config.ts.timestamp-*
 
 # Python
 .venv
-data/programme/
+data/programme/*.pdf
