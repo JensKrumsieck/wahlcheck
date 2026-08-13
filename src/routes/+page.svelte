@@ -29,8 +29,10 @@
     <a href="/check" class="mt-10 inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3.5 text-lg font-semibold text-accent-ink shadow-lg shadow-accent/20 transition hover:bg-accent-strong hover:shadow-xl hover:shadow-accent/30">
       Jetzt starten
     </a>
-    <div>
-      <a href="/answers" class="mt-10 inline-flex items-center gap-2 rounded-full px-8 py-3.5 text-ink underline transition hover:font-bold">Ich möchte nur die Antworten sehen </a>
+    <div class="mt-10 md:flex-row flex-col flex gap-2 justify-center">
+      <a href="/answers" class="text-ink underline transition hover:font-bold">Ich möchte nur die Antworten sehen</a>
+      <div class="md:flex hidden">|</div>
+      <a href="/list" class="text-ink underline transition hover:font-bold">Zu den Wahlprogrammen</a>
     </div>
   </div>
 </div>
