@@ -1,3 +1,2 @@
 jinja2
 marker-pdf
-anthropic

@@ -8,9 +8,6 @@ from pathlib import Path
 from threading import Lock
 from argparse import ArgumentParser
 from jinja2 import Environment, FileSystemLoader
-import anthropic
-
-client = anthropic.Anthropic()
 
 working_dir = Path(__file__).parent
 
