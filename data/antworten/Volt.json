@@ -5,34 +5,34 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Wir wollen den Straßenraum neu aufteilen: weniger Platz für Autos, mehr für Fußgänger*innen, Radfahrer und den ÖPNV.",
+    "zitat": "Wir wollen den Straßenraum neu aufteilen: weniger Platz für Autos, mehr für Fußgänger\\*innen, Radfahrer und den ÖPNV.",
     "seite": 11,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "In Braunschweig soll flächendeckend Tempo 30 gelten.",
+    "these": "Tempo 30 soll in Braunschweig der Standard sein, vor allem in der Innenstadt und in Wohngebieten.",
     "kategorie": "Verkehr & Mobilität",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "mittel",
-    "zitat": "\"Tempo 30\" ausweiten: ... Münster und andere Städte zeigen, dass auch hierzulande \"Tempo 30\" zum Standard in Innenstädten und Wohngebieten werden kann.",
+    "sicherheit": "hoch",
+    "zitat": "Münster und andere Städte zeigen, dass auch hierzulande \"Tempo 30\" zum Standard in Innenstädten und Wohngebieten werden kann.",
     "seite": 14,
-    "kommentar": "Programm fordert Tempo 30 als Standard in Innenstädten und Wohngebieten, nicht explizit flächendeckend im gesamten Stadtgebiet.",
-    "modell": "claude-sonnet-5",
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
     "these": "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
     "kategorie": "Verkehr & Mobilität",
     "partei": "Volt",
-    "wertung": 1,
+    "wertung": 0,
     "sicherheit": "niedrig",
-    "zitat": "Wir sanieren die bestehenden maroden Radwege und weisen zusätzliche Fahrradstraßen aus – natürlich frei von Durchgangsverkehr.",
-    "seite": 13,
-    "kommentar": "Kein direkter Vergleich zwischen Radwegen und Parkplätzen; Programm sieht aber Reduktion von Parkraum zugunsten von Quartiersgaragen und mehr Platz für Rad/Fuß vor, daher nur indirekt ableitbar.",
-    "modell": "claude-sonnet-5",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Programm fördert Radverkehr stark, äußert sich aber nicht explizit zu einem Vorrang gegenüber Parkplätzen.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -43,32 +43,20 @@
     "sicherheit": "mittel",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage zu einem generell kostenlosen ÖPNV; das Programm nennt nur ermäßigte Tickets für Schüler*innen, Azubis und Senior*innen sowie drei Monate kostenlosen ÖPNV für Senior*innen bei Rückgabe der Fahrerlaubnis.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Programm fordert 'bezahlbare' öffentliche Verkehrsmittel und punktuelle Vergünstigungen, aber keine generelle Kostenfreiheit für alle.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Wer ohne Fahrschein erwischt wird, soll nicht mehr angezeigt werden.",
-    "kategorie": "Verkehr & Mobilität",
-    "partei": "Volt",
-    "wertung": 1,
-    "sicherheit": "hoch",
-    "zitat": "Schwarzfahren entkriminalisieren: ... Wir weisen die BSVG dazu an, keine Strafanträge zu stellen.",
-    "seite": 23,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
-  },
-  {
-    "these": "Braunschweig soll spätestens 2030 klimaneutral sein.",
+    "these": "Braunschweig soll die Klimaneutralität mit höchster Priorität so schnell wie möglich erreichen.",
     "kategorie": "Klima & Umwelt",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Wir unterstützen entschlossen die Verkehrswende, denn ohne sie droht Braunschweig sein erklärtes Ziel, bis 2030 klimaneutral zu werden, zu verfehlen.",
+    "zitat": "ohne sie droht Braunschweig sein erklärtes Ziel, bis 2030 klimaneutral zu werden, zu verfehlen",
     "seite": 11,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -77,10 +65,10 @@
     "partei": "Volt",
     "wertung": -1,
     "sicherheit": "mittel",
-    "zitat": "Bei öffentlichen Veranstaltungen sollen Mehrweg- statt Einwegverpackungen verpflichtend genutzt werden.",
-    "seite": 20,
-    "kommentar": "Das Programm enthält mehrere verpflichtende Maßnahmen (z.B. Mehrwegpflicht, Sozialwohnungsquote, Nachtfahrverbot für Mähroboter), die dieser These widersprechen.",
-    "modell": "claude-sonnet-5",
+    "zitat": "Projekte, die das 1,5-Grad-Ziel gefährden, müssen automatisch ein fachliches Vetoverfahren durchlaufen.",
+    "seite": 19,
+    "kommentar": "Programm sieht verbindliche Klimaauflagen (Klima-Veto, Gebührenanpassungen) statt eines Verzichts auf Kosten/Verbote vor.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -89,10 +77,10 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Solar-Kraftwerk Braunschweig: Schnellstmögliche Belegung aller geeigneten städtischen Dächer (Schulen, Kitas, Verwaltung) und Parkplätze mit Photovoltaik.",
+    "zitat": "Schnellstmögliche Belegung aller geeigneten städtischen Dächer (Schulen, Kitas, Verwaltung) und Parkplätze mit Photovoltaik.",
     "seite": 19,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -101,22 +89,22 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "mittel",
-    "zitat": "Wind- und Solarflächen ausweisen: Dies ermöglicht den Ausbau weiterer erneuerbarer Energien. Hiervon profitiert die Allgemeinheit in erheblichem Maße.",
+    "zitat": "Wind- und Solarflächen ausweisen: Dies ermöglicht den Ausbau weiterer erneuerbarer Energien.",
     "seite": 18,
-    "kommentar": "Explizite Erwähnung von Windkraft-Ausbau, aber ohne das Wort 'beschleunigen'.",
-    "modell": "claude-sonnet-5",
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Bei Neubauprojekten soll ein Sozialwohnungsanteil von mindestens 50 % vorgeschrieben werden.",
+    "these": "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden. ",
     "kategorie": "Wohnen & Bauen",
     "partei": "Volt",
-    "wertung": -1,
+    "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Sozial gerechtes Bauen vorantreiben: Bei jedem Wohnbauprojekt sollen mindestens 40 % der Wohnungen als Sozialwohnungen oder preisgedämpfter Wohnraum entstehen.",
+    "zitat": "Bei jedem Wohnbauprojekt sollen mindestens 40 % der Wohnungen als Sozialwohnungen oder preisgedämpfter Wohnraum entstehen.",
     "seite": 25,
-    "kommentar": "Volt fordert eine Quote von mindestens 40 %, nicht 50 % wie in der These.",
-    "modell": "claude-sonnet-5",
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -127,8 +115,8 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu Vergesellschaftung von Wohnungskonzernen.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu Vergesellschaftung von Wohnungskonzernen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -137,10 +125,10 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Gute Konzepte statt großes Geld: Städtische Grundstücke sollen nicht mehr an die Meistbietenden gehen, sondern an die Projekte mit den besten sozialen und ökologischen Konzepten.",
+    "zitat": "Städtische Grundstücke sollen nicht mehr an die Meistbietenden gehen, sondern an die Projekte mit den besten sozialen und ökologischen Konzepten.",
     "seite": 26,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -152,7 +140,7 @@
     "zitat": "Nachverdichtung bevorzugen: Vor allem soll diese Vorrang vor Neubauten haben, da dadurch keine neuen, unbebauten Flächen versiegelt werden.",
     "seite": 17,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -163,20 +151,20 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu Videoüberwachung.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu Videoüberwachung im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Der Zentrale Ordnungsdienst soll mehr Personal und mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+    "these": "Der Zentrale Ordnungsdienst mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
     "kategorie": "Sicherheit & Ordnung",
     "partei": "Volt",
     "wertung": -1,
     "sicherheit": "mittel",
-    "zitat": "Kommunale Ordnungsdienste stärken: Mehr Personal, digitale Ausstattung und mobile Einsatzteams sorgen ... für mehr Sicherheit. Dabei setzen wir auf Bürgernähe und Prävention statt auf reine Kontrolle.",
+    "zitat": "Dabei setzen wir auf Bürgernähe und Prävention statt auf reine Kontrolle.",
     "seite": 35,
-    "kommentar": "Mehr Personal wird befürwortet, aber das Programm betont ausdrücklich Prävention statt zusätzlicher Kontroll-/Zwangsbefugnisse; 'unmittelbarer Zwang' wird nicht erwähnt.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Programm setzt bei Ordnungsdiensten auf mehr Personal und Prävention statt auf erweiterte Zwangsbefugnisse.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -185,10 +173,10 @@
     "partei": "Volt",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Sicherheit gelingt durch ein Zusammenspiel von Prävention, Teilhabe und städtischer Gestaltung, nicht durch reine Kontrolle.",
-    "seite": 34,
+    "zitat": "Kriminalität präventiv verringern: ... So verhindern wir Kriminalität, bevor sie entsteht.",
+    "seite": 35,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -199,8 +187,8 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu Waffenverbotszonen.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu Waffenverbotszonen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -209,10 +197,10 @@
     "partei": "Volt",
     "wertung": 0,
     "sicherheit": "niedrig",
-    "zitat": "Braunschweigs Klinikum zukunftsfähig aufstellen: ... unterstützen wir den Um- und Ausbau des Braunschweiger Klinikums zu einem Zentralklinikum, das allen Bürger*innen medizinische Leistungen auf höchstem Niveau anbieten kann.",
-    "seite": 27,
-    "kommentar": "Keine explizite Aussage zu Privatisierung; das Programm befürwortet den Ausbau des kommunalen Klinikums zum Zentralklinikum.",
-    "modell": "claude-sonnet-5",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Programm unterstützt Um- und Ausbau des Klinikums, äußert sich aber nicht explizit gegen eine Privatisierung.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -220,11 +208,11 @@
     "kategorie": "Gesundheit & Soziales",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "niedrig",
-    "zitat": "Gesundheitspersonal stärken: ... höhere Personalschlüssel, tarifliche Zusatzleistungen und Anreize wie Dienstwohnungen und Kita-Plätze für medizinisches Personal erhöhen die Verfügbarkeit von Fachkräften und die Qualität der Versorgung.",
+    "sicherheit": "mittel",
+    "zitat": "Regionale Ausbildungsinitiativen, höhere Personalschlüssel, tarifliche Zusatzleistungen und Anreize wie Dienstwohnungen und Kita-Plätze für medizinisches Personal erhöhen die Verfügbarkeit von Fachkräften und die Qualität der Versorgung.",
     "seite": 27,
-    "kommentar": "Keine explizite Erwähnung roter Zahlen; Programm fordert aber höhere statt geringerer Personalschlüssel im Klinikum.",
-    "modell": "claude-sonnet-5",
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -233,10 +221,10 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Schutzräume schaffen, Sicherheit schenken: Schutzwohnungen und Notunterkünfte für Opfer von Gewalt werden ausgebaut.",
+    "zitat": "Schutzwohnungen und Notunterkünfte für Opfer von Gewalt werden ausgebaut.",
     "seite": 34,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -248,7 +236,7 @@
     "zitat": "Förderstruktur stärken: Mit einem jährlichen \"Fonds für Vielfalt und queere Projekte\" (5.000–15.000 €) sollen Initiativen, Vereine und Projekte direkte Unterstützung erhalten, um Angebote für queere Menschen kontinuierlich auszubauen.",
     "seite": 28,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -256,11 +244,11 @@
     "kategorie": "Migration & Integration",
     "partei": "Volt",
     "wertung": -1,
-    "sicherheit": "niedrig",
+    "sicherheit": "mittel",
     "zitat": "Integration vor Ort stärken: Kommunale Integrationsbeauftragte, interkulturelle Begegnungsstätten und Beratungsstellen sorgen für schnelle Unterstützung und echten Austausch. Darüber hinaus werden Sprach- und Bildungsangebote ausgebaut.",
     "seite": 23,
-    "kommentar": "Keine direkte Aussage zur Begrenzung des Zuzugs; das Programm setzt durchgehend auf Ausbau statt Begrenzung von Integrationsangeboten, daher nur indirekt ableitbar.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Programm setzt auf Ausbau der Integrationskapazitäten statt auf Zuzugsbegrenzung.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -271,8 +259,8 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zum Bündnis 'Sicherer Hafen'.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zum Bündnis 'Sicherer Hafen' im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -283,8 +271,8 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu einer Arbeitspflicht für Asylbewerber*innen.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu einer Arbeitspflicht für Asylbewerber:innen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -295,8 +283,8 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu Steuererhöhungen zur Haushaltssanierung.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu Grundsteuer- oder Gewerbesteuererhöhungen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -304,47 +292,47 @@
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "niedrig",
-    "zitat": "Kommunalen Wohnungsbau stärken: Wir schaffen Wohnungen, die dauerhaft günstig bleiben und dem Gemeinwohl dienen. Dazu stärken wir personell und finanziell unsere kommunale Wohnungsbaugesellschaft, die Nibelungen-Wohnbau-GmbH Braunschweig.",
+    "sicherheit": "mittel",
+    "zitat": "Dazu stärken wir personell und finanziell unsere kommunale Wohnungsbaugesellschaft, die Nibelungen-Wohnbau-GmbH Braunschweig, sowie Genossenschaften und Bürger\\*innenprojekte.",
     "seite": 25,
-    "kommentar": "Programm fordert die Stärkung bereits bestehender kommunaler Unternehmen (Wohnungsbau, Wasserversorgung als öffentliches Gut), aber keine explizite 'Rekommunalisierung' privater/privatisierter Betriebe.",
-    "modell": "claude-sonnet-5",
+    "kommentar": null,
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Die Stadt soll aktiv im Ausland um Fachkräfte werben.",
+    "these": "Die Stadt Braunschweig soll gezielt im Ausland um Fachkräfte werben.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "Volt",
     "wertung": 0,
     "sicherheit": "mittel",
-    "zitat": "Fachkräfte gewinnen und halten: Wir unterstützen Maßnahmen, die Braunschweig als attraktiven Arbeits- und Lebensort stärken.",
-    "seite": 30,
-    "kommentar": "Programm thematisiert Fachkräftegewinnung allgemein, aber keine explizite Aussage zu aktiver Anwerbung im Ausland.",
-    "modell": "claude-sonnet-5",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Programm fordert Fachkräftesicherung und -gewinnung, aber keine explizit gezielte Anwerbung im Ausland.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
     "these": "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "Volt",
-    "wertung": 0,
-    "sicherheit": "hoch",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Keine Aussage im Programm zu dieser Priorisierung von Kürzungen versus Schulden; das Programm fordert im Gegenteil an vielen Stellen den Ausbau von Kultur-, Sport- und Jugendangeboten.",
-    "modell": "claude-sonnet-5",
+    "wertung": -1,
+    "sicherheit": "niedrig",
+    "zitat": "Deshalb investieren wir lieber in transparente, faire und dauerhaft gesicherte Förderprogramme für Theater, Musikschulen, Stadtbibliotheken und Festivals, statt in zusätzliche Konzertsäle für exklusive Inszenierungen.",
+    "seite": 27,
+    "kommentar": "Programm fordert durchgängigen Ausbau kultureller/sozialer Angebote statt Kürzungen im Zweifelsfall.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Braunschweig soll langfristig zur Gemeinschaftsschule mit neun gemeinsamen Lernjahren übergehen.",
+    "these": "Braunschweig soll primär auf den Ausbau Integrierter Gesamtschulen (IGS) setzen.",
     "kategorie": "Bildung & Kinder",
     "partei": "Volt",
     "wertung": 0,
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu einem Übergang zur Gemeinschaftsschule mit neun gemeinsamen Lernjahren.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu Integrierten Gesamtschulen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -353,10 +341,10 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Frühkindliche Bildung, digitale Ausstattung und kostenfreie, gesunde Mahlzeiten in Kitas und Schulen verbessern die Perspektiven für alle.",
+    "zitat": "kostenfreie, gesunde Mahlzeiten in Kitas und Schulen verbessern die Perspektiven für alle",
     "seite": 24,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -364,11 +352,11 @@
     "kategorie": "Bildung & Kinder",
     "partei": "Volt",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "Frühkindliche Bildung, digitale Ausstattung und kostenfreie, gesunde Mahlzeiten in Kitas und Schulen verbessern die Perspektiven für alle.",
-    "seite": 24,
-    "kommentar": "Programm spricht nur allgemein von 'gesunden Mahlzeiten', ohne explizite Bezugnahme auf DGE-Standards.",
-    "modell": "claude-sonnet-5",
+    "sicherheit": "hoch",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage zu DGE-Vorgaben beim Mittagessen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -377,14 +365,14 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Sozialpädagogische Betreuung gewährleisten: Jede Schule muss unabhängig von Schulart oder Größe mindestens eine*n Schulsozialarbeiter*in haben.",
+    "zitat": "Jede Schule muss unabhängig von Schulart oder Größe mindestens eine\\*n Schulsozialarbeiter\\*in haben.",
     "seite": 8,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Das 'Haus der Musik' soll wie geplant im leer stehenden Karstadtgebäude in der Poststraße realisiert werden.",
+    "these": "Das geplante 'Haus der Musik' soll wie beschlosen umgesetzt werden.",
     "kategorie": "Kultur & Gesellschaft",
     "partei": "Volt",
     "wertung": -1,
@@ -392,7 +380,7 @@
     "zitat": "Gleichzeitig sprechen wir uns gegen die Pläne für das Haus der Musik aus.",
     "seite": 28,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -404,7 +392,7 @@
     "zitat": "Mit dem Programm \"Queerfreundliche Schule Braunschweig\" sollen Fortbildungen für Lehrkräfte, Anti-Mobbing-Maßnahmen und Kooperationen zwischen Schulen, Vereinen und Beratungsstellen umgesetzt werden.",
     "seite": 8,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -412,11 +400,11 @@
     "kategorie": "Kultur & Gesellschaft",
     "partei": "Volt",
     "wertung": -1,
-    "sicherheit": "niedrig",
-    "zitat": "5. Wohnen, Soziales & Kultur – vielfältig & gerecht",
-    "seite": 22,
-    "kommentar": "Keine explizite Aussage zu einem Leitbild; das Programm betont durchgehend Vielfalt (u.a. Mehrgenerationenhäuser, queerfreundliche Angebote) statt eines traditionellen Familienbilds als Leitbild.",
-    "modell": "claude-sonnet-5",
+    "sicherheit": "mittel",
+    "zitat": "Vielfalt in der Verwaltung fördern: Diversitätsstrategien erhöhen den Anteil von Menschen mit Migrations- und Behinderungserfahrung in Verwaltungen und kommunalen Gremien deutlich.",
+    "seite": 23,
+    "kommentar": "Programm ist durchgängig auf Vielfalt und Diversität statt auf ein einheitliches traditionelles Familienbild ausgerichtet.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -427,8 +415,8 @@
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage im Programm zu KI-gestützter Vorprüfung von Verwaltungsanträgen.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Keine Aussage zu KI-gestützter Vorprüfung von Verwaltungsanträgen im Programm.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -436,11 +424,11 @@
     "kategorie": "Digitalisierung & Verwaltung",
     "partei": "Volt",
     "wertung": 0,
-    "sicherheit": "mittel",
+    "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine explizite Aussage zum Erhalt analoger Verwaltungsleistungen; das Programm setzt stark auf 'Digital First' nach dänischem Vorbild.",
-    "modell": "claude-sonnet-5",
+    "kommentar": "Programm betont digitale Barrierefreiheit, äußert sich aber nicht explizit zu einer verpflichtenden analogen Nutzbarkeit.",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
   {
@@ -449,10 +437,10 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Bürger*innen über Projekte mitentscheiden lassen: Wir ermöglichen Bürger*innenhaushalte und Bürger*innenentscheide zu wichtigen Themen. Mit einem kommunalen Beteiligungsbudget und Online-Abstimmungen schaffen wir neue Wege, wie Einwohner*innen Projekte für ihre Stadt oder ihr Viertel mitgestalten können.",
+    "zitat": "Wir ermöglichen Bürger\\*innenhaushalte und Bürger\\*innenentscheide zu wichtigen Themen. Mit einem kommunalen Beteiligungsbudget und Online-Abstimmungen schaffen wir neue Wege, wie Einwohner\\*innen Projekte für ihre Stadt oder ihr Viertel mitgestalten können.",
     "seite": 6,
     "kommentar": null,
-    "modell": "claude-sonnet-5",
+    "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   }
 ]

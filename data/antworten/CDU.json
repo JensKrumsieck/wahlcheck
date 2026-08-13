@@ -12,14 +12,14 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "In Braunschweig soll flächendeckend Tempo 30 gelten.",
+    "these": "Tempo 30 soll in Braunschweig der Standard sein, vor allem in der Innenstadt und in Wohngebieten.",
     "kategorie": "Verkehr & Mobilität",
     "partei": "CDU",
     "wertung": -1,
     "sicherheit": "mittel",
     "zitat": "Tempo 30 vor Einrichtungen mit besonderen Sorgfaltspflichten wie Schulen, Kitas oder Seniorenheimen.",
     "seite": 8,
-    "kommentar": "CDU befürwortet Tempo 30 nur punktuell vor sensiblen Einrichtungen, nicht flächendeckend.",
+    "kommentar": "CDU befürwortet Tempo 30 nur punktuell vor sensiblen Einrichtungen, nicht flächendeckend als Standard.",
     "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
@@ -48,19 +48,7 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Wer ohne Fahrschein erwischt wird, soll nicht mehr angezeigt werden.",
-    "kategorie": "Verkehr & Mobilität",
-    "partei": "CDU",
-    "wertung": 0,
-    "sicherheit": "hoch",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Keine Aussage im Programm.",
-    "modell": "Claude Sonnet 5",
-    "eingelesen": "2026-08-13"
-  },
-  {
-    "these": "Braunschweig soll spätestens 2030 klimaneutral sein.",
+    "these": "Braunschweig soll die Klimaneutralität mit höchster Priorität so schnell wie möglich erreichen.",
     "kategorie": "Klima & Umwelt",
     "partei": "CDU",
     "wertung": -1,
@@ -91,7 +79,7 @@
     "sicherheit": "mittel",
     "zitat": "Als Stadt haben wir unzählige ungenutzte Dachflächen, die wir für Sonnenstrom erschließen müssen.",
     "seite": 9,
-    "kommentar": "Programm nennt nur Dachflächen explizit, Solaranlagen auf Parkplätzen werden nicht erwähnt.",
+    "kommentar": "Programm nennt nur Dachflächen explizit; Solaranlagen auf Parkplätzen werden nicht erwähnt, Pocket Parks auf Parkplätzen werden sogar abgelehnt.",
     "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
@@ -108,14 +96,14 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Bei Neubauprojekten soll ein Sozialwohnungsanteil von mindestens 50 % vorgeschrieben werden.",
+    "these": "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden. ",
     "kategorie": "Wohnen & Bauen",
     "partei": "CDU",
     "wertung": 0,
     "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": "Keine Aussage zu einer verpflichtenden Sozialwohnungsquote.",
+    "kommentar": "Keine Aussage im Programm zu einer verpflichtenden Sozialwohnungsquote.",
     "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
@@ -151,7 +139,7 @@
     "sicherheit": "niedrig",
     "zitat": "Nachverdichtung erleichtern: Aufstockung, Hinterlandbebauung und Umnutzung, wo es passt... Wir prüfen die Ausweisung von interkommunalen Wohngebieten mit Ein- und Mehrfamilienhäusern.",
     "seite": 5,
-    "kommentar": "Programm nennt sowohl Nachverdichtung auf bestehenden Flächen als auch neue Wohngebiete (z.B. Mittellandkanal, interkommunale Wohngebiete) - keine eindeutige Priorisierung.",
+    "kommentar": "Programm nennt sowohl Nachverdichtung auf bestehenden Flächen als auch neue Wohngebiete (z.B. Mittellandkanal, interkommunale Wohngebiete) - keine eindeutige Priorisierung versiegelter Flächen.",
     "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
@@ -168,7 +156,7 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Der Zentrale Ordnungsdienst soll mehr Personal und mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+    "these": "Der Zentrale Ordnungsdienst mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
     "kategorie": "Sicherheit & Ordnung",
     "partei": "CDU",
     "wertung": 1,
@@ -312,7 +300,7 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Die Stadt soll aktiv im Ausland um Fachkräfte werben.",
+    "these": "Die Stadt Braunschweig soll gezielt im Ausland um Fachkräfte werben.",
     "kategorie": "Finanzen & Wirtschaft",
     "partei": "CDU",
     "wertung": 1,
@@ -336,14 +324,14 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Braunschweig soll langfristig zur Gemeinschaftsschule mit neun gemeinsamen Lernjahren übergehen.",
+    "these": "Braunschweig soll primär auf den Ausbau Integrierter Gesamtschulen (IGS) setzen.",
     "kategorie": "Bildung & Kinder",
     "partei": "CDU",
     "wertung": -1,
     "sicherheit": "mittel",
     "zitat": "Wir freuen uns in Braunschweig über jede Schulform, die unseren Jüngsten die beste Bildung verschafft, seien es Gymnasien, Integrierte Gesamtschulen oder Haupt-, Real-, Grund-, Förder- oder Berufsschulen.",
     "seite": 13,
-    "kommentar": "CDU befürwortet den Erhalt des gegliederten Schulsystems, keine explizite Aussage zu einer einheitlichen Gemeinschaftsschule.",
+    "kommentar": "CDU befürwortet den Erhalt des gegliederten Schulsystems mit gleichrangiger Förderung aller Schulformen, keine Priorisierung von IGS.",
     "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
@@ -384,14 +372,14 @@
     "eingelesen": "2026-08-13"
   },
   {
-    "these": "Das 'Haus der Musik' soll wie geplant im leer stehenden Karstadtgebäude in der Poststraße realisiert werden.",
+    "these": "Das geplante 'Haus der Musik' soll wie beschlosen umgesetzt werden.",
     "kategorie": "Kultur & Gesellschaft",
     "partei": "CDU",
     "wertung": 1,
-    "sicherheit": "mittel",
+    "sicherheit": "hoch",
     "zitat": "Umsetzung des beschlossenen Hauses der Musik als neue Heimat für die Musikschule unter steter Kontrolle des Zeit- und Kostenrahmens.",
     "seite": 7,
-    "kommentar": "Der konkrete Standort Karstadtgebäude/Poststraße wird im Programm nicht namentlich genannt, die Umsetzung des beschlossenen Projekts wird jedoch befürwortet.",
+    "kommentar": null,
     "modell": "Claude Sonnet 5",
     "eingelesen": "2026-08-13"
   },
