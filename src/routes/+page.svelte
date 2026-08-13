@@ -1,4 +1,5 @@
 <script lang="ts">
+  import PartyChip from "$lib/components/PartyChip.svelte";
   import { questions, parties, colorFor } from "$lib/types";
 
   const total = questions.length;
@@ -21,10 +22,7 @@
 
     <div class="mt-8 flex flex-wrap justify-center gap-2">
       {#each parties as party}
-        <span class="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1.5 text-sm font-medium text-ink">
-          <span class="h-2.5 w-2.5 rounded-full" style="background-color: {colorFor(party.name)}"></span>
-          {party.name}
-        </span>
+        <PartyChip party={party.name} />
       {/each}
     </div>
 
