@@ -50,7 +50,7 @@
       <small>{question.id}</small>
       <h3>{question.these}</h3>
       <ul>
-      <li>Deine Antwort: {score[question.id] === 1 ? "👍 Zustimmung" : score[question.id] === -1 ? "👎 Ablehnung" : "⭕ Neutral"}</li>
+        <li>Deine Antwort: {score[question.id] === 1 ? "👍 Zustimmung" : score[question.id] === -1 ? "👎 Ablehnung" : "⭕ Neutral"}</li>
         {#each sortedParties as party}
           {@const answer = answerFor(party, question)}
           <li>
@@ -64,6 +64,7 @@
                 </blockquote>
               {/if}
               {#if answer.kommentar}
+                <p>Kommentar:</p>
                 <small>{answer.kommentar}</small>
               {/if}
             {:else}
