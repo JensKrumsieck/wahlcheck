@@ -17,22 +17,25 @@
   );
 
   const scheme = {
-    CDU: "#55598e",
-    SPD: "#d23a33",
-    GRÜNE: "#3ca951",
+    AfD: "#009ee0",
+    BSW: "#7a4171",
+    CDU: "#000000",
+    "Die Linke": "#bf1d97",
     FDP: "#efb118",
-    Linke: "#bf1d97",
+    GRÜNE: "#3ca951",
+    SPD: "#d23a33",
+    Volt: "#582c83",
   };
 </script>
 
-<Plot x={{ type: "band" }} y={{ percent: true }} color={{ scheme }}>
+<Plot y={{ type: "band" }} x={{ percent: true }} color={{ scheme }}>
   <AxisX title="" />
   <AxisY title="" />
   <BarX
     data={values}
     y="name"
     x="value"
-    fill="party"
+    fill="name"
     sort={{ channel: "value", order: "descending" }}
   />
 </Plot>
