@@ -19,4 +19,11 @@
 <main>
   {@render children()}
 </main>
-<footer></footer>
+<footer class="text-center py-2 container container-md mx-auto">
+  <div class="mt-5 text-green-200 text-sm">
+    Ein Projekt von <a class="underline font-medium" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
+  </div>
+  <div>    
+    <small class="text-ink-muted">Der Ersteller dieser Seite steht selbst als Kandidat auf Listen bei der Kommunalwahl. Dies hat ausdrücklich keinen Einfluss auf die Neutraltität dieser Seite.</small>
+  </div>
+</footer>

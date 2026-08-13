@@ -1,8 +1,8 @@
 {
     "Verkehr & Mobilität": [
         "Der Autoverkehr in der Innenstadt soll zugunsten von Rad- und Busverkehr eingeschränkt werden.",
-        "Die Innenstadt soll innerhalb des Wilhelminischen Rings weitgehend autofrei werden.",
-        "Neue Radschnellwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
+        "In Braunschweig soll flächendeckend Tempo 30 gelten.",
+        "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
         "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
         "Wer ohne Fahrschein erwischt wird, soll nicht mehr angezeigt werden."
     ],
@@ -13,20 +13,25 @@
         "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden."
     ],
     "Wohnen & Bauen": [
-        "Bei Neubauprojekten soll weiterhin ein Sozialwohnungsanteil von mindestens 30 % vorgeschrieben werden.",
+        "Bei Neubauprojekten soll ein Sozialwohnungsanteil von mindestens 50 % vorgeschrieben werden.",
         "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
         "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen.",
-        "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden statt auf der grünen Wiese."
+        "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden."
     ],
     "Sicherheit & Ordnung": [
         "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
+        "Der Zentrale Ordnungsdienst soll mehr Personal und mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+        "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben.",
         "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden."
     ],
     "Gesundheit & Soziales": [
         "Das Städtische Klinikum darf nicht privatisiert werden.",
-        "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden."
+        "Das Städtische Klinikum soll trotz roter Zahlen nicht durch Sparmaßnahmen bei Personal oder Leistungen saniert werden.",
+        "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden.",
+        "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden."
     ],
     "Migration & Integration": [
+        "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind.",
         "Braunschweig soll Mitglied im Bündnis 'Sicherer Hafen' bleiben.",
         "Für Asylbewerber:innen soll eine kommunale Arbeitspflicht eingeführt werden."
     ],
@@ -44,14 +49,12 @@
     ],
     "Kultur & Gesellschaft": [
         "Das 'Haus der Musik' soll wie geplant im leer stehenden Karstadtgebäude in der Poststraße realisiert werden.",
-        "Statt dem 'Haus der Musik', soll nur die städtische Musikschule in ein geeignetes Gebäude",
         "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen.",
-        "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
-        "Straßennamen und Denkmäler mit kolonialem Bezug sollen umbenannt bzw. neu eingeordnet werden.",
-        "Die Hundesteuer soll bei Tierheim-Adoptionen abgeschafft werden."
+        "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein."
     ],
-    "Digitalisierung & Verwaltung": [
+    "Digitalisierung & Verwaltung / Beteiligung": [
         "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
-        "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben."
+        "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben.",
+        "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird."
     ]
 }
