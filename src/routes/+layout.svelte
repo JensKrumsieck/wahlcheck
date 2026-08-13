@@ -48,16 +48,17 @@
       Kommunalwahlprogramme. Fehler gefunden? <a class="underline hover:text-ink-faint" target="_blank" href="https://github.com/JensKrumsieck/wahlcheck">Kannst du gerne bei GitHub melden!</a></small
     >
   </div>
-  <div class="my-1">
-    <small class="text-ink-muted">Lust auf <a class="underline hover:text-ink-faint" target="_blank" href="https://wahl.jenskrumsieck.de">Wahlvorhersagen für die Stadt Braunschweig</a>?</small>
+
+  <div class="mt-5 text-ink-faint text-xs">
+    Ein Projekt von <a class="underline font-medium hover:text-ink-muted" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
   </div>
-  <div class="my-5 text-ink-faint text-xs">
-    Ein Projekt von <a class="underline font-medium" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
-  </div>
-  <div class="my-1">
-    <small class="text-ink-muted">
-      <a class="underline hover:text-ink-faint" target="_blank" href="https://jenskrumsieck.de/impressum">Impressum</a> |
-      <a class="underline hover:text-ink-faint" target="_blank" href="https://jenskrumsieck.de/privacy">Datenschutzerklärung</a>
-    </small>
+  <p class="mt-2 mb-5 text-ink-faint text-xs">
+    Lust auf <a class="underline hover:text-ink-muted" target="_blank" href="https://wahl.jenskrumsieck.de">Wahlvorhersagen für die Stadt Braunschweig</a>?
+  </p>
+  <div class="my-3">
+    <div class="text-ink-faint text-xs">
+      <a class="underline hover:text-ink-muted" target="_blank" href="https://jenskrumsieck.de/impressum">Impressum</a> |
+      <a class="underline hover:text-ink-muted" target="_blank" href="https://jenskrumsieck.de/privacy">Datenschutzerklärung</a>
+    </div>
   </div>
 </footer>
