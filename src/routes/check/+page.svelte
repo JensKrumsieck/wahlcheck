@@ -26,6 +26,6 @@
       {onback}
     ></QuestionCard>
   {:else}
-    <Result {score} />
+    <Result {score} {questions} />
   {/if}
 </div>

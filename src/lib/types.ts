@@ -18,7 +18,8 @@ export interface PartyAnswer {
 
 export interface Party {
     name: string;
-    answers: PartyAnswer[]
+    answers: PartyAnswer[];
+    answerByThese: Map<string, PartyAnswer>;
 }
 
 export interface UserAnswers {
@@ -50,15 +51,25 @@ const antwortModules = import.meta.glob<PartyAnswer[]>('../../data/antworten/*.j
     import: 'default'
 });
 
-const parties: Party[] = Object.entries(antwortModules)
+export const parties: Party[] = Object.entries(antwortModules)
     .map(([path, answers]) => {
         const stamm = path.match(/([^/]+)\.json$/)?.[1] ?? path;
-        return { name: DISPLAY_NAMES[stamm] ?? stamm, answers };
+        return {
+            name: DISPLAY_NAMES[stamm] ?? stamm,
+            answers,
+            answerByThese: new Map(answers.map(answer => [answer.these, answer]))
+        };
     })
     .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 
+// Antwort einer Partei zu einer bestimmten Frage, gematcht über den
+// Thesentext (nicht über den Array-Index, siehe computeScore weiter unten).
+export function answerFor(party: Party, question: Question): PartyAnswer | undefined {
+    return party.answerByThese.get(question.these);
+}
+
 /// 2 wenn beide gleich, 1 wenn partei oder user neutral, 0 wenn entgegengesetzt
-function scoreMatch(a: Wertung, b: Wertung) {
+export function scoreMatch(a: Wertung, b: Wertung) {
     if (a == b) return 2;
     if (a == 0 || b == 0) return 1;
     return 0;
@@ -66,13 +77,11 @@ function scoreMatch(a: Wertung, b: Wertung) {
 
 export function computeScore(userAnswers: UserAnswers) {
     return parties.map(party => {
-        const answerByThese = new Map(party.answers.map(answer => [answer.these, answer]));
-
         const totalScore = questions.reduce((sum, question) => {
             const userAnswer = userAnswers[question.id];
             if (userAnswer === undefined) return sum;
 
-            const partyAnswer = answerByThese.get(question.these);
+            const partyAnswer = answerFor(party, question);
             if (!partyAnswer) return sum; // Partei hat (noch) keine Antwort zu dieser These
 
             return sum + scoreMatch(userAnswer, partyAnswer.wertung);
