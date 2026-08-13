@@ -8,7 +8,7 @@
 <div class="container container-md mx-auto px-4 py-16 sm:py-24">
   <div class="mx-auto max-w-2xl text-center">
     <span class="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-sm font-medium text-ink-muted">
-      {total} Thesen · {parties.length} Parteien · Kommunalwahl 13.09.2026
+      {total} Thesen · {parties.length} Parteien · Kommunalwahl am 13.09.2026
     </span>
 
     <h1 class="mt-6 font-display text-4xl font-semibold tracking-tight text-ink text-balance sm:text-6xl">
