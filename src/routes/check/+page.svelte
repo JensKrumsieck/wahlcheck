@@ -1,5 +1,6 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
+  import { Jumper } from "svelte-loading-spinners";
   import QuestionCard from "$lib/components/QuestionCard.svelte";
   import { questions, type UserAnswers, type Wertung } from "$lib/types";
   import { saveAnswers } from "$lib/storage";
@@ -33,5 +34,9 @@
         {onback}
       ></QuestionCard>
     {/key}
+  {:else}
+    <div class="flex justify-center py-24">
+      <Jumper />
+    </div>
   {/if}
 </div>

@@ -43,7 +43,26 @@
       <Text data={values} y="name" x="value" text="label" dx={6} textAnchor="start" />
     </Plot>
   </div>
-
+  <div class="relative mt-8 overflow-hidden rounded-2xl border border-border bg-surface p-6 shadow-lg sm:p-8">
+    <div class="pointer-events-none absolute inset-0 bg-linear-to-br from-accent-soft via-transparent to-transparent"></div>
+    <div class="relative">
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-accent-soft py-1 text-sm font-medium text-accent-strong"> 🧭 Deine Reise beginnt hier </span>
+      <p class="mt-4 max-w-2xl text-ink-muted">
+        Du hast jetzt einen Überblick über <span class="font-semibold text-ink">{questions.length} Positionen</span> aus den Wahlprogrammen der Parteien. Schau dir die Begründungen im Detail an oder lies direkt in den Original-Wahlprogrammen nach, um deine
+        Wahlentscheidung zu treffen.
+      </p>
+      <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
+        <a href="#antworten" class="inline-flex items-center gap-1.5 text-sm font-semibold text-accent-strong transition hover:text-accent">
+          Zu den Antworten im Detail
+          <span aria-hidden="true">↓</span>
+        </a>
+        <a href="/list" class="inline-flex items-center gap-1.5 text-sm font-semibold text-ink-muted transition hover:text-ink">
+          Alle Wahlprogramme im Original
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
   <Answers {score} {questions} />
 </div>
 

@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import { Jumper } from "svelte-loading-spinners";
   import { goto } from "$app/navigation";
   import Result from "$lib/components/Result.svelte";
   import { questions, type UserAnswers } from "$lib/types";
@@ -25,25 +26,17 @@
     <div class="py-5">
       <Result score={finalScore} {questions} />
       <div class="container container-md mx-auto px-4 pb-16 text-center">
-        <button
-          class="text-sm font-medium text-ink-muted underline transition hover:text-ink"
-          onclick={restart}
-        >
-          Wahlcheck erneut starten
-        </button>
+        <button class="text-sm font-medium text-ink-muted underline transition hover:text-ink" onclick={restart}> Wahlcheck erneut starten </button>
       </div>
     </div>
   {:else}
     <div class="container container-md mx-auto px-4 py-24 text-center">
-      <p class="text-lg text-ink-muted">
-        Es wurde noch kein Ergebnis gefunden. Bitte fülle zuerst den Wahlcheck aus.
-      </p>
-      <a
-        href="/check"
-        class="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-accent-ink transition hover:bg-accent-strong"
-      >
-        Zum Wahlcheck
-      </a>
+      <p class="text-lg text-ink-muted">Es wurde noch kein Ergebnis gefunden. Bitte fülle zuerst den Wahlcheck aus.</p>
+      <a href="/check" class="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-accent-ink transition hover:bg-accent-strong"> Zum Wahlcheck </a>
     </div>
   {/if}
+{:else}
+<div class="container container-md mx-auto px-4 py-24 text-center">
+  <Jumper />
+</div>
 {/if}

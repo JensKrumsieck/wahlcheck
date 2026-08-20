@@ -17,7 +17,7 @@
     }
 </script>
 
-<h2 class="mt-12 mb-4 font-display text-2xl font-semibold text-ink">Antworten im Detail</h2>
+<h2 id="antworten" class="mt-12 mb-4 scroll-mt-20 font-display text-2xl font-semibold text-ink">Antworten im Detail</h2>
 <div class="flex flex-col gap-3 pb-16">
     {#each questions as question}
         {@const sorted = sortedPartiesFor(question)}
