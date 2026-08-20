@@ -1,4 +1,7 @@
 import fragen from '../../data/input/fragen.json';
+import release from '../../data/version.json';
+
+export const releaseTag: string = release.tag;
 
 export interface Question {
     id: string;
@@ -41,7 +44,7 @@ const DISPLAY_NAMES: Record<string, string> = {
     CDU: 'CDU',
     FDP: 'FDP',
     GRUENE: 'GRÜNE',
-    Linke: 'Die Linke',
+    LINKE: 'Die Linke',
     SPD: 'SPD',
     Volt: 'Volt',
 };

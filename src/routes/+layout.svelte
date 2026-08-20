@@ -4,6 +4,7 @@
   import favicon from "$lib/assets/favicon.svg";
   import { onMount } from "svelte";
   import { dev } from "$app/environment";
+  import { releaseTag } from "$lib/types";
 
   let { children } = $props();
   onMount(() => {
@@ -49,6 +50,12 @@
       Kommunalwahlprogramme. <a class="underline hover:text-ink-faint" href="https://github.com/JensKrumsieck/wahlcheck_pipeline" target="_blank">Den Code findest du hier.</a><br />Fehler gefunden?
       <a class="underline hover:text-ink-faint" target="_blank" href="https://github.com/JensKrumsieck/wahlcheck">Kannst du gerne bei GitHub melden!</a></small
     >
+  </div>
+
+  <div class="mb-3 flex justify-center">
+    <span class="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1.5 text-sm font-medium text-ink">
+      Datengrundlage: Version {releaseTag}
+    </span>
   </div>
 
   <div class="mt-5 text-ink-faint text-xs">

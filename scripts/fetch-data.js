@@ -2,7 +2,7 @@
 // wahlcheck_pipeline repo and extracts it into /data. Runs before dev/build.
 // Network or upstream issues must never break the app build, so every
 // failure path here just warns and exits 0, leaving /data as it was.
-import { mkdtempSync, rmSync, existsSync, cpSync } from 'node:fs';
+import { mkdtempSync, rmSync, existsSync, cpSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -68,6 +68,8 @@ async function main() {
 	if (existsSync(DATA_DIR)) rmSync(DATA_DIR, { recursive: true, force: true });
 	cpSync(tmpExtractDir, DATA_DIR, { recursive: true });
 	rmSync(tmpExtractDir, { recursive: true, force: true });
+
+	writeFileSync(join(DATA_DIR, 'version.json'), JSON.stringify({ tag: release.tag_name }));
 
 	console.log(`[fetch-data] extracted "${ASSET_NAME}" from release "${release.tag_name}" into /data`);
 }
