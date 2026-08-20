@@ -24,4 +24,6 @@ vite.config.ts.timestamp-*
 
 # Python
 .venv
-data/programme/*.pdf
+
+# Fetched at build time from wahlcheck_pipeline releases, see scripts/fetch-data.js
+/data

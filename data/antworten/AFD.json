@@ -4,33 +4,60 @@
     "partei": "AfD",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Wir lehnen eine Verkehrspolitik ab, die Autofahrer, Pendler, Familien, Handwerker und Gewerbetreibende immer weiter belastet.",
+    "zitat": "Der motorisierte Individualverkehr bleibt ein unverzichtbarer Bestandteil moderner Mobilität und darf nicht durch kommunale Symbolpolitik systematisch benachteiligt werden.",
     "seite": 20,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm betont, dass der motorisierte Individualverkehr unverzichtbar ist und nicht durch kommunale Maßnahmen benachteiligt werden darf. Damit wird jede Beschränkung des Autoverkehrs in der Innenstadt, insbesondere zugunsten von Rad‑ und Busverkehr, ausdrücklich abgelehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.3844277262687683,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Tempo 30 soll in Braunschweig der Standard sein, vor allem in der Innenstadt und in Wohngebieten.",
     "partei": "AfD",
-    "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "wertung": -1,
+    "sicherheit": "hoch",
+    "zitat": "Wir lehnen eine Verkehrspolitik ab, die Autofahrer, Pendler, Familien, Handwerker und Gewerbetreibende immer weiter belastet.",
+    "seite": 20,
+    "kommentar": "Die Quelle erklärt eindeutig, dass Verkehrspolitik, die Autofahrer zusätzlich belastet, abgelehnt wird. Ein generelles Tempolimit von 30 km/h würde die Fahrzeugführer einschränken und gilt somit als neue Belastung für dieselbe betroffene Gruppe im selben Politikbereich. Deshalb wird die Forderung nach einem flächendeckenden Tempo‑30‑Standard von der Partei abgelehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.1958872228860855,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
     "partei": "AfD",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Der Abbau von Parkplätzen ohne gleichwertigen Ersatz ist zu stoppen.",
+    "zitat": "Stopp des Parkplatzabbaus ohne gleichwertigen Ersatz",
     "seite": 20,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quelle fordert ausdrücklich, dass der Abbau von Parkplätzen nur gestoppt werden soll, wenn kein gleichwertiger Ersatz vorhanden ist. Ein Vorgehen, bei dem neue Radwege Vorrang vor dem Erhalt von Parkplätzen haben, würde typischerweise den Abbau von Parkplätzen erfordern und widerspricht damit diesem Prinzip.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.3503248989582062,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
@@ -39,31 +66,62 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Programmstellen betonen bezahlbare, funktionierende Verkehrsinfrastruktur und finanzielle Disziplin, lehnen jedoch keine konkreten Maßnahmen zum kostenfreien Nahverkehr ab. Da keine Quelle den kostenlosen Nahverkehr explizit unterstützt oder ablehnt und die Hinweise zu Kosten und Belastungen nicht eindeutig auf das Fahrpreiskonzept übertragbar sind, lässt sich keine klare Position ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Braunschweig soll die Klimaneutralität mit höchster Priorität so schnell wie möglich erreichen.",
     "partei": "AfD",
     "wertung": -1,
-    "sicherheit": "hoch",
+    "sicherheit": "mittel",
     "zitat": "Ideologisch motivierte Klima- und Symbolpolitik auf kommunaler Ebene lehnen wir ab.",
-    "seite": 22,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "seite": 23,
+    "kommentar": "Keine der Quellen erwähnt explizit die angestrebte schnelle Klimaneutralität oder lehnt sie ausdrücklich ab. Die wiederholten Verurteilungen von \"ideologischer Symbolpolitik\" und zusätzlichen Belastungen für Bürger, Eigentümer und Unternehmen sind allgemeine, generische Bekenntnisse, die nicht eindeutig das Ziel einer schnellen, prioritär behandelten Klimaneutralität adressieren. ",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.6620016098022461,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Klimaschutzmaßnahmen dürfen keine zusätzlichen Kosten oder Verbote für Bürger:innen und Unternehmen bedeuten.",
     "partei": "AfD",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Braunschweig darf Bürger und Unternehmen nicht durch zusätzliche kommunale Vorgaben, Verbote oder Belastungen weiter unter Druck setzen.",
-    "seite": 22,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Wir lehnen eine kommunale Politik ab, die Bürger, Eigentümer, Mieter oder Unternehmen durch zusätzliche Vorgaben, ideologische Projekte oder kostspielige Symbolpolitik immer weiter belastet.",
+    "seite": 23,
+    "kommentar": "Die Programmtexte betonen mehrfach, dass Umwelt‑ und Klimapolitik keine neuen Vorgaben, Verbote oder Kosten für Bürger:innen und Unternehmen bringen darf. Damit wird die im Thesis formulierte Forderung ausdrücklich unterstützt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen.",
@@ -72,9 +130,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Programmelemente nennen weder explizit noch implizit die Installation von Solaranlagen auf städtischen Dächern und Parkplätzen, noch wird ein genereller Prinzip zu solchen kommunalen Maßnahmen formuliert. Die wiederholte Ablehnung von zusätzlichen Belastungen richtet sich ausschließlich an Bürger, Eigentümer, Mieter und Unternehmen und lässt keine Aussage über kommunale Investitionen in Photovoltaik zu. Damit lässt sich aus den Quellen kein klarer Befund für Unterstützung oder Ablehnung der These ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden.",
@@ -83,20 +150,38 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Passagen äußern sich allgemein zur Energie‑ und Umweltpolitik, zur Vermeidung von zusätzlichen Belastungen und zu technischer Vernunft. Sie erwähnen jedoch weder den Ausbau von Windkraft noch einen klaren Standpunkt dazu. Eine implizite Befürwortung oder Ablehnung des beschleunigten Ausbaus von Windenergie lässt sich daraus nicht eindeutig ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden.",
     "partei": "AfD",
     "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Kommunale Politik darf Bauen, Wohnen und Eigentum nicht durch immer neue Auflagen, Vorgaben und Kostentreiber zusätzlich belasten.",
+    "sicherheit": "hoch",
+    "zitat": "Kommunale Politik darf Bauen, Wohnen und Eigentum nicht durch unnötige kostentreibende Vorgaben belasten.",
     "seite": 14,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quelle betont, dass die Kommunalpolitik keine zusätzlichen, kostensteigernden Auflagen für Bau‑ und Wohnungswesen schaffen darf. Ein erhöhter Pflichtanteil für Sozialwohnungen bei Neubauprojekten wäre genau eine solche neue Vorgabe, weshalb die Aussage als direkte implizite Ablehnung des Vorhabens zu verstehen ist.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.026151806116104126,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen.",
@@ -105,31 +190,60 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme betonen strikt Haushaltsdisziplin, die Vermeidung neuer Schulden und dass jede Ausgabe Nutzen und Notwendigkeit besitzen muss. Sie nennen jedoch weder den Erwerb von Bauland noch bewerten sie gezielt, ob die Stadt Grundstücke kaufen anstatt zu verkaufen sollte. Ohne einen klaren Hinweis auf dieses konkrete Vorhaben lässt sich daraus weder ein eindeutiger Befürwortungs- noch ein Ablehnungs‑Signal ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
-    "these": "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
+    "these": "Große Wohnungskonzerne wie die Vonovia SE sollen vergesellschaftet werden können.",
     "partei": "AfD",
     "wertung": -1,
     "sicherheit": "mittel",
-    "zitat": "Eigentum, private Investitionen und bürgernahe Stadtentwicklung sind zu stärken statt durch Bürokratie und Reglementierung auszubremsen.",
+    "zitat": "Kommunale Politik darf Bauen, Wohnen und Eigentum nicht durch unnötige kostentreibende Vorgaben belasten.",
     "seite": 14,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Partei betont, dass die kommunale Politik Eigentümer und Unternehmen im Wohnungs‑ und Bauwesen nicht mit zusätzlichen Kosten oder Auflagen belasten darf. Eine Vergesellschaftung großer Wohnungskonzerne wie Vonovia würde genau solche zusätzlichen finanziellen Belastungen und Eingriffe in das Eigentum darstellen und widerspricht damit dem formulierten Grundsatz.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "schwach",
+      "retrieval_score": 0.0011785081587731838,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden.",
     "partei": "AfD",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Auch die Umnutzung geeigneter Flächen muss erleichtert werden, wo dies städtebaulich sinnvoll ist.",
+    "seite": 15,
+    "kommentar": "Der Wahlprogramm fordert die Erleichterung von Umnutzungen geeigneter Bestands- und Gewerbeflächen und betont, dass Entwicklungsflächen zügig und sinnvoll genutzt werden sollen. Damit wird ein klares Bekenntnis zu Neubau auf bereits bebauten bzw. versiegelten Flächen (Infill‑ oder Brownfield‑Entwicklung) geäußert, was die im Thesenpapier geforderte Priorisierung unterstützt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.05798520892858505,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "reviewed"
+      ],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
@@ -138,31 +252,66 @@
     "sicherheit": "hoch",
     "zitat": "Mehr Videoüberwachung an kriminalitätsbelasteten Orten im rechtlich zulässigen Rahmen",
     "seite": 8,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Abschnitt nennt ausdrücklich, dass die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden soll, was exakt der geforderten Politik entspricht.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.694247841835022,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
-    "these": "Der Zentrale Ordnungsdienst soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+    "these": "Der Zentrale Ordnungsdienst (ZOD) soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
     "partei": "AfD",
     "wertung": 1,
     "sicherheit": "mittel",
     "zitat": "Stärkung des kommunalen Ordnungsdienstes und sichtbare Präsenz an bekannten Brennpunkten",
     "seite": 8,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programmstellen erwähnen die „Stärkung des kommunalen Ordnungsdienstes“ und betonen mehr Präsenz sowie ein konsequenteres Vorgehen, sie nennen jedoch keine konkreten Erweiterungen von Befugnissen bzw. keinen „unmittelbaren Zwang“.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.020745549350976944,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben.",
     "partei": "AfD",
     "wertung": 1,
-    "sicherheit": "hoch",
-    "zitat": "Der Schutz der Bürger hat Vorrang vor ideologischer Symbolpolitik und falsch verstandener Toleranz gegenüber Kriminalität.",
+    "sicherheit": "mittel",
+    "zitat": "Recht und Ordnung müssen konsequent durchgesetzt werden.",
     "seite": 8,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme erwähnen ein konsequentes Durchgreifen bei Kriminalität, sie thematisieren jedoch nicht, dass dieses Vorgehen Vorrang vor Präventionsmaßnahmen haben soll.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.4251108169555664,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden.",
@@ -171,9 +320,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programmtexte betonen allgemein mehr Sicherheit im öffentlichen Raum und lehnen zusätzliche Belastungen oder ideologische Symbolpolitik ab, gehen aber nicht konkret auf Waffenverbote oder deren Einrichtung ein. Ohne einen klaren Hinweis darauf, dass ein Waffenverbot in der Innenstadt unterstützt oder abgelehnt wird, lässt sich die These nicht eindeutig belegen oder widerlegen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt soll den Katastrophen- und Bevölkerungsschutz ausbauen und dafür Feuerwehr, Hilfsorganisationen und Warnsysteme besser ausstatten.",
@@ -182,9 +340,18 @@
     "sicherheit": "hoch",
     "zitat": "Bessere Unterstützung von Polizei, Feuerwehr, Rettungsdiensten und kommunalen Einsatzkräften",
     "seite": 8,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quelle fordert eine stärkere Unterstützung für Feuerwehr und Rettungsdienste. Damit wird eindeutig bejaht, dass die Stadt ihre Ausstattung im Katastrophen‑ und Bevölkerungsschutz ausbauen soll.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.05193709209561348,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Das Städtische Klinikum darf nicht privatisiert werden.",
@@ -193,9 +360,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Textstellen behandeln Finanzpolitik, Kernaufgaben, Infrastruktur und weitere Themenbereiche, nennen aber weder das städtische Klinikum noch die Frage einer Privatisierung. Es fehlt ein klarer Hinweis darauf, ob das Programm eine Privatisierung des Klinikums unterstützt oder ablehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die medizinische Versorgung und die Arbeitsbedingungen am Städtischen Klinikum sollen trotz des finanziellen Defizits gesichert werden.",
@@ -204,9 +380,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Ausschnitte betonen ausschließlich Finanz‑ und Haushaltsdisziplin, Priorisierung von Kernaufgaben und Verzicht auf neue Verschuldung. Sie erwähnen weder das Städtische Klinikum noch die Sicherung der medizinischen Versorgung oder der Arbeitsbedingungen. Ohne einen klaren Hinweis darauf, dass das Klinikum zu den genannten Kernaufgaben zählt, lässt sich nicht eindeutig ableiten, ob das Programm die im Thesen formulierte Position unterstützt oder ablehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden.",
@@ -215,53 +400,104 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quellen betonen allgemeine Sicherheit und Schutz von Frauen im öffentlichen Raum, aber sie sprechen nicht konkret über den Ausbau von Frauenhausplätzen oder Beratungsstellen. Es gibt weder eine ausdrückliche Unterstützung noch eine Ablehnung dieses spezifischen Vorhabens, sodass die Position der Partei unklar bleibt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
-    "these": "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
+    "these": "Es soll eine eigene kommunale Anlaufstelle für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
     "partei": "AfD",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "hoch",
+    "zitat": "\"Zusätzliche Belastungen, Abgaben oder indirekte Kosten ... dürfen nicht ... für Bürger, Eigentümer, Familien und Unternehmen\"",
+    "seite": 5,
+    "kommentar": "Keiner der Programmabschnitte erwähnt explizit oder adressiert eindeutig die Einrichtung einer kommunalen Anlaufstelle für queere Gesundheits‑ und Beratungsangebote. Der einzige potenzielle Hinweis (ID 12) ist ein allgemeines Bekenntnis gegen neue kommunale Belastungen für Bürger, Eigentümer u. Ä., welches nicht die Kommune selbst als Kosten‑Träger adressiert und somit nicht als direkte implizite Evidenz gilt. Damit liegt kein eindeutiger Unterstützungs‑ oder Ablehnungs‑Signal vor – Bewertung 0.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.0020744383800774813,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Die Trans*-Beratungsstelle muss auch nach 2028 weiterfinanziert werden.",
     "partei": "AfD",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "mittel",
+    "zitat": "für ideologische Projekte oder Symbolpolitik Geld bereitgestellt wird ... Wir lehnen das ab.",
+    "seite": 4,
+    "kommentar": "Kein Quellenausschnitt erwähnt ausdrücklich die Trans*-Beratungsstelle oder ihre Finanzierung. Die wiederholten Verweise auf ‚ideologische Projekte‘ oder ‚Symbolpolitik‘ sind generische Warnungen, die keine eindeutige Zuordnung zum konkreten Vorhaben darstellen – zudem schützen sie vor zusätzlichen Belastungen für Bürger und Unternehmen, nicht vor kommunalen Ausgaben. Deshalb lässt sich aus den verfügbaren Texten keine klare Unterstützung oder Ablehnung der Weiterfinanzierung ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.006401609629392624,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review",
+        "kein_konsens"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind.",
-    "partei": "AfD",
-    "wertung": 1,
-    "sicherheit": "hoch",
-    "zitat": "Öffentliche Einrichtungen, Schulen und Kitas dürfen nicht durch Integrationsversagen dauerhaft überfordert werden.",
-    "seite": 12,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
-  },
-  {
-    "these": "Braunschweig soll Mitglied im Bündnis 'Sicherer Hafen' bleiben.",
     "partei": "AfD",
     "wertung": 0,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Texte betonen die Notwendigkeit klarer Integrationsregeln, Sprachförderung und den Schutz von Schulen und sozialen Einrichtungen vor Überlastung. Sie kritisieren jedoch keine Zuwanderung per se und enthalten keine Aussagen darüber, den Zuzug aktiv zu begrenzen. Damit lässt sich aus den Quellen weder eine klare Befürwortung noch Ablehnung der vorgeschlagenen Begrenzung ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
+  },
+  {
+    "these": "Braunschweig soll weiterhin dem Bündnis 'Sicherer Hafen' angehören und sich damit für die freiwillige Aufnahme zusätzlicher geflüchteter Menschen einsetzen.",
+    "partei": "AfD",
+    "wertung": 0,
+    "sicherheit": "niedrig",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Das Programm thematisiert Migration und Integration, betont Sprach‑ und Werte­pflichten sowie die Notwendigkeit von Integrationsmaßnahmen, verweist aber nicht ausdrücklich darauf, ob Braunschweig dem Bündnis „Sicherer Hafen“ weiterhin angehören oder freiwillig weitere Geflüchtete aufnehmen soll. Damit lässt sich weder Unterstützung noch Ablehnung eindeutig ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Für Asylbewerber:innen soll eine kommunale Arbeitspflicht eingeführt werden.",
@@ -270,20 +506,38 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programmtexte fordern klare Regeln, Sprachförderung und die Bereitschaft zur gesellschaftlichen Integration von dauerhaft in Deutschland lebenden Menschen. Sie nennen keine verpflichtende Arbeitspflicht für Asylbewerber:innen und enthalten weder explizite noch eindeutig implizite Ablehnung einer solchen Maßnahme. Daher lässt sich aus den vorliegenden Quellen keine klare Unterstützung oder Ablehnung ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Grundsteuer oder Gewerbesteuer sollen erhöht werden, um den Haushalt zu sanieren.",
     "partei": "AfD",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Bürger, Eigentümer und Unternehmen dürfen nicht immer weiter durch kommunale Belastungen unter Druck gesetzt werden.",
-    "seite": 4,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "… gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden.",
+    "seite": 5,
+    "kommentar": "Die Aussage betont, dass Bürger, Eigentümer und Unternehmen nicht durch weitere kommunale Abgaben belastet werden dürfen. Eine Erhöhung von Grund‑ oder Gewerbesteuer wäre genau ein solcher zusätzlicher Aufwand, weshalb die Quelle die vorgeschlagene Steuererhöhung ausdrücklich ablehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.018007546663284302,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden.",
@@ -292,9 +546,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Auszüge thematisieren Finanzdisziplin, Vermeidung von Belastungen, Stadtentwicklung und eine zuverlässige Energieinfrastruktur, geben jedoch weder eine klare Befürwortung noch eine eindeutige Ablehnung einer stärkeren Rückführung städtischer Unternehmen in kommunale Hand zu erkennen. Der Vorschlag, Energie‑, Wohn‑ und ÖPNV‑Betreiber stärker zu rekommunalisieren, wird nicht explizit erwähnt, und die Aussagen lassen keinen eindeutigen Rückschluss auf die beabsichtigte Eigentums‑ oder Kontrolländerung zu.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Braunschweig soll gezielt internationale Fachkräfte für die Stadt gewinnen.",
@@ -303,42 +566,81 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quellen betonen zwar den allgemeinen Bedarf an Fachkräften und wirtschaftlicher Dynamik, aber sie erwähnen nicht gezielt die Gewinnung internationaler Fachkräfte. Es gibt weder eine ausdrückliche Unterstützung noch einen klaren Widerspruch zu diesem konkreten Vorhaben, sodass die Aussage nicht belegt werden kann.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden.",
     "partei": "AfD",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Kritische Prüfung freiwilliger Ausgaben, Zuschüsse und Förderprogramme",
-    "seite": 4,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "„Freiwillige Leistungen, Förderprogramme und zusätzliche Projekte müssen regelmäßig kritisch überprüft werden. … Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden.“",
+    "seite": 5,
+    "kommentar": "Die Quelle fordert eine konsequente Prüfung freiwilliger kommunaler Aktivitäten und lehnt neue Schulden als Finanzierungsinstrument ab. Damit wird eindeutig befürwortet, freiwillige Kultur‑, Sport‑ und Jugendarbeit eher zu kürzen, statt sie über neue Verschuldung zu finanzieren.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.9237667918205261,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
-    "these": "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen schaffen, um der hohen Nachfrage gerecht zu werden.",
+    "these": "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen (IGS) schaffen, um der hohen Nachfrage gerecht zu werden.",
     "partei": "AfD",
     "wertung": 0,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die bereitgestellten Textstellen enthalten keine ausdrückliche oder klar implizite Aussage, die das Schaffen zusätzlicher IGS‑Plätze unterstützt oder ablehnt. Sie sprechen höchstens allgemeine Probleme von Überforderung und Betreuungsengpässen an, ohne konkret eine Politik des Ausbau‑s von Schulplätzen zu befürworten oder zu kritisieren.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "An allen Schulen und Kitas soll es kostenloses Mittagessen geben.",
     "partei": "AfD",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "hoch",
+    "zitat": "Zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten ... dürfen nicht ... Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen ...",
+    "seite": 5,
+    "kommentar": "Keiner der angegebenen Programmelemente erwähnt explizit kostenfreies Mittagessen in Schulen oder Kitas, noch wird ein entsprechendes Kosten‑ oder Finanzierungsprinzip thematisiert. Die einzige ablehnende Formulierung (ID 12) spricht von einer generellen Vermeidung zusätzlicher kommunaler Belastungen für Bürger, Eigentümer usw. – ein generischer Refrain, der weder die gleiche betroffene Partei (die kommunale Haushaltskasse) noch den spezifischen Politikbereich (Schul‑/Kita‑Verpflegung) eindeutig adressiert. Nach dem Evidenz‑Rubrum ist dies indirekt/speculativ, sodass die richtige Bewertung „unklar“ (0) ist.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.010506318882107735,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
@@ -347,31 +649,61 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm spricht von stärkerer Vernetzung zwischen Jugendhilfe, Schulen und Familien sowie von frühen Hilfen und sozialer Unterstützung, erwähnt jedoch nicht ausdrücklich die Einrichtung einer festen Stelle für Schulsozialarbeit an jeder Schule. Es gibt weder eine klare Befürwortung noch eine eindeutige Ablehnung dieses konkreten Vorschlags, sodass die Aussage nicht eindeutig belegt werden kann.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Das geplante 'Haus der Musik' soll wie beschlossen umgesetzt werden.",
     "partei": "AfD",
-    "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "wertung": -1,
+    "sicherheit": "hoch",
+    "zitat": "Wir sind für eine bezahlbare Musikschule in Braunschweig.",
+    "seite": 18,
+    "kommentar": "Die Quelle spricht ausdrücklich die Unterstützung einer bezahlbaren Musikschule aus. Da das geplante „Haus der Musik“ als neben der Musikschule einen großen Konzertsaal beherbergen soll, ist dies eine implizite Ablehnung des gegenwärtigen Beschlusses",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.004076013807207346,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review",
+        "kein_konsens",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen.",
     "partei": "AfD",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Politische Einflussnahme auf Kinder und Jugendliche lehnen wir ab.",
-    "seite": 6,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Gleichzeitig lehnen wir es ab, dass Schulen und Bildungseinrichtungen zunehmend für politische Einflussnahme genutzt werden. Der Bildungs- und Erziehungsauftrag muss wieder im Mittelpunkt stehen – nicht gesellschaftspolitische Umerziehung.",
+    "seite": 7,
+    "kommentar": "Die Partei betont, dass Schulen nicht für gesellschaftspolitische Aufklärung oder „Umerziehung“ eingesetzt werden dürfen. Da das Vorhaben, Schulen aktiv zu Themen von Vielfalt und Diskriminierung zu befähigen, genau solche gesellschaftspolitischen Inhalte betrifft, wird es von der Partei abgelehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.010939452797174454,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
@@ -380,9 +712,18 @@
     "sicherheit": "hoch",
     "zitat": "Familie aus Vater, Mutter und Kindern ist das Fundament unserer Gesellschaft und verdient besonderen Schutz und Förderung.",
     "seite": 6,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme erklären ausdrücklich, dass die Familie bestehend aus Vater, Mutter und Kindern das Fundament der Gesellschaft bildet und besonders gefördert werden soll. Damit wird ein traditionelles Familienbild als zentrales Leitbild der kommunalen Familienpolitik gefordert.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt soll einen kommunalen Aktionsplan gegen Rechtsextremismus verbindlich umsetzen und regelmäßig fortschreiben.",
@@ -391,9 +732,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Abschnitte behandeln finanzielle Disziplin, Sicherheits‑ und Ordnungsmaßnahmen sowie kulturelle und soziale Themen, erwähnen aber weder einen konkreten Aktionsplan gegen Rechtsextremismus noch lehnen sie ein solches Vorhaben explizit ab. Ohne einen klaren Hinweis auf Unterstützung oder Ablehnung bleibt die Position des Programms zu diesem speziellen Vorschlag unklar.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt Braunschweig soll Werbung für die Bundeswehr auf städtischen Bussen und Bahnen verbieten.",
@@ -402,20 +752,42 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Texte behandeln Kultur, Sicherheit, Umwelt, Verkehr und allgemeine Ablehnung von zusätzlichen Belastungen oder Symbolpolitik, enthalten jedoch keine explizite Stellungnahme zur Ausschaltung von Bundeswehr‑Werbung auf städtischen Bussen und Bahnen. Ein möglicher Hinweis auf generelle Ablehnung von Verbots‑ oder Symbolpolitik bezieht sich nicht eindeutig auf das spezifische Werbe‑Verbot und betrifft andere Bereiche, sodass keine ausreichende Evidenz für Unterstützung oder Opposition vorliegt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
     "partei": "AfD",
-    "wertung": 1,
-    "sicherheit": "mittel",
-    "zitat": "Kommunale Verwaltung muss schneller, digitaler und wirtschaftsfreundlicher arbeiten.",
+    "wertung": 0,
+    "sicherheit": "niedrig",
+    "zitat": "Kommunale Verwaltung muss schneller, digitaler und wirtschaftsfreundlicher arbeiten. • Beschleunigung kommunaler Genehmigungs- und Verwaltungsverfahren",
     "seite": 10,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Keines der Programm‑Abschnitte erwähnt Künstliche Intelligenz oder eine konkrete Vorprüfung von Verwaltungsanträgen. Zwar wird mehrfach gefordert, die Verwaltung schneller, digitaler und mit beschleunigten Genehmigungsverfahren zu gestalten, doch dies ist ein sehr allgemeiner Aufruf zur Digitalisierung und Effizienzsteigerung, nicht ein klarer Hinweis auf den spezifischen Einsatz von KI‑basierter Vorprüfung. Daher liefert die Quelle keine explizite oder eindeutig direkte implizite Evidenz für die These.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.005813556723296642,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben.",
@@ -424,9 +796,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Programmabschnitte betonen eine beschleunigte, digitalere und wirtschaftlich effiziente Verwaltung, schließen jedoch nicht explizit ein, dass analoge Verwaltungsleistungen abgeschafft oder unverzichtbar bleiben sollen. Da keine klare Unterstützung oder Ablehnung der Forderung nach fortbestehender analoger Nutzbarkeit erkennbar ist, lässt sich die Position nicht eindeutig bestimmen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird.",
@@ -435,8 +816,17 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programmtexte betonen Haushaltsdisziplin, Transparenz und die Ablehnung unnötiger Ausgaben, jedoch erwähnen sie weder eine direkte Bürgerbeteiligung am Haushaltsentscheidungsprozess noch lehnen sie ein solches Instrument ausdrücklich ab. Ohne eine klare Stellungnahme zur Idee eines Bürgerhaushalts lässt sich weder Unterstützung noch Ablehnung ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   }
 ]

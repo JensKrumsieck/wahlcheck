@@ -1,4 +1,4 @@
-import fragen from '../../data/fragen.json';
+import fragen from '../../data/input/fragen.json';
 
 export interface Question {
     id: string;

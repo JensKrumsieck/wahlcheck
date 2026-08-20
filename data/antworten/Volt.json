@@ -4,33 +4,60 @@
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Wir machen Braunschweig innerhalb des Wilhelminischen Rings autoarm.",
-    "seite": 14,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Wir wollen den Straßenraum neu aufteilen: weniger Platz für Autos, mehr für Fußgänger*innen, Radfahrer und den ÖPNV.",
+    "seite": 11,
+    "kommentar": "Das Wahlprogramm fordert eine Umgestaltung des Straßenraums, bei der Autoverkehr zugunsten von Rad- und ÖPNV-Verkehr verringert wird. Diese Formulierung entspricht exakt der Aussage, dass der Autoverkehr in der Innenstadt eingeschränkt und dafür Rad- und Busverkehr gefördert werden soll.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.7852418422698975,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Tempo 30 soll in Braunschweig der Standard sein, vor allem in der Innenstadt und in Wohngebieten.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "\"Tempo 30\" ausweiten: ... auch hierzulande \"Tempo 30\" zum Standard in Innenstädten und Wohngebieten werden kann.",
+    "zitat": "\"Tempo 30\" ausweiten: ... \"Tempo 30\" zum Standard in Innenstädten und Wohngebieten werden kann.",
     "seite": 14,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Text fordert ausdrücklich die Ausweitung von Tempo‑30‑Zonen und erklärt, dass „Tempo 30 zum Standard in Innenstädten und Wohngebieten werden kann“. Damit wird die im Thesen‑Statement geforderte flächendeckende Einführung von Tempo 30 ausdrücklich unterstützt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.9317319393157959,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben.",
     "partei": "Volt",
-    "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "weniger Platz für Autos, mehr für Fußgänger*innen, Radfahrer und den ÖPNV.",
+    "seite": 11,
+    "kommentar": "Die Partei fordert, den Straßenraum neu aufzuteilen – weniger Platz für Autos und dafür mehr Raum für Fuß‑ und Radverkehr. Da Parkplätze zum Autoverkehr gehören, impliziert diese Aussage, dass neue Radwege Vorrang vor dem Erhalt von Parkplätzen erhalten sollen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.12789811193943024,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
@@ -39,86 +66,158 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme erwähnen bezahlbare und teils kostenfreie Angebote für bestimmte Gruppen (z. B. drei Monate kostenlos für Senior*innen, ermäßigte Fahrkarten für Schüler*innen), aber sie enthalten keinen ausdrücklichen Hinweis darauf, dass der Nahverkehr künftig für alle kostenlos werden soll, noch gibt es einen klaren Widerspruch dazu. Damit lässt sich aus den vorliegenden Quellen keine eindeutige Unterstützung oder Ablehnung der These ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Braunschweig soll die Klimaneutralität mit höchster Priorität so schnell wie möglich erreichen.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Wir unterstützen entschlossen die Verkehrswende, denn ohne sie droht Braunschweig sein erklärtes Ziel, bis 2030 klimaneutral zu werden, zu verfehlen.",
+    "zitat": "unterstützen entschlossen die Verkehrswende, denn ohne sie droht Braunschweig sein erklärtes Ziel, bis 2030 klimaneutral zu werden, zu verfehlen.",
     "seite": 11,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Partei setzt sich eindeutig dafür ein, dass Braunschweig das erklärte Ziel der Klimaneutralität erreicht und betont, dass das Erreichen dieses Ziels ohne die Verkehrswende gefährdet ist. Damit wird die Klimaneutralität als zentrales, vorrangiges Ziel mit Beschleunigungsbedarf formuliert, was dem geforderten oberen Prioritäts‑ und Schnellkeitsanspruch entspricht.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.7568051218986511,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Klimaschutzmaßnahmen dürfen keine zusätzlichen Kosten oder Verbote für Bürger:innen und Unternehmen bedeuten.",
     "partei": "Volt",
     "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Innerhalb der Kernstadt soll Parken grundsätzlich kostenpflichtig sein.",
-    "seite": 11,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "hoch",
+    "zitat": "Personen und Unternehmen sollen für von ihnen verursachte Verunreinigungen einen finanziellen Ausgleich zahlen.",
+    "seite": 16,
+    "kommentar": "Die Quelle fordert, dass Unternehmen für von ihnen verursachte Umweltschäden finanziell aufkommen müssen. Damit wird ein zusätzlicher Kostenaufwand für Unternehmen festgeschrieben, was dem im Thesen‑Statement geforderten Verbot zusätzlicher Kosten oder Verbote für Bürger:innen und Unternehmen widerspricht.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.026559684425592422,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Solar-Kraftwerk Braunschweig: Schnellstmögliche Belegung aller geeigneten städtischen Dächer (Schulen, Kitas, Verwaltung) und Parkplätze mit Photovoltaik.",
+    "zitat": "Flächen für Photovoltaik nutzen: Bereits versiegelte Flächen sollen für PV‑Anlagen genutzt werden. Dafür kommen Dächer, z. B. auf öffentlichen Liegenschaften, sowie die Überdachung von Parkplätzen infrage.",
     "seite": 19,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm fordert ausdrücklich, dass bereits versiegelte Flächen – insbesondere Dächer öffentlicher Gebäude und überdachte Parkplätze – für Photovoltaik‐Anlagen genutzt werden sollen. Damit wird das Vorhaben, auf möglichst allen geeigneten kommunalen Dächern und Parkplätzen Solaranlagen zu installieren, eindeutig unterstützt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.9617947936058044,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden.",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "mittel",
+    "sicherheit": "hoch",
     "zitat": "Wind- und Solarflächen ausweisen: Dies ermöglicht den Ausbau weiterer erneuerbarer Energien.",
     "seite": 18,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Vermerk, dass durch das Ausweisen von Wind‑ und Solarflächen der Ausbau erneuerbarer Energien ermöglicht wird, steht klar für die Beschleunigung des Windkraftausbaus in Stadt und Region.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.09222421795129776,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Bei jedem Wohnbauprojekt sollen mindestens 40 % der Wohnungen als Sozialwohnungen oder preisgedämpfter Wohnraum entstehen.",
+    "zitat": "Bei jedem Wohnbauprojekt sollen mindestens 40 % der Wohnungen als Sozialwohnungen oder preisgedämpfter Wohnraum entstehen.",
     "seite": 25,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm fordert, dass bei jedem Wohnbauprojekt mindestens 40 % der Wohnungen als Sozial‑ oder preisgedämpfter Wohnraum realisiert werden. Der aktuelle Pflichtanteil liegt bei 30 %; die Vorgabe von mindestens 40 % impliziert damit eine klare Erhöhung des Pflichtanteils, wodurch die Aussage unterstützt wird.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.326886922121048,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Städtische Grundstücke sollen nicht mehr an die Meistbietenden gehen, sondern an die Projekte mit den besten sozialen und ökologischen Konzepten.",
+    "zitat": "Aktive Bodenpolitik betreiben: … mit kommunalen Grundstücksankäufen sichern wir Boden für die NibelungenWohnbau‑GmbH Braunschweig …",
     "seite": 25,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm erklärt, dass die Stadt aktiv Bodenpolitik betreibt und durch kommunale Grundstücksankäufe Boden sichert. Damit wird ausdrücklich gefordert, Bauland aktiv zu kaufen, statt es zu veräußern. Zusätzlich wird in anderen Passagen betont, dass städtische Grundstücke nicht mehr an die Meistbietenden gehen sollen. Beide Aussagen unterstützen die These, die Stadt solle Bauland aktiv ankaufen und nicht an den Höchstbietenden verkaufen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.0922723338007927,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
-    "these": "Große Wohnungskonzerne wie Vonovia und LEG sollen notfalls vergesellschaftet werden können.",
+    "these": "Große Wohnungskonzerne wie die Vonovia SE sollen vergesellschaftet werden können.",
     "partei": "Volt",
     "wertung": 0,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programmtexte betonen den Ausbau kommunaler Wohnungsbaugesellschaften, Genossenschaften und sozialen Wohnraums, lehnen aber keine konkreten Maßnahmen zur Vergesellschaftung großer privater Wohnungskonzerne wie Vonovia ab. Es gibt keine explizite oder eindeutig implizite Aussage, die das Verfrachten solcher Konzerne unterstützt oder widerspricht; die Verbindung bleibt spekulativ.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden.",
@@ -127,42 +226,84 @@
     "sicherheit": "hoch",
     "zitat": "Nachverdichtung bevorzugen: Vor allem soll diese Vorrang vor Neubauten haben, da dadurch keine neuen, unbebauten Flächen versiegelt werden.",
     "seite": 17,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm fordert, dass Nachverdichtung und Aufstockungen Priorität vor Neubauten erhalten, um weitere Versiegelung zu vermeiden. Damit wird die Bauweise auf bereits versiegelten Flächen ausdrücklich befürwortet.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
     "partei": "Volt",
-    "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "wertung": -1,
+    "sicherheit": "hoch",
+    "zitat": "Dabei setzen wir auf Bürgernähe und Prävention statt auf reine Kontrolle.",
+    "seite": 35,
+    "kommentar": "Die Quelle lehnt 'reine Kontrolle' in der öffentlichen Sicherheit ausdrücklich ab. Videoüberwachung ist ein Kontrollinstrument im öffentlichen Raum, das damit im Widerspruch zu der genannten Präventions‑ und Bürgernäherungsstrategie steht. Da die Aussage sowohl die betroffene Partei (Bürger) als auch den relevanten Politikbereich (öffentliche Sicherheit) adressiert, stellt sie einen direkten impliziten Widerspruch zur Ausweitung von Videoüberwachung dar.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.07129588723182678,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review"
+      ],
+      "prioritaet": 1
+    }
   },
   {
-    "these": "Der Zentrale Ordnungsdienst soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
+    "these": "Der Zentrale Ordnungsdienst (ZOD) soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
     "partei": "Volt",
-    "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Mehr Personal, digitale Ausstattung und mobile Einsatzteams sorgen besonders in Brennpunktvierteln, an Bahnhöfen und bei Großveranstaltungen für mehr Sicherheit. Dabei setzen wir auf Bürgernähe und Prävention statt auf reine Kontrolle.",
+    "wertung": 0,
+    "sicherheit": "hoch",
+    "zitat": "… wir setzen auf Bürgernähe und Prävention statt auf reine Kontrolle.",
     "seite": 35,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quelle erwähnt ausdrücklich, dass die kommunalen Ordnungsdienste zwar gestärkt werden sollen, dabei aber auf „Prävention“ und Bürgernähe statt auf „reine Kontrolle“ gesetzt wird. Die Aussage lässt sich nicht abschließend bewerten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.027519868686795235,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review",
+        "kein_konsens",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben.",
     "partei": "Volt",
     "wertung": -1,
     "sicherheit": "hoch",
-    "zitat": "Kriminalität präventiv verringern: ... So verhindern wir Kriminalität, bevor sie entsteht.",
+    "zitat": "… dabei setzen wir auf Bürgernähe und Prävention statt auf reine Kontrolle.",
     "seite": 35,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Das Programm betont ausdrücklich, dass Sicherheit durch Präventionsarbeit und bürgernahe Maßnahmen erreicht werden soll und lehnt eine reine, stark kontrollierende Durchgreif‑Strategie ab. Damit widerspricht es der Forderung, bei Kriminalität konsequentes Durchgreifen über Präventionsangebote zu stellen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.21138615906238556,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden.",
@@ -171,97 +312,188 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Keiner der vorgelegten Programmeinträge spricht ausdrücklich oder implizit über die Einrichtung von Waffenverbotszonen in der Innenstadt. Es gibt zwar zahlreiche Aussagen zur allgemeinen Sicherheit und zu präventiven Maßnahmen, jedoch wird weder ein konkretes Waffenverbot noch ein generelles Prinzip zur Ablehnung solcher Verbote genannt. Damit lässt sich die Haltung des Programms zur genannten These nicht eindeutig bestimmen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt soll den Katastrophen- und Bevölkerungsschutz ausbauen und dafür Feuerwehr, Hilfsorganisationen und Warnsysteme besser ausstatten.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Katastrophenschutz stärken und modernisieren: Feuerwehr, Rettungsdienste und Hilfsorganisationen werden besser ausgestattet und bei Ausbildung, Technik und Nachwuchsgewinnung unterstützt.",
+    "zitat": "Katastrophenschutz stärken und modernisieren: Feuerwehr, Rettungsdienste und Hilfsorganisationen werden besser ausgestattet … Moderne Warnsysteme, lokale Notfallpläne …",
     "seite": 36,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Text spricht ausdrücklich davon, den Katastrophen‑ und Bevölkerungsschutz zu stärken, die Feuerwehr, Rettungsdienste und Hilfsorganisationen besser auszustatten und moderne Warnsysteme einzuführen. Damit wird das im Thesen‑Statement geforderte Ausbauen des Schutzes und die bessere Ausstattung eindeutig unterstützt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.9775441288948059,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Das Städtische Klinikum darf nicht privatisiert werden.",
     "partei": "Volt",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Ein modernes Klinikum ist für uns ein zentraler Pfeiler der professionellen Gesundheitsversorgung in unserer Region. Daher unterstützen wir den Um- und Ausbau des Braunschweiger Klinikums zu einem Zentralklinikum, das allen Bürger*innen medizinische Leistungen auf höchstem Niveau anbieten kann",
+    "seite": 27,
+    "kommentar": "Die vorliegenden Programmabschnitte betonen den Ausbau und die Stärkung des städtischen Klinikums sowie die Sicherstellung einer guten Gesundheitsversorgung, erwähnen jedoch weder eine Ablehnung noch eine Befürwortung einer Privatisierung. Es ist dennoch implizit davon auszugehene, dass diese befürwortet wird.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "reviewed"
+      ],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die medizinische Versorgung und die Arbeitsbedingungen am Städtischen Klinikum sollen trotz des finanziellen Defizits gesichert werden.",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "hoch",
-    "zitat": "Gesundheitspersonal stärken: ... Regionale Ausbildungsinitiativen, höhere Personalschlüssel, tarifliche Zusatzleistungen und Anreize wie Dienstwohnungen und Kita-Plätze für medizinisches Personal erhöhen die Verfügbarkeit von Fachkräften und die Qualität der Versorgung.",
+    "sicherheit": "mittel",
+    "zitat": "Daher unterstützen wir den Um‑ und Ausbau des Braunschweiger Klinikums zu einem Zentralklinikum, das allen Bürger*innen medizinische Leistungen auf höchstem Niveau anbieten kann … höhere Personalschlüssel, tarifliche Zusatzleistungen …",
     "seite": 27,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme betonen den Ausbau und die Stärkung des städtischen Klinikums sowie höhere Personal‑ und Arbeitsbedingungen. Damit wird ausdrücklich gefordert, die medizinische Versorgung und die Arbeitsbedingungen zu sichern, was implizit bedeutet, dass dies auch bei finanziellen Herausforderungen umgesetzt werden soll.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "schwach",
+      "retrieval_score": 0.2338521033525467,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden.",
     "partei": "Volt",
-    "wertung": 1,
+    "wertung": 0,
     "sicherheit": "hoch",
     "zitat": "Schutzwohnungen und Notunterkünfte für Opfer von Gewalt werden ausgebaut.",
     "seite": 34,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Keiner der Programmausschnitte erwähnt ausdrücklich Frauenhäuser oder frau‑spezifische Beratungsstellen. Zwar werden allgemeine Schutzunterkünfte und Beratungsangebote für Opfer von Gewalt genannt (z. B. ID 123, 122, 90), doch diese beziehen sich auf alle Gewaltopfer und nicht ausschließlich auf Frauen. Da das betroffene Schlagwort „Frauenhaus“ bzw. die Zielgruppe Frauen nicht identisch ist, fehlt sowohl ein expliziter als auch ein direkter impliziter Nachweis. Daher kann die These weder als unterstützt noch als abgelehnt gewertet werden – die korrekte Einstufung ist 0 (unklar).",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.013286959379911423,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens"
+      ],
+      "prioritaet": 1
+    }
   },
   {
-    "these": "Es soll eine eigene kommunale Anlaufstelle bzw. ein Fonds für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
+    "these": "Es soll eine eigene kommunale Anlaufstelle für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "hoch",
-    "zitat": "Förderstruktur stärken: Mit einem jährlichen \"Fonds für Vielfalt und queere Projekte\" (5.000–15.000 €) sollen Initiativen, Vereine und Projekte direkte Unterstützung erhalten, um Angebote für queere Menschen kontinuierlich auszubauen.",
+    "sicherheit": "mittel",
+    "zitat": "Niedrigschwellige Beratungsstellen ... Queersensible psychologische Beratung soll verstärkt gefördert werden.",
     "seite": 27,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme befürworten die Ausweitung queersensibler, niedrigschwelliger Beratungsangebote im Gesundheitsbereich. Die Einrichtung einer eigenen kommunalen Anlaufstelle für queere Gesundheits‑ und Beratungsangebote entspricht genau dieser angestrebten Stärkung queersensibler Beratungsstellen, sodass die Quelle als direkte implizite Unterstützung der im Thesis geforderten Maßnahme gilt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "schwach",
+      "retrieval_score": 0.4159815013408661,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Trans*-Beratungsstelle muss auch nach 2028 weiterfinanziert werden.",
     "partei": "Volt",
     "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "mittel",
+    "zitat": "Queersensible psychologische Beratung soll verstärkt gefördert werden.",
+    "seite": 27,
+    "kommentar": "Die Programmtexte befürworten allgemein queersensible, niedrigschwellige Beratungs‑ und Psychologiedienste, erwähnen aber weder eine konkrete Fortzahlung der Finanzierung einer Trans*-Beratungsstelle noch einen Zeitraum über das Jahr 2028 hinaus. Ohne explizite oder direkt implizite Aussage zum Finanzierungszeitpunkt kann nicht eindeutig gesagt werden, dass die Partei die Fortführung der Finanzierung nach 2028 unterstützt – die Evidenz bleibt daher unklar.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.025553813204169273,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review",
+        "kein_konsens"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind.",
-    "partei": "Volt",
-    "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Integration vor Ort stärken: Kommunale Integrationsbeauftragte, interkulturelle Begegnungsstätten und Beratungsstellen sorgen für schnelle Unterstützung und echten Austausch. Darüber hinaus werden Sprach- und Bildungsangebote ausgebaut.",
-    "seite": 23,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
-  },
-  {
-    "these": "Braunschweig soll Mitglied im Bündnis 'Sicherer Hafen' bleiben.",
     "partei": "Volt",
     "wertung": 0,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die vorliegenden Programmabschnitte betonen die Stärkung von Integration, Inklusion und sozialer Teilhabe, ohne jedoch eine Begrenzung des Zuzugs zu thematisieren. Es fehlt ein expliziter oder eindeutig impliziter Verweis auf eine aktive Beschränkung von Zuwanderung, sodass aus den Quellen keine klare Unterstützung oder Ablehnung der These abgeleitet werden kann.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
+  },
+  {
+    "these": "Braunschweig soll weiterhin dem Bündnis 'Sicherer Hafen' angehören und sich damit für die freiwillige Aufnahme zusätzlicher geflüchteter Menschen einsetzen.",
+    "partei": "Volt",
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "die Stadt eine geschützte Unterbringung für queere und FLINTA‑Geflüchtete sicherstellen, um Schutz und Teilhabe in allen Lebensbereichen zu gewährleisten",
+    "seite": 27,
+    "kommentar": "Die Quelle erwähnt ausdrücklich, dass die Stadt geschützte Unterbringung für Geflüchtete bereitstellt. Das ist ein konkretes politisches Instrument der freiwilligen Aufnahme von Geflüchteten, das dem Ziel des Bündnis „Sicherer Hafen“ entspricht. Da die Aussage den gleichen Mechanismus (Unterbringung/Aufnahme von Geflüchteten) unterstützt, handelt es sich um direkte implizite Evidenz für die These.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.04939823970198631,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Für Asylbewerber:innen soll eine kommunale Arbeitspflicht eingeführt werden.",
@@ -270,9 +502,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Keiner der bereitgestellten Programmelemente erwähnt eine verpflichtende Arbeitspflicht für Asylbewerber:innen, noch wird ein entsprechender Ansatz eindeutig unterstützt oder abgelehnt. Die Aussagen zu Integration, Hilfsangeboten und sozialer Teilhabe beziehen sich allgemein auf Unterstützung, ohne eine solche Pflicht zu fordern oder zu kritisieren. Daher lässt sich aus den Quellen keine klare Position ableiten.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Grundsteuer oder Gewerbesteuer sollen erhöht werden, um den Haushalt zu sanieren.",
@@ -281,75 +522,145 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die bereitgestellten Programmelemente behandeln Themen wie Umwelt, Beteiligung, Infrastruktur und Wirtschaftsförderung, erwähnen jedoch weder die Grund‑ oder Gewerbesteuer noch eine Haushalts‑Sanierung durch Steuererhöhungen. Damit lässt sich die These nicht eindeutig unterstützen oder ablehnen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden.",
     "partei": "Volt",
     "wertung": 1,
-    "sicherheit": "mittel",
-    "zitat": "Die Wasserversorgung gewährleisten: Die Wasserversorgung zählt zur öffentlichen Daseinsvorsorge, da sie in der Regel ein natürliches Monopol darstellt. ... Öffentliche Betriebe streben nach Kostendeckung, nicht nach Gewinnmaximierung.",
-    "seite": 16,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "hoch",
+    "zitat": "Wir stärken personell und finanziell unsere kommunale Wohnungsbaugesellschaft, die NibelungenWohnbau‑GmbH Braunschweig, …",
+    "seite": 25,
+    "kommentar": "Die Programmangaben betonen die Stärkung der kommunalen Wohnungsbaugesellschaft und fordern öffentliche Betriebe, die nicht profitorientiert arbeiten. Das zeigt eine klare Präferenz für kommunale Eigentumsformen im Wohn‑ und Energie‑Sektor und unterstützt damit die Forderung, städtische Unternehmen stärker zu rekommunalisieren.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.01851784437894821,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Braunschweig soll gezielt internationale Fachkräfte für die Stadt gewinnen.",
     "partei": "Volt",
-    "wertung": 0,
-    "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "wertung": 1,
+    "sicherheit": "hoch",
+    "zitat": "Fachkräfte gezielt anwerben: Wir werben gezielt Fachkräfte mit Fremdsprachenkenntnissen an.",
+    "seite": 8,
+    "kommentar": "Die Quelle ID 19 fordert eine gezielte Anwerbung von Fachkräften mit Fremdsprachenkenntnissen. Das ist ein direkter impliziter Hinweis (Evidenz‑Stufe B) darauf, dass die Stadt aktiv Fachkräfte aus dem Ausland bzw. international rekrutieren will. Keine gegenteilige Aussage liegt vor, sodass die These eindeutig unterstützt wird.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.6720766425132751,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden.",
     "partei": "Volt",
     "wertung": -1,
-    "sicherheit": "mittel",
-    "zitat": "Deshalb investieren wir lieber in transparente, faire und dauerhaft gesicherte Förderprogramme für Theater, Musikschulen, Stadtbibliotheken und Festivals, statt in zusätzliche Konzertsäle für exklusive Inszenierungen.",
-    "seite": 27,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "sicherheit": "hoch",
+    "zitat": "Kultur- und Kreativquartiere entstehen ... Kultur- und Vereinshäuser erhalten und modernisieren ... Sport- und Freizeitanlagen sanieren und ausbauen.",
+    "seite": 28,
+    "kommentar": "Die Quelle befürwortet aktiv den Ausbau, die Modernisierung und die Sanierung von Kultur‑, Sport‑ und Freizeitangeboten der Stadt, also zusätzliche kommunale Ausgaben. Das steht im klaren Gegensatz zur These, die fordert, dass solche freiwilligen Leistungen im Zweifel eher gekürzt werden sollen statt neue Schulden aufzunehmen. Damit ist die Quelle auf direkter impliziter Ebene oppositionell zur These.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.016419658437371254,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review"
+      ],
+      "prioritaet": 1
+    }
   },
   {
-    "these": "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen schaffen, um der hohen Nachfrage gerecht zu werden.",
+    "these": "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen (IGS) schaffen, um der hohen Nachfrage gerecht zu werden.",
     "partei": "Volt",
     "wertung": 0,
-    "sicherheit": "niedrig",
+    "sicherheit": "hoch",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Keine Aussage zu integrierten Gesamtschulen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.05990225449204445,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [
+        "human_review",
+        "reviewed"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "An allen Schulen und Kitas soll es kostenloses Mittagessen geben.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Frühkindliche Bildung, digitale Ausstattung und kostenfreie, gesunde Mahlzeiten in Kitas und Schulen verbessern die Perspektiven für alle.",
+    "zitat": "… kostenfreie, gesunde Mahlzeiten in Kitas und Schulen verbessern die Perspektiven für alle.",
     "seite": 24,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Wahlkampfplan nennt ausdrücklich, dass in Kitas und Schulen kostenfreie, gesunde Mahlzeiten angeboten werden sollen. Das entspricht dem vorgeschlagenen kostenlosen Mittagessen für alle Schulen und Kitas.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.16306017339229584,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Sozialpädagogische Betreuung gewährleisten: Jede Schule muss unabhängig von Schulart oder Größe mindestens eine*n Schulsozialarbeiter*in haben.",
+    "zitat": "Jede Schule muss unabhängig von Schulart oder Größe mindestens eine*n Schulsozialarbeiter*in haben. Wir fördern den Ausbau von weiteren Vollzeitstellen.",
     "seite": 8,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Wahlprogramm‑Auszug fordert ausdrücklich, dass jede Schule mindestens eine feste Schulsozialarbeitsstelle erhalten soll und den Ausbau weiterer Vollzeitstellen unterstützt. Das entspricht exakt der im These formulierten Forderung.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.9770596027374268,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Das geplante 'Haus der Musik' soll wie beschlossen umgesetzt werden.",
@@ -358,42 +669,81 @@
     "sicherheit": "hoch",
     "zitat": "Gleichzeitig sprechen wir uns gegen die Pläne für das Haus der Musik aus.",
     "seite": 28,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Quelle erklärt ausdrücklich, dass man sich gegen die Pläne für das Haus der Musik ausspricht, wodurch die Umsetzung des Vorhabens klar abgelehnt wird.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.15810689330101013,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Mit dem Programm \"Queerfreundliche Schule Braunschweig\" sollen Fortbildungen für Lehrkräfte, Anti-Mobbing-Maßnahmen und Kooperationen zwischen Schulen, Vereinen und Beratungsstellen umgesetzt werden.",
+    "zitat": "Wir setzen auf Diversity‑Schulungen für Verwaltung, Schulen sowie Jugend‑ und Sozialarbeit… Mit dem Programm „Queerfreundliche Schule Braunschweig“ sollen Fortbildungen für Lehrkräfte, Anti‑Mobbing‑Maßnahmen und Kooperationen zwischen Schulen, Vereinen und Beratungsstellen umgesetzt werden.",
     "seite": 8,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Der Text fordert ausdrücklich Diversity‑Schulungen und ein \"Queerfreundliche Schule\"‑Programm, das Fortbildungen für Lehrkräfte und Anti‑Mobbing‑Maßnahmen beinhaltet. Damit wird klar unterstützt, dass Schulen aktiv mit Vielfalt und Diskriminierung umgehen sollen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.04246561974287033,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
     "partei": "Volt",
-    "wertung": -1,
+    "wertung": 0,
     "sicherheit": "mittel",
-    "zitat": "Vielfalt in der Verwaltung fördern: Diversitätsstrategien erhöhen den Anteil von Menschen mit Migrations- und Behinderungserfahrung in Verwaltungen und kommunalen Gremien deutlich. Durch die Unterzeichnung der Charta der Vielfalt erhält Braunschweig Unterstützung und Verbindlichkeit.",
-    "seite": 23,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Wir wollen Braunschweig gerechter, vielfältiger und lebenswerter gestalten – mit einer Sozialpolitik, die Teilhabe ermöglicht, statt Ausgrenzung zu verwalten.",
+    "seite": 22,
+    "kommentar": "Keiner der angegebenen Programmabschnitte erwähnt ausdrücklich ein traditionelles Familienbild (Vater, Mutter, Kinder) als Leitbild der Familienpolitik, noch wird ein klares Gegenargument dazu formuliert. Die Aussagen zur Inklusion, Vielfalt und Teilhabe beziehen sich allgemein auf Sozial‑ bzw. Familien‑ bzw. Kinderpolitik, ohne das spezifische Familienmodell zu adressieren. Da die Verbindung zur These zusätzliche Annahmen erfordern würde, liegt die passende Bewertung bei „unklar“ (0).",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": 0.005552923306822777,
+      "judge_dissens": true,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [
+        "human_review",
+        "kein_konsens"
+      ],
+      "prioritaet": 1
+    }
   },
   {
     "these": "Die Stadt soll einen kommunalen Aktionsplan gegen Rechtsextremismus verbindlich umsetzen und regelmäßig fortschreiben.",
     "partei": "Volt",
-    "wertung": 1,
-    "sicherheit": "mittel",
-    "zitat": "Wir richten eine Expert*innengruppe gegen Hasskriminalität ein. ... Sie entwickelt Projekte gegen Rassismus, Extremismus und Gewalt und stärkt die Zusammenarbeit zwischen Behörden und Zivilgesellschaften.",
-    "seite": 34,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "wertung": 0,
+    "sicherheit": "niedrig",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Die Quellen erwähnen Präventionsmaßnahmen, Beratungsstellen und Expert*innen‑Gruppen zur Bekämpfung von Gewalt und Extremismus, jedoch gibt es keinen Hinweis auf einen verbindlichen kommunalen Aktionsplan speziell gegen Rechtsextremismus oder dessen regelmäßige Fortschreibung. Damit lässt sich die Aussage weder eindeutig unterstützen noch ablehnen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Die Stadt Braunschweig soll Werbung für die Bundeswehr auf städtischen Bussen und Bahnen verbieten.",
@@ -402,9 +752,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die bereitgestellten Abschnitte behandeln Themen wie ÖPNV‑Ausbau, Parkraummanagement, Sicherheit, Digitalisierung und soziale Angebote, erwähnen jedoch weder Werbung im öffentlichen Personennahverkehr noch ein Verbot von Bundeswehr‑Werbung. Es gibt keine expliziten oder impliziten Aussagen, die die Forderung unterstützen oder ablehnen.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
@@ -413,9 +772,18 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die genannten Programme betonen die generelle Digitalisierung und die Modernisierung der Verwaltung, aber sie erwähnen weder explizit noch implizit die Nutzung von Künstlicher Intelligenz zur Vorprüfung von Verwaltungsanträgen. Aus den Quellen lässt sich daher nicht eindeutig ableiten, ob die Partei dieses konkrete Vorhaben unterstützt oder ablehnt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben.",
@@ -424,19 +792,37 @@
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "kommentar": "Die Programme betonen die digitale Weiterentwicklung der Verwaltung, enthalten jedoch keine klare Aussage, dass Verwaltungsleistungen nach der Digitalisierung weiterhin analog verfügbar sein müssen, noch geben sie ausdrücklich an, dass solche analogen Angebote nicht mehr angeboten werden sollen. Ohne eine eindeutige Bestätigung oder Ablehnung bleibt die Position unklar.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": false,
+      "beleglage": "keine_fundstelle",
+      "retrieval_score": null,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "bestaetigt",
+      "flags": [],
+      "prioritaet": 0
+    }
   },
   {
     "these": "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird.",
     "partei": "Volt",
     "wertung": 1,
     "sicherheit": "hoch",
-    "zitat": "Wir ermöglichen Bürger*innenhaushalte und Bürger*innenentscheide zu wichtigen Themen. Mit einem kommunalen Beteiligungsbudget und Online-Abstimmungen schaffen wir neue Wege, wie Einwohner*innen Projekte für ihre Stadt oder ihr Viertel mitgestalten können.",
-    "seite": 5,
-    "kommentar": null,
-    "modell": "claude-sonnet-5",
-    "eingelesen": "2026-08-13"
+    "zitat": "Wir ermöglichen Bürger*innenhaushalte und Bürger*innenentscheide zu wichtigen Themen.",
+    "seite": 6,
+    "kommentar": "Das Wahlprogramm erklärt ausdrücklich, dass Bürger*innenhaushalte eingeführt werden sollen, um den Einwohner*innen zu ermöglichen, über die Verwendung von kommunalen Mitteln mitzuentscheiden. Damit wird die im Thesis geforderte direkte Mitbestimmung am Stadtbudget ausdrücklich unterstützt.",
+    "modell": "openwebui:GPT-OSS-120B",
+    "eingelesen": "2026-08-19",
+    "pruefung": {
+      "zitat_verifiziert": true,
+      "beleglage": "eindeutig",
+      "retrieval_score": 0.8254180550575256,
+      "judge_dissens": false,
+      "volltext_gegenprobe": "n/a",
+      "flags": [],
+      "prioritaet": 0
+    }
   }
 ]
