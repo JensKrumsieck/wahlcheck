@@ -1,42 +1,33 @@
-# sv
+# Braunschweig Wahlcheck
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+👉 **[bswahl.de](https://bswahl.de)**
 
-## Creating a project
+Am **13.09.2026** ist Kommunalwahl in Braunschweig. Der Wahlcheck hilft dir dabei, herauszufinden, welche Partei am ehesten zu deinen politischen Ansichten passt – bevor du wählen gehst.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Was ist das?
 
-```sh
-# create a new project
-npx sv create my-app
-```
+Du beantwortest eine Reihe von Thesen zu kommunalpolitischen Themen mit **Zustimmung**, **Ablehnung** oder **neutral**. Im Anschluss siehst du, wie stark deine Antworten mit den Positionen der einzelnen Parteien übereinstimmen.
 
-To recreate this project with the same configuration:
+Die Parteipositionen wurden nicht erfunden oder frei interpretiert, sondern mithilfe von KI aus den öffentlich verfügbaren Kommunalwahlprogrammen der Parteien herausgearbeitet. Zu jeder Antwort einer Partei findest du ein passendes Zitat aus ihrem Programm sowie eine Einschätzung, wie eindeutig die Position formuliert war.
 
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --install npm .
-```
+## So funktioniert's
 
-## Developing
+1. **Thesen beantworten** – auf [bswahl.de/check](https://bswahl.de/check) gehst du Frage für Frage durch.
+2. **Ergebnis ansehen** – du bekommst eine Übereinstimmung in Prozent für jede Partei.
+3. **Ins Detail gehen** – zu jeder These kannst du nachlesen, was die einzelnen Parteien dazu in ihrem Wahlprogramm sagen, inklusive Zitat und Quellenangabe.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Du kannst dir die Antworten der Parteien auch ganz ohne eigene Teilnahme unter [bswahl.de/answers](https://bswahl.de/answers) ansehen, oder direkt zu den [vollständigen Wahlprogrammen](https://bswahl.de/list) springen.
 
-```sh
-npm run dev
+## Wie zuverlässig sind die Antworten?
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+**KI kann Fehler machen.** Die Einschätzungen sind ein Hilfsmittel, kein Ersatz für die Wahlprogramme selbst. Überprüfe wichtige Aussagen gerne anhand des jeweiligen Originalprogramms – die Zitate und Seitenangaben zu jeder Antwort helfen dir dabei.
 
-## Building
+## Fehler gefunden?
 
-To create a production version of your app:
+Wenn dir eine Antwort falsch oder unpassend vorkommt, freue ich mich über einen Hinweis mit dem entsprechenden Zitat aus dem Wahlprogramm – am liebsten als [GitHub Issue](https://github.com/JensKrumsieck/wahlcheck/issues/new).
 
-```sh
-npm run build
-```
+## Code & Daten
 
-You can preview the production build with `npm run preview`.
+- Der Quellcode dieser Seite liegt hier in [JensKrumsieck/wahlcheck](https://github.com/JensKrumsieck/wahlcheck).
+- Die Auswertung der Wahlprogramme per KI passiert in einer separaten Datenpipeline: [JensKrumsieck/wahlcheck_pipeline](https://github.com/JensKrumsieck/wahlcheck_pipeline).
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
