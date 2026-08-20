@@ -46,8 +46,7 @@
   </div>
   <div>
     <small class="text-ink-muted"
-      >Der Ersteller dieser Seite steht selbst als Kandidat auf Listen bei der Kommunalwahl. Dies hat ausdrücklich keinen Einfluss auf die Neutraltität dieser Seite. Alle Aussagen basieren auf KI-basierten Einschätzungen auf Basis der vorliegenden
-      Kommunalwahlprogramme. <a class="underline hover:text-ink-faint" href="https://github.com/JensKrumsieck/wahlcheck_pipeline" target="_blank">Den Code findest du hier.</a><br />Fehler gefunden?
+      >Der Ersteller dieser Seite steht selbst als Kandidat auf Listen bei der Kommunalwahl. Um größtmögliche Neutralität zu gewährleisten wurde der KI-Ansatz gewählt. <a class="underline hover:text-ink-faint" href="https://github.com/JensKrumsieck/wahlcheck_pipeline" target="_blank">Den Code findest du hier.</a><br />Fehler gefunden?
       <a class="underline hover:text-ink-faint" target="_blank" href="https://github.com/JensKrumsieck/wahlcheck">Kannst du gerne bei GitHub melden!</a></small
     >
   </div>
@@ -61,9 +60,6 @@
   <div class="mt-5 text-ink-faint text-xs">
     Ein Projekt von <a class="underline font-medium hover:text-ink-muted" href="https://jenskrumsieck.de">Dr. Jens Krumsieck</a>.
   </div>
-  <p class="mt-2 mb-5 text-ink-faint text-xs">
-    Lust auf <a class="underline hover:text-ink-muted" target="_blank" href="https://wahl.jenskrumsieck.de">Wahlvorhersagen für die Stadt Braunschweig</a>?
-  </p>
   <div class="my-3">
     <div class="text-ink-faint text-xs">
       <a class="underline hover:text-ink-muted" target="_blank" href="https://jenskrumsieck.de/impressum">Impressum</a> |
