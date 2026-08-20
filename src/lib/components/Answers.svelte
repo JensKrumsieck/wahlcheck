@@ -18,7 +18,8 @@
 </script>
 
 <h2 id="antworten" class="mt-12 mb-4 scroll-mt-20 font-display text-2xl font-semibold text-ink">Antworten im Detail</h2>
-<div class="flex flex-col gap-3 pb-16">
+<small class="text-ink-muted">ℹ️ <b>KI kann Fehler machen!</b> Überprüfe die Antworten anhand der <a class="underline hover:text-ink-faint" href="/list">Wahlprogramme.</a></small>
+<div class="flex flex-col gap-3 pb-16 mt-5">
     {#each questions as question}
         {@const sorted = sortedPartiesFor(question)}
         <details class="group rounded-xl border border-border bg-surface p-4 open:shadow-lg sm:p-5">
