@@ -25,5 +25,3 @@ vite.config.ts.timestamp-*
 # Python
 .venv
 
-# Fetched at build time from wahlcheck_pipeline releases, see scripts/fetch-data.js
-/data

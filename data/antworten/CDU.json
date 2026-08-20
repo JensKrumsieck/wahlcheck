@@ -64,11 +64,11 @@
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
     "partei": "CDU",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": "Die Programme diskutieren Verbesserungen im Öffentlichen Nahverkehr (häufigere Takte, bessere Anbindung, Park‑and‑Ride), erwähnen jedoch keine Befreiung von Fahrpreisen, sodass kein Hinweis auf ein kostenfreies Nahverkehrsangebot vorliegt.",
+    "kommentar": "Die Programme diskutieren Verbesserungen im Öffentlichen Nahverkehr (häufigere Takte, bessere Anbindung, Park‑and‑Ride), erwähnen jedoch keine Befreiung von Fahrpreisen, sodass kein Hinweis auf ein kostenfreies Nahverkehrsangebot vorliegt. In diesem Fall wird davon ausgegangen, dass der aktuelle Zustand beibehalten werden soll.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -77,7 +77,7 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": [],
+      "flags": ["reviewed"],
       "prioritaet": 0
     }
   },

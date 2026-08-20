@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bs-check.local/schema/antwort.schema.json",
+  "title": "Antwort",
+  "description": "Eine Partei-Positionierung zu einer Braunschweig-These (siehe fragen.json), inklusive Quellenbeleg und Erzeugungs-Metadaten.",
+  "type": "object",
+  "properties": {
+    "these": {
+      "type": "string",
+      "description": "Wortlaut der These, exakt wie in fragen.json unter der jeweiligen Kategorie gelistet."
+    },
+    "partei": {
+      "type": "string",
+      "description": "Partei, deren Position zur These bewertet wird.",
+      "enum": [
+        "AfD",
+        "BIBS",
+        "BSW",
+        "CDU",
+        "FDP",
+        "GRÜNE",
+        "Linke",
+        "SPD",
+        "Volt"
+      ]
+    },
+    "wertung": {
+      "type": "integer",
+      "description": "Positionierung der Partei zur These: 1 = Zustimmung, -1 = Ablehnung, 0 = keine Aussage im Programm / Enthaltung.",
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "sicherheit": {
+      "type": "string",
+      "description": "Konfidenz der Wertung, abhängig davon, wie eindeutig sich die Position aus dem Wahlprogramm ableiten lässt.",
+      "enum": [
+        "hoch",
+        "mittel",
+        "niedrig"
+      ]
+    },
+    "zitat": {
+      "type": "string",
+      "description": "Wörtliches oder eng paraphrasiertes Zitat aus dem Wahlprogramm als Beleg für die Wertung. Leerstring zulässig, wenn wertung = 0 und keine einschlägige Textstelle existiert."
+    },
+    "seite": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "description": "Seitenzahl im Quell-PDF (documents/<PARTEI>.pdf), auf der sich das Zitat befindet. null, wenn keine spezifische Seite zuordenbar ist."
+    },
+    "kommentar": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optionale redaktionelle Anmerkung, z. B. bei manueller Nachprüfung der automatisch erzeugten Wertung."
+    },
+    "modell": {
+      "type": "string",
+      "description": "Name/Version des Sprachmodells, das diese Wertung erzeugt hat."
+    },
+    "eingelesen": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Datum, an dem das zugrunde liegende Wahlprogramm eingelesen wurde (YYYY-MM-DD)."
+    },
+    "pruefung": {
+      "type": "object",
+      "description": "Automatisch erzeugte Qualitätssignale, getrennt von der eigentlichen Wertung.",
+      "properties": {
+        "zitat_verifiziert": {
+          "type": "boolean",
+          "description": "Ob das Zitat wortwörtlich (oder per Fuzzy-Match snap-to-source) im Quelltext nachgewiesen wurde."
+        },
+        "beleglage": {
+          "type": "string",
+          "enum": ["eindeutig", "schwach", "keine_fundstelle"]
+        },
+        "retrieval_score": {
+          "type": ["number", "null"],
+          "description": "Rerank-Score der besten Textstelle vor der Bewertung."
+        },
+        "judge_dissens": {
+          "type": "boolean",
+          "description": "Ob eine unabhängige zweite Bewertung (nur These + Zitat) zu einer anderen Wertung kam."
+        },
+        "volltext_gegenprobe": {
+          "type": "string",
+          "enum": ["bestaetigt", "abweichend", "n/a"],
+          "description": "Ergebnis des Volltext-Gegenchecks bei ursprünglich wertung=0: bestaetigt = weiterhin 0, abweichend = doch ein Fund, n/a = nicht durchgeführt."
+        },
+        "flags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "prioritaet": {
+          "type": "integer",
+          "description": "0 = normal, hoeher = vor Veroeffentlichung manuell pruefen."
+        }
+      },
+      "required": [
+        "zitat_verifiziert",
+        "beleglage",
+        "retrieval_score",
+        "judge_dissens",
+        "volltext_gegenprobe",
+        "flags",
+        "prioritaet"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "these",
+    "partei",
+    "wertung",
+    "sicherheit",
+    "zitat",
+    "seite",
+    "modell",
+    "eingelesen",
+    "pruefung"
+  ],
+  "additionalProperties": false,
+  "examples": [
+    {
+      "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden.",
+      "partei": "SPD",
+      "wertung": 0,
+      "sicherheit": "hoch",
+      "zitat": "",
+      "seite": null,
+      "kommentar": null,
+      "modell": "qwen3:8b",
+      "eingelesen": "2026-08-12",
+      "pruefung": {
+        "zitat_verifiziert": false,
+        "beleglage": "keine_fundstelle",
+        "retrieval_score": 0.01,
+        "judge_dissens": false,
+        "volltext_gegenprobe": "n/a",
+        "flags": [],
+        "prioritaet": 0
+      }
+    }
+  ]
+}

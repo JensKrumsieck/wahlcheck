@@ -62,11 +62,11 @@
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
     "partei": "AfD",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": "Die vorliegenden Programmstellen betonen bezahlbare, funktionierende Verkehrsinfrastruktur und finanzielle Disziplin, lehnen jedoch keine konkreten Maßnahmen zum kostenfreien Nahverkehr ab. Da keine Quelle den kostenlosen Nahverkehr explizit unterstützt oder ablehnt und die Hinweise zu Kosten und Belastungen nicht eindeutig auf das Fahrpreiskonzept übertragbar sind, lässt sich keine klare Position ableiten.",
+    "kommentar": "Die vorliegenden Programmstellen betonen bezahlbare, funktionierende Verkehrsinfrastruktur und finanzielle Disziplin, lehnen jedoch keine konkreten Maßnahmen zum kostenfreien Nahverkehr ab. Da keine Quelle den kostenlosen Nahverkehr explizit unterstützt oder ablehnt und die Hinweise zu Kosten und Belastungen nicht eindeutig auf das Fahrpreiskonzept übertragbar sind, lässt sich keine klare Position ableiten. In diesem Fall wird davon ausgegangen, dass der aktuelle Zustand beibehalten werden soll.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -75,7 +75,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
@@ -416,11 +418,11 @@
   {
     "these": "Es soll eine eigene kommunale Anlaufstelle für queere Gesundheits- und Beratungsangebote eingerichtet werden.",
     "partei": "AfD",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "hoch",
     "zitat": "\"Zusätzliche Belastungen, Abgaben oder indirekte Kosten ... dürfen nicht ... für Bürger, Eigentümer, Familien und Unternehmen\"",
     "seite": 5,
-    "kommentar": "Keiner der Programmabschnitte erwähnt explizit oder adressiert eindeutig die Einrichtung einer kommunalen Anlaufstelle für queere Gesundheits‑ und Beratungsangebote. Der einzige potenzielle Hinweis (ID 12) ist ein allgemeines Bekenntnis gegen neue kommunale Belastungen für Bürger, Eigentümer u. Ä., welches nicht die Kommune selbst als Kosten‑Träger adressiert und somit nicht als direkte implizite Evidenz gilt. Damit liegt kein eindeutiger Unterstützungs‑ oder Ablehnungs‑Signal vor – Bewertung 0.",
+    "kommentar": "Keiner der Programmabschnitte erwähnt explizit oder adressiert eindeutig die Einrichtung einer kommunalen Anlaufstelle für queere Gesundheits‑ und Beratungsangebote. Der einzige potenzielle Hinweis (ID 12) ist ein allgemeines Bekenntnis gegen neue kommunale Belastungen für Bürger, Eigentümer u. Ä., welches nicht die Kommune selbst als Kosten‑Träger adressiert und somit nicht als direkte implizite Evidenz gilt – Bewertung -1 mit niedriger Sicherheit.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -431,7 +433,8 @@
       "volltext_gegenprobe": "bestaetigt",
       "flags": [
         "human_review",
-        "kein_konsens"
+        "kein_konsens",
+        "reviewed"
       ],
       "prioritaet": 1
     }
@@ -439,11 +442,11 @@
   {
     "these": "Die Trans*-Beratungsstelle muss auch nach 2028 weiterfinanziert werden.",
     "partei": "AfD",
-    "wertung": 0,
-    "sicherheit": "mittel",
+    "wertung": -1,
+    "sicherheit": "niedrig",
     "zitat": "für ideologische Projekte oder Symbolpolitik Geld bereitgestellt wird ... Wir lehnen das ab.",
     "seite": 4,
-    "kommentar": "Kein Quellenausschnitt erwähnt ausdrücklich die Trans*-Beratungsstelle oder ihre Finanzierung. Die wiederholten Verweise auf ‚ideologische Projekte‘ oder ‚Symbolpolitik‘ sind generische Warnungen, die keine eindeutige Zuordnung zum konkreten Vorhaben darstellen – zudem schützen sie vor zusätzlichen Belastungen für Bürger und Unternehmen, nicht vor kommunalen Ausgaben. Deshalb lässt sich aus den verfügbaren Texten keine klare Unterstützung oder Ablehnung der Weiterfinanzierung ableiten.",
+    "kommentar": "Kein Quellenausschnitt erwähnt ausdrücklich die Trans*-Beratungsstelle oder ihre Finanzierung. Die wiederholten Verweise auf ‚ideologische Projekte‘ oder ‚Symbolpolitik‘ sind generische Warnungen, die keine eindeutige Zuordnung zum konkreten Vorhaben darstellen – zudem schützen sie vor zusätzlichen Belastungen für Bürger und Unternehmen, nicht vor kommunalen Ausgaben. Deshalb lässt sich aus den verfügbaren Texten keine klare Unterstützung oder Ablehnung der Weiterfinanzierung ableiten. Die Wertung ist -1 mit niedriger Sicherheit.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -454,7 +457,8 @@
       "volltext_gegenprobe": "n/a",
       "flags": [
         "human_review",
-        "kein_konsens"
+        "kein_konsens",
+        "reviewed"
       ],
       "prioritaet": 1
     }

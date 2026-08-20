@@ -65,6 +65,12 @@ export function colorFor(partyName: string): string {
     return PARTY_COLORS[partyName] ?? FALLBACK_COLOR;
 }
 
+export function answerIcon(wertung: number) {
+    if (wertung === 1) return "👍";
+    if (wertung === -1) return "👎";
+    return "⭕";
+}
+
 export function answerLabel(wertung: number) {
     if (wertung === 1) return "👍 Zustimmung";
     if (wertung === -1) return "👎 Ablehnung";

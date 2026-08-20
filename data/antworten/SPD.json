@@ -70,11 +70,11 @@
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
     "partei": "SPD",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": "Die Programmtexte betonen zwar eine gut ausgebaute, bezahlbare und kostengünstige Mobilität sowie preiswerte Sondertickets, aber sie enthalten weder eine Aussage, die das ÖPNV für alle komplett kostenfrei machen will, noch eine klare Ablehnung einer kostenlosen Beförderung. Damit lässt sich aus den vorliegenden Quellen nicht eindeutig schließen, ob die Partei das Vorhaben unterstützt oder ablehnt.",
+    "kommentar": "Die Programmtexte betonen zwar eine gut ausgebaute, bezahlbare und kostengünstige Mobilität sowie preiswerte Sondertickets, aber sie enthalten weder eine Aussage, die das ÖPNV für alle komplett kostenfrei machen will, noch eine klare Ablehnung einer kostenlosen Beförderung. Damit lässt sich aus den vorliegenden Quellen nicht eindeutig schließen, ob die Partei das Vorhaben unterstützt oder ablehnt. In diesem Fall wird davon ausgegangen, dass der aktuelle Zustand beibehalten werden soll.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -83,7 +83,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
