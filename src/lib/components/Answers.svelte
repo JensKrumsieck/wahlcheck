@@ -88,6 +88,9 @@
               {#if answer.kommentar}
                 <p class="mt-1 text-xs text-ink-faint">{answer.kommentar}</p>
               {/if}
+              {#if answer?.pruefung?.flags.includes("reviewed")}
+                <p class="mt-2 text-xs text-ink-faint">⚖️ Hinweis: Diese Antwort wurde manuell bearbeitet, das die KI nicht eindeutig geurteilt hat.</p>
+              {/if}
             {:else}
               <p class="text-sm text-ink-faint">keine Antwort vorhanden</p>
             {/if}

@@ -17,6 +17,15 @@ export interface PartyAnswer {
     zitat: string;
     seite: number | null;
     kommentar: string | null;
+    pruefung?: {
+        zitat_verifiziert: boolean;
+        beleglage: string;
+        retrieval_score: number;
+        judge_dissens: boolean;
+        volltext_gegenprobe: string;
+        flags: string[];
+        prioritaet: number;
+    };
 }
 
 export interface Party {
