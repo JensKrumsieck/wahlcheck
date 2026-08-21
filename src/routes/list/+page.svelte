@@ -1,6 +1,7 @@
 <script lang="ts">
     import PartyChip from "$lib/components/PartyChip.svelte";
     import Seo from "$lib/components/Seo.svelte";
+    import JsonLd from "$lib/components/JsonLd.svelte";
 
     const programmes = [
         {
@@ -52,6 +53,22 @@
             format: "PDF",
         },
     ];
+
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        itemListElement: programmes.map((programme, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            item: {
+                "@type": "CreativeWork",
+                name: programme.title,
+                url: programme.url,
+                encodingFormat: programme.format === "PDF" ? "application/pdf" : "text/html",
+                author: { "@type": "Organization", name: programme.party },
+            },
+        })),
+    };
 </script>
 
 <Seo
@@ -59,6 +76,7 @@
     description="Alle Wahlprogramme zur Kommunalwahl 2026 in Braunschweig im Überblick: SPD, CDU, GRÜNE, AfD, FDP, Die Linke, Volt und BSW zum Nachlesen."
     path="/list"
 />
+<JsonLd data={jsonLd} />
 
 <div class="container container-md mx-auto px-4 py-24">
     <h1 class="font-display text-2xl font-semibold text-balance text-ink sm:text-3xl">Wahlprogramme</h1>

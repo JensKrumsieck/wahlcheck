@@ -1,9 +1,45 @@
 <script lang="ts">
   import PartyChip from "$lib/components/PartyChip.svelte";
   import Seo from "$lib/components/Seo.svelte";
+  import JsonLd from "$lib/components/JsonLd.svelte";
   import { questions, parties, colorFor } from "$lib/types";
 
   const total = questions.length;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        name: "Braunschweig Wahlcheck",
+        url: "https://bswahl.de/",
+        description: "Wahlcheck zur Kommunalwahl 2026 in Braunschweig: Thesen beantworten und das Ergebnis mit den antretenden Parteien vergleichen.",
+        inLanguage: "de",
+        publisher: {
+          "@type": "Person",
+          name: "Jens Krumsieck",
+          url: "https://jenskrumsieck.de",
+        },
+      },
+      {
+        "@type": "Event",
+        name: "Kommunalwahl Braunschweig 2026",
+        description: "Kommunalwahl zum Rat der Stadt Braunschweig.",
+        startDate: "2026-09-13",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        location: {
+          "@type": "Place",
+          name: "Braunschweig",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Braunschweig",
+            addressCountry: "DE",
+          },
+        },
+      },
+    ],
+  };
 </script>
 
 <Seo
@@ -11,6 +47,7 @@
   description="Kommunalwahl am 13.09.2026 in Braunschweig: Beantworte {total} Thesen und vergleiche dein Ergebnis mit SPD, CDU, GRÜNEN, Linken, AfD und weiteren Parteien."
   path="/"
 />
+<JsonLd data={jsonLd} />
 
 <div class="container container-md mx-auto px-4 py-16 sm:py-24">
   <div class="mx-auto max-w-2xl text-center">
