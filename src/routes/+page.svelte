@@ -1,9 +1,16 @@
 <script lang="ts">
   import PartyChip from "$lib/components/PartyChip.svelte";
+  import Seo from "$lib/components/Seo.svelte";
   import { questions, parties, colorFor } from "$lib/types";
 
   const total = questions.length;
 </script>
+
+<Seo
+  title="Braunschweig Wahlcheck – welche Partei passt zu dir?"
+  description="Kommunalwahl am 13.09.2026 in Braunschweig: Beantworte {total} Thesen und vergleiche dein Ergebnis mit SPD, CDU, GRÜNEN, Linken, AfD und weiteren Parteien."
+  path="/"
+/>
 
 <div class="container container-md mx-auto px-4 py-16 sm:py-24">
   <div class="mx-auto max-w-2xl text-center">

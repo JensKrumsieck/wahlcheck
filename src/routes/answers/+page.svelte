@@ -1,6 +1,7 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
   import Answers from "$lib/components/Answers.svelte";
+  import Seo from "$lib/components/Seo.svelte";
   import { questions } from "$lib/types";
   import { clearAnswers } from "$lib/storage";
 
@@ -9,6 +10,12 @@
     goto("/check");
   }
 </script>
+
+<Seo
+  title="Antworten der Parteien"
+  description="Wie haben SPD, CDU, GRÜNE, AfD & Co. auf die {questions.length} Thesen zur Kommunalwahl 2026 in Braunschweig geantwortet? Alle Parteipositionen im Vergleich."
+  path="/answers"
+/>
 
 <div class="py-5">
   <div class="container container-md mx-auto px-4">

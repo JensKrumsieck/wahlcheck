@@ -3,6 +3,7 @@
   import { Jumper } from "svelte-loading-spinners";
   import { goto } from "$app/navigation";
   import Result from "$lib/components/Result.svelte";
+  import Seo from "$lib/components/Seo.svelte";
   import { questions, type UserAnswers } from "$lib/types";
   import { loadAnswers, clearAnswers } from "$lib/storage";
 
@@ -19,6 +20,13 @@
     goto("/check");
   }
 </script>
+
+<Seo
+  title="Dein Ergebnis"
+  description="Dein persönliches Ergebnis aus dem Braunschweig Wahlcheck zur Kommunalwahl 2026."
+  path="/result"
+  noindex
+/>
 
 {#if loaded}
   {#if score}

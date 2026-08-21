@@ -1,5 +1,6 @@
 <script lang="ts">
     import PartyChip from "$lib/components/PartyChip.svelte";
+    import Seo from "$lib/components/Seo.svelte";
 
     const programmes = [
         {
@@ -52,6 +53,12 @@
         },
     ];
 </script>
+
+<Seo
+    title="Wahlprogramme zur Kommunalwahl 2026"
+    description="Alle Wahlprogramme zur Kommunalwahl 2026 in Braunschweig im Überblick: SPD, CDU, GRÜNE, AfD, FDP, Die Linke, Volt und BSW zum Nachlesen."
+    path="/list"
+/>
 
 <div class="container container-md mx-auto px-4 py-24">
     <h1 class="font-display text-2xl font-semibold text-balance text-ink sm:text-3xl">Wahlprogramme</h1>

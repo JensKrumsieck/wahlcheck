@@ -19,11 +19,6 @@
 
 <svelte:head>
   <link rel="icon" href={favicon} />
-  <title>Braunschweig Wahlcheck</title>
-  <meta
-    name="description"
-    content="Am 13.09.2026 ist Kommunalwahl in der City of Lions. Für den Rat der Stadt treten SPD, CDU, DIE GRÜNEN, BIBS, FDP, AfD, Die Linke, Volt, Die PARTEI, FREIE WÄHLER, FWBS und 2 Einzelbewerber an. Mittels KI wurden 40 vordefinierte Thesen auf Basis der öffentlich verfügbaren Wahlprogramme beantwortet - beantworte sie selbst und vergleiche dein Ergebnis."
-  />
 </svelte:head>
 
 <header class="sticky top-0 z-10 border-b border-border bg-surface/90 backdrop-blur">

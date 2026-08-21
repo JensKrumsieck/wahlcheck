@@ -2,6 +2,7 @@
   import { goto } from "$app/navigation";
   import { Jumper } from "svelte-loading-spinners";
   import QuestionCard from "$lib/components/QuestionCard.svelte";
+  import Seo from "$lib/components/Seo.svelte";
   import { questions, type UserAnswers, type Wertung } from "$lib/types";
   import { saveAnswers } from "$lib/storage";
 
@@ -22,6 +23,12 @@
     current -= 1;
   };
 </script>
+
+<Seo
+  title="Thesen-Check"
+  description="Beantworte {questions.length} Thesen zur Kommunalwahl 2026 in Braunschweig und finde heraus, welche Partei am ehesten zu deinen Ansichten passt."
+  path="/check"
+/>
 
 <div class="py-5">
   {#if current < questions.length}
