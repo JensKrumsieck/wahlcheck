@@ -698,11 +698,11 @@
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
     "partei": "Linke",
-    "wertung": 0,
-    "sicherheit": "hoch",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Keiner der vorliegenden Programme enthält eine explizite Aussage, die das traditionelle Familienbild als Leitbild der kommunalen Familienpolitik unterstützt, noch gibt es eine klare Aussage, die dieses Modell ausdrücklich ablehnt. Die zitierten Passagen befassen sich mit Gleichstellung, queer‑politischer Inklusion oder unbezahlter Sorgearbeit, adressieren jedoch nicht die konkrete Frage der Familienpolitik. Damit liegt nur indirekte, spekulative Nähe vor, die nach dem Evidenz‑Rubrum nicht ausreicht – die korrekte Bewertung ist daher UNCLEAR (0).",
+    "wertung": -1,
+    "sicherheit": "niedrig",
+    "zitat": "Braunschweig ist eine sichere und lebenswerte Stadt für queere Menschen",
+    "seite": 25,
+    "kommentar": "Die zitierte Textstelle widerspricht klar der Aussage.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -712,7 +712,8 @@
       "judge_dissens": false,
       "volltext_gegenprobe": "bestaetigt",
       "flags": [
-        "human_review"
+        "human_review",
+        "reviewed"
       ],
       "prioritaet": 1
     }

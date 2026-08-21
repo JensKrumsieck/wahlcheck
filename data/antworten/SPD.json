@@ -699,9 +699,9 @@
     "partei": "SPD",
     "wertung": 0,
     "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Die Programme betonen den Ausbau von Kitas, Ganztagsbetreuung und ein respektvolles, vielfältiges Miteinander in der Stadt. Sie erwähnen Familien und Kinder, unterstützen Inklusion, queere Lebensformen und soziale Teilhabe, geben jedoch keinen Hinweis darauf, dass das Leitbild der Familienpolitik ausdrücklich auf das traditionelle Bild von Vater, Mutter und Kindern beschränkt oder dagegen gerichtet werden soll. Damit lässt sich aus den vorliegenden Passagen weder ein klarer Zuspruch noch ein klarer Widerspruch zum vorgestellten Leitbild ableiten.",
+    "zitat": "Ebenso ist es für uns Herzensangelegenheit und Selbstverständlichkeit zugleich, dass wir queeres Leben stützen und schützen",
+    "seite": 18,
+    "kommentar": "Die Programme betonen den Ausbau von Kitas, Ganztagsbetreuung und ein respektvolles, vielfältiges Miteinander in der Stadt. Sie erwähnen Familien und Kinder, unterstützen Inklusion, queere Lebensformen und soziale Teilhabe, was gegen die Aussage spricht.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -710,7 +710,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "bestaetigt",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },

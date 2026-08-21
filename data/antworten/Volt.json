@@ -705,11 +705,11 @@
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
     "partei": "Volt",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "mittel",
     "zitat": "Wir wollen Braunschweig gerechter, vielfältiger und lebenswerter gestalten – mit einer Sozialpolitik, die Teilhabe ermöglicht, statt Ausgrenzung zu verwalten.",
     "seite": 22,
-    "kommentar": "Keiner der angegebenen Programmabschnitte erwähnt ausdrücklich ein traditionelles Familienbild (Vater, Mutter, Kinder) als Leitbild der Familienpolitik, noch wird ein klares Gegenargument dazu formuliert. Die Aussagen zur Inklusion, Vielfalt und Teilhabe beziehen sich allgemein auf Sozial‑ bzw. Familien‑ bzw. Kinderpolitik, ohne das spezifische Familienmodell zu adressieren. Da die Verbindung zur These zusätzliche Annahmen erfordern würde, liegt die passende Bewertung bei „unklar“ (0).",
+    "kommentar": "Keiner der angegebenen Programmabschnitte erwähnt ausdrücklich ein traditionelles Familienbild (Vater, Mutter, Kinder) als Leitbild der Familienpolitik, noch wird ein klares Gegenargument dazu formuliert. Die Aussagen zur Inklusion, Vielfalt und Teilhabe beziehen sich allgemein auf Sozial‑ bzw. Familien‑ bzw. Kinderpolitik, ohne das spezifische Familienmodell zu adressieren. Die Annahme liegt dennoch nahe, dass die These unterstützt wird.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -720,7 +720,8 @@
       "volltext_gegenprobe": "bestaetigt",
       "flags": [
         "human_review",
-        "kein_konsens"
+        "kein_konsens",
+        "reviewed"
       ],
       "prioritaet": 1
     }
