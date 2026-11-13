@@ -2,10 +2,10 @@
   import { onMount } from "svelte";
   import { Jumper } from "svelte-loading-spinners";
   import { goto } from "$app/navigation";
-  import Result from "$lib/components/Result.svelte";
-  import Seo from "$lib/components/Seo.svelte";
-  import { questions, type UserAnswers } from "$lib/types";
-  import { loadAnswers, clearAnswers } from "$lib/storage";
+  import Result from "#lib/components/Result.svelte";
+  import Seo from "#lib/components/Seo.svelte";
+  import { questions, type UserAnswers } from "#lib/types.ts";
+  import { loadAnswers, clearAnswers } from "#lib/storage.ts";
 
   let loaded = $state(false);
   let score: UserAnswers | null = $state(null);

@@ -8,7 +8,7 @@
     answerLabel,
     answerIcon,
     parties,
-  } from "$lib/types";
+  } from "#lib/types.ts";
   interface Props {
     score: UserAnswers | undefined;
     questions: Question[];

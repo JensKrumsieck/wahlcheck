@@ -1,8 +1,8 @@
 <script lang="ts">
-  import PartyChip from "$lib/components/PartyChip.svelte";
-  import Seo from "$lib/components/Seo.svelte";
-  import JsonLd from "$lib/components/JsonLd.svelte";
-  import { questions, parties, colorFor } from "$lib/types";
+  import PartyChip from "#lib/components/PartyChip.svelte";
+  import Seo from "#lib/components/Seo.svelte";
+  import JsonLd from "#lib/components/JsonLd.svelte";
+  import { questions, parties, colorFor } from "#lib/types.ts";
 
   const total = questions.length;
 

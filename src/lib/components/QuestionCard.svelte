@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Question, Wertung } from "$lib/types";
+  import type { Question, Wertung } from "#lib/types.ts";
   import { fly } from "svelte/transition";
 
   const reducedMotion =

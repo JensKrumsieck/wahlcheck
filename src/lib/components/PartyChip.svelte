@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { colorFor } from "$lib/types";
+    import { colorFor } from "#lib/types.ts";
 
     interface Props {
         party: string;

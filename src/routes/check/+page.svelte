@@ -1,10 +1,10 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
   import { Jumper } from "svelte-loading-spinners";
-  import QuestionCard from "$lib/components/QuestionCard.svelte";
-  import Seo from "$lib/components/Seo.svelte";
-  import { questions, type UserAnswers, type Wertung } from "$lib/types";
-  import { saveAnswers } from "$lib/storage";
+  import QuestionCard from "#lib/components/QuestionCard.svelte";
+  import Seo from "#lib/components/Seo.svelte";
+  import { questions, type UserAnswers, type Wertung } from "#lib/types.ts";
+  import { saveAnswers } from "#lib/storage.ts";
 
   let current = $state(0);
   let score: UserAnswers = $state({});

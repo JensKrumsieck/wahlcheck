@@ -1,10 +1,10 @@
 <script lang="ts">
   import * as Swetrix from "swetrix";
   import "./layout.css";
-  import favicon from "$lib/assets/favicon.svg";
+  import favicon from "#lib/assets/favicon.svg";
   import { onMount } from "svelte";
-  import { dev } from "$app/environment";
-  import { releaseTag } from "$lib/types";
+  import { dev } from '$app/env';
+  import { releaseTag } from "#lib/types.ts";
 
   let { children } = $props();
   onMount(() => {

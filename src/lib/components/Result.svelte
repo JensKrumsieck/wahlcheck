@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { computeScore, colorFor, type Question, type UserAnswers, parties } from "$lib/types";
+  import { computeScore, colorFor, type Question, type UserAnswers, parties } from "#lib/types.ts";
   import { AxisX, AxisY, BarX, Plot, Text } from "svelteplot";
   import Answers from "./Answers.svelte";
 

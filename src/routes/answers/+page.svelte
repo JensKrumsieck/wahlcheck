@@ -1,9 +1,9 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import Answers from "$lib/components/Answers.svelte";
-  import Seo from "$lib/components/Seo.svelte";
-  import { questions } from "$lib/types";
-  import { clearAnswers } from "$lib/storage";
+  import Answers from "#lib/components/Answers.svelte";
+  import Seo from "#lib/components/Seo.svelte";
+  import { questions } from "#lib/types.ts";
+  import { clearAnswers } from "#lib/storage.ts";
 
   function restart() {
     clearAnswers();

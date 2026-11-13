@@ -14,15 +14,15 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.63.0",
+		"@sveltejs/adapter-static": "^4.0.0",
+		"@sveltejs/kit": "^3.0.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.3.0",
 		"@types/adm-zip": "^0.5.8",
 		"adm-zip": "^0.6.0",
-		"svelte": "^5.56.1",
-		"svelte-check": "^4.6.0",
+		"svelte": "^5.57.2",
+		"svelte-check": "^4.7.5",
 		"tailwindcss": "^4.3.0",
 		"typescript": "^6.0.3",
 		"vite": "^8.0.16"
@@ -33,5 +33,9 @@
 		"svelte-loading-spinners": "^0.3.6",
 		"svelteplot": "^0.14.2",
 		"swetrix": "^4.5.0"
+	},
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
 	}
 }
