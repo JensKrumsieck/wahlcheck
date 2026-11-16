@@ -11,7 +11,7 @@
     Swetrix.init("B00OcPR84UWL", {
       devMode: dev,
       disabled: dev,
-      apiURL: "https://api.analytics.jenskrumsieck.de/log",
+      apiURL: "https://analytics.jenskrumsieck.de/backend/log",
     });
     Swetrix.trackViews();
   });
